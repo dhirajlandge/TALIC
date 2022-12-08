@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sanity_Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.crm.listeners.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="Customer360(failed)">
+    <classes>
+      <class name="com.crm.testCases.Customer360CardViewTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="customer360CardViewTest"/>
+        </methods>
+      </class> <!-- com.crm.testCases.Customer360CardViewTest -->
+    </classes>
+  </test> <!-- Customer360(failed) -->
+  <test thread-count="5" name="Policy360(failed)">
+    <classes>
+      <class name="com.crm.testCases.Policy360CardViewTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="policy360CardViewTest"/>
+        </methods>
+      </class> <!-- com.crm.testCases.Policy360CardViewTest -->
+    </classes>
+  </test> <!-- Policy360(failed) -->
+  <test thread-count="5" name="CCLevel1Policy(failed)">
+    <classes>
+      <class name="com.crm.testCases.CCLevel1PolicyValidationTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="cCLevel1ValidationTest"/>
+        </methods>
+      </class> <!-- com.crm.testCases.CCLevel1PolicyValidationTest -->
+    </classes>
+  </test> <!-- CCLevel1Policy(failed) -->
+  <test thread-count="5" name="CCLevel1MobileNumber(failed)">
+    <classes>
+      <class name="com.crm.testCases.CCLevel1MobileNumberValidationTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="cCLevel1ValidationTest"/>
+        </methods>
+      </class> <!-- com.crm.testCases.CCLevel1MobileNumberValidationTest -->
+    </classes>
+  </test> <!-- CCLevel1MobileNumber(failed) -->
+  <test thread-count="5" name="CCLevel1EmailID(failed)">
+    <classes>
+      <class name="com.crm.testCases.CCLevel1EmailIDValidationTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="cCLevel1ValidationTest"/>
+        </methods>
+      </class> <!-- com.crm.testCases.CCLevel1EmailIDValidationTest -->
+    </classes>
+  </test> <!-- CCLevel1EmailID(failed) -->
+  <test thread-count="5" name="CCLevel1PANNumber(failed)">
+    <classes>
+      <class name="com.crm.testCases.CCLevel1PANNumberValidationTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="cCLevel1ValidationTest"/>
+        </methods>
+      </class> <!-- com.crm.testCases.CCLevel1PANNumberValidationTest -->
+    </classes>
+  </test> <!-- CCLevel1PANNumber(failed) -->
+  <test thread-count="5" name="CCLevel1BankAccountNumber(failed)">
+    <classes>
+      <class name="com.crm.testCases.CCLevel1BankAccountNumberValidationTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="cCLevel1ValidationTest"/>
+        </methods>
+      </class> <!-- com.crm.testCases.CCLevel1BankAccountNumberValidationTest -->
+    </classes>
+  </test> <!-- CCLevel1BankAccountNumber(failed) -->
+  <test thread-count="5" name="BranchLevel1Policy(failed)">
+    <classes>
+      <class name="com.crm.testCases.BranchLevel1PolicyValidationTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="branchLevel1ValidationTest"/>
+        </methods>
+      </class> <!-- com.crm.testCases.BranchLevel1PolicyValidationTest -->
+    </classes>
+  </test> <!-- BranchLevel1Policy(failed) -->
+  <test thread-count="5" name="BranchLevel1MobileNumber(failed)">
+    <classes>
+      <class name="com.crm.testCases.BranchLevel1MobileNumberValidationTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="branchLevel1ValidationTest"/>
+        </methods>
+      </class> <!-- com.crm.testCases.BranchLevel1MobileNumberValidationTest -->
+    </classes>
+  </test> <!-- BranchLevel1MobileNumber(failed) -->
+  <test thread-count="5" name="BranchLevel1EmailID(failed)">
+    <classes>
+      <class name="com.crm.testCases.BranchLevel1EmailIDValidationTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="branchLevel1ValidationTest"/>
+        </methods>
+      </class> <!-- com.crm.testCases.BranchLevel1EmailIDValidationTest -->
+    </classes>
+  </test> <!-- BranchLevel1EmailID(failed) -->
+  <test thread-count="5" name="BranchLevel1PANNumber(failed)">
+    <classes>
+      <class name="com.crm.testCases.BranchLevel1PANNumberValidationTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="branchLevel1ValidationTest"/>
+        </methods>
+      </class> <!-- com.crm.testCases.BranchLevel1PANNumberValidationTest -->
+    </classes>
+  </test> <!-- BranchLevel1PANNumber(failed) -->
+  <test thread-count="5" name="BranchLevel1BankAccountNumber(failed)">
+    <classes>
+      <class name="com.crm.testCases.BranchLevel1BankAccountNumberValidationTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="branchLevel1ValidationTest"/>
+        </methods>
+      </class> <!-- com.crm.testCases.BranchLevel1BankAccountNumberValidationTest -->
+    </classes>
+  </test> <!-- BranchLevel1BankAccountNumber(failed) -->
+  <test thread-count="5" name="BranchLevel1PolicySelf(failed)">
+    <classes>
+      <class name="com.crm.testCases.BranchLevel1PolicySelfValidationTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="branchLevel1ValidationTest"/>
+        </methods>
+      </class> <!-- com.crm.testCases.BranchLevel1PolicySelfValidationTest -->
+    </classes>
+  </test> <!-- BranchLevel1PolicySelf(failed) -->
+  <test thread-count="5" name="BranchLevel1MobileNumberSelf(failed)">
+    <classes>
+      <class name="com.crm.testCases.BranchLevel1MobileNumberSelfValidationTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="branchLevel1ValidationTest"/>
+        </methods>
+      </class> <!-- com.crm.testCases.BranchLevel1MobileNumberSelfValidationTest -->
+    </classes>
+  </test> <!-- BranchLevel1MobileNumberSelf(failed) -->
+  <test thread-count="5" name="BranchLevel1EmailIDSelf(failed)">
+    <classes>
+      <class name="com.crm.testCases.BranchLevel1EmailIDSelfValidationTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="branchLevel1ValidationTest"/>
+        </methods>
+      </class> <!-- com.crm.testCases.BranchLevel1EmailIDSelfValidationTest -->
+    </classes>
+  </test> <!-- BranchLevel1EmailIDSelf(failed) -->
+  <test thread-count="5" name="BranchLevel1PANNumberSelf(failed)">
+    <classes>
+      <class name="com.crm.testCases.BranchLevel1PANNumberSelfValidationTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="branchLevel1ValidationTest"/>
+        </methods>
+      </class> <!-- com.crm.testCases.BranchLevel1PANNumberSelfValidationTest -->
+    </classes>
+  </test> <!-- BranchLevel1PANNumberSelf(failed) -->
+  <test thread-count="5" name="BranchLevel1BankAccountNumberSelf(failed)">
+    <classes>
+      <class name="com.crm.testCases.BranchLevel1BankAccountNumberSelfValidationTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="branchLevel1ValidationTest"/>
+        </methods>
+      </class> <!-- com.crm.testCases.BranchLevel1BankAccountNumberSelfValidationTest -->
+    </classes>
+  </test> <!-- BranchLevel1BankAccountNumberSelf(failed) -->
+  <test thread-count="5" name="CCLevel2(failed)">
+    <classes>
+      <class name="com.crm.testCases.CCLevel2ValidationTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="cCLevel2ValidationTest"/>
+        </methods>
+      </class> <!-- com.crm.testCases.CCLevel2ValidationTest -->
+    </classes>
+  </test> <!-- CCLevel2(failed) -->
+  <test thread-count="5" name="QuickLinks(failed)">
+    <classes>
+      <class name="com.crm.testCases.QuickLinksTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="quickLinksTest"/>
+        </methods>
+      </class> <!-- com.crm.testCases.QuickLinksTest -->
+    </classes>
+  </test> <!-- QuickLinks(failed) -->
+  <test thread-count="5" name="CTAYes(failed)">
+    <classes>
+      <class name="com.crm.testCases.CTAYesResponseTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="cTAYesResponseTest"/>
+        </methods>
+      </class> <!-- com.crm.testCases.CTAYesResponseTest -->
+    </classes>
+  </test> <!-- CTAYes(failed) -->
+  <test thread-count="5" name="CTANo(failed)">
+    <classes>
+      <class name="com.crm.testCases.CTANoResponseTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="cTANoResponseTest"/>
+        </methods>
+      </class> <!-- com.crm.testCases.CTANoResponseTest -->
+    </classes>
+  </test> <!-- CTANo(failed) -->
+  <test thread-count="5" name="CTA(failed)">
+    <classes>
+      <class name="com.crm.testCases.CTAResponseReportTest">
+        <methods>
+          <include name="cTAResponseReportTest"/>
+          <include name="tearDownTest"/>
+        </methods>
+      </class> <!-- com.crm.testCases.CTAResponseReportTest -->
+    </classes>
+  </test> <!-- CTA(failed) -->
+</suite> <!-- Failed suite [Sanity_Suite] -->

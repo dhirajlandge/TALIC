@@ -1,0 +1,42 @@
+2022-09-01 09:42:17 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-01 09:42:17 INFO  SetUp - Test Case_payoutTest_Successfully Started
+2022-09-01 09:42:26 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-09-01 09:42:26 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-09-01 09:42:28 INFO  SetUp - Chrome Browser Launched..
+2022-09-01 09:42:30 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-01 09:42:30 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-01 09:42:30 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-01 09:42:31 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OACRO96
+2022-09-01 09:42:31 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-01 09:42:31 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-01 09:42:46 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-01 09:42:48 INFO  CommonMethods - Sucessfully clicked on Payout_XPATH
+2022-09-01 09:42:48 INFO  ScreenShot - ScreenShot captured PayoutPage || Status :
+2022-09-01 09:42:51 INFO  CommonMethods - Data = New Payouts - Customer Initiated Sucessfully Selected from dropdown Dropdown1_XPATH
+2022-09-01 09:42:57 INFO  CommonMethods - Sucessfully clicked on Import_XPATH
+2022-09-01 09:43:03 INFO  CommonMethods - Swiched to Child window name : Import || URL :https://talicaia.crmnext.biz/sn7_1/app/import/import.aspx?x=3m2mmy6ebprqu5wcha5xnnb7jt247v2a593wyh4t3n99tjm3n76f9cfjssxjyx44py8kj27z6an3gl27tks27avt7q&winpop=1
+2022-09-01 09:43:03 INFO  ScreenShot - ScreenShot captured Childwindow || Status :
+2022-09-01 09:43:17 INFO  ScreenShot - ScreenShot captured FileImport || Status :
+2022-09-01 09:43:20 INFO  CommonMethods - Sucessfully clicked on Finish_XPATH
+2022-09-01 09:43:33 INFO  CommonMethods - Sucessfully clicked on Clickhere_XPATH
+2022-09-01 09:43:50 ERROR SetUp - payoutTest Get Failed due to 
+chrome not reachable
+  (Session info: chrome=104.0.5112.102)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.57.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17a93aea02149ff36fd200effe86a9c1, findElement {using=xpath, value=//div[@class="header__item header__profile ht-3 mid relative pointer"]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53164/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 17a93aea02149ff36fd200effe86a9c1
+2022-09-01 09:44:01 ERROR ScreenShot - Unbale to capture screenshot due to chrome not reachable
+  (Session info: chrome=104.0.5112.102)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.57.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [17a93aea02149ff36fd200effe86a9c1, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53164}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53164/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 17a93aea02149ff36fd200effe86a9c1
+2022-09-01 09:44:01 INFO  CommonMethods - Row num for TestScenario = payoutTest is = 1
+2022-09-01 09:44:02 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail

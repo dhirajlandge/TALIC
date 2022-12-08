@@ -1,0 +1,1685 @@
+2022-10-10 11:05:19 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-10-10 11:05:22 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 11:05:24 INFO  SetUp - Test Case_CTAResponseReport_Successfully Started
+2022-10-10 11:05:26 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 11:05:26 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 11:05:30 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 11:05:31 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 11:05:31 ERROR SetUp - CTAResponseReport Get Failed due to 
+Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)" because the return value of "java.lang.ThreadLocal.get()" is null
+2022-10-10 11:05:31 ERROR SetUp - CTAResponseReport Get Failed due to 
+Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String)" because the return value of "java.lang.ThreadLocal.get()" is null
+2022-10-10 11:05:32 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-10-10 11:05:32 INFO  SetUp - Browser Closed..
+2022-10-10 11:05:35 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 11:10:21 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 11:10:23 INFO  SetUp - Test Case_CTAResponseReport_Successfully Started
+2022-10-10 11:10:24 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 11:10:24 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 11:10:28 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 11:10:29 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 11:10:29 ERROR SetUp - CTAResponseReport Get Failed due to 
+Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)" because the return value of "java.lang.ThreadLocal.get()" is null
+2022-10-10 11:10:29 ERROR SetUp - CTAResponseReport Get Failed due to 
+Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String)" because the return value of "java.lang.ThreadLocal.get()" is null
+2022-10-10 11:10:32 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 11:20:16 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 11:20:18 INFO  SetUp - Test Case_cTAResponseReportTest_Successfully Started
+2022-10-10 11:20:19 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 11:20:19 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 11:20:23 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 11:20:24 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 11:20:24 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 11:20:25 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 11:20:25 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 11:20:25 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 11:20:26 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 11:20:30 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 11:20:33 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 11:20:33 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 11:20:34 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 11:20:34 ERROR CommonMethods - Data Not Sucessfully entered on PolicyNumber1_XPATH due to :Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" because "com.crm.commonUtilities.ExcelOperation.sheet" is null
+2022-10-10 11:20:34 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 11:20:36 ERROR CommonMethods - Not Sucessfully clicked on Action_XPATH due to :element click intercepted: Element <span class="ff-bold" style="border: 4px solid yellow;">...</span> is not clickable at point (745, 549). Other element would receive the click: <div class="mobPopupBox db backdrop" style="z-index: 9999;">...</div>
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [80ce94c9e2d4a8aebcb66fc18c33d17e, clickElement {id=c1350806-9511-4ff3-ade8-228df625a26d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63030}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63030/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (80ce94c9e2d4a8aebcb66fc18c33d17e)] -> xpath: (//span[@class="ff-bold"])[2]]
+Session ID: 80ce94c9e2d4a8aebcb66fc18c33d17e
+2022-10-10 11:21:36 ERROR SetUp - cTAResponseReportTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: (//span[@class="acd-link-text"])[5] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63030}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63030/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 80ce94c9e2d4a8aebcb66fc18c33d17e
+2022-10-10 11:21:36 INFO  ScreenShot - ScreenShot captured cTAResponseReportTest || Status :Fail
+2022-10-10 11:21:36 INFO  CommonMethods - Row num for TestScenario = cTAResponseReportTest is = 4
+2022-10-10 11:21:38 INFO  ExcelOperation - Write to excel with : Row=4 | Cell =5 | Data =Fail
+2022-10-10 11:21:44 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 19:18:50 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-10-10 19:18:54 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 19:18:58 INFO  SetUp - Test Case_cTAResponseReportTest_Successfully Started
+2022-10-10 19:19:04 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 19:19:04 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 19:19:05 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 19:19:07 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 19:19:07 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 19:19:07 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 19:19:08 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 19:19:08 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 19:19:08 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 19:19:46 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 19:19:51 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 19:19:51 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 19:19:51 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 19:19:52 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 19:19:52 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 19:19:53 ERROR CommonMethods - Not Sucessfully clicked on Action_XPATH due to :stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1b4f59b8fe0ff0fd2a1988843727bf2c, clickElement {id=f4f9efa8-1405-49ad-9782-dd9b8673bbd5}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54550}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54550/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (1b4f59b8fe0ff0fd2a1988843727bf2c)] -> xpath: (//span[@class="ff-bold"])[2]]
+Session ID: 1b4f59b8fe0ff0fd2a1988843727bf2c
+2022-10-10 19:20:53 ERROR SetUp - cTAResponseReportTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: (//span[@class="acd-link-text"])[5] (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 19:20:53 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1b4f59b8fe0ff0fd2a1988843727bf2c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54550}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54550/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b4f59b8fe0ff0fd2a1988843727bf2c
+2022-10-10 19:20:54 INFO  CommonMethods - Row num for TestScenario = cTAResponseReportTest is = 4
+2022-10-10 19:20:55 INFO  ExcelOperation - Write to excel with : Row=4 | Cell =5 | Data =Fail
+2022-10-10 19:21:30 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 19:22:02 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 19:22:03 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-10-10 19:22:03 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 19:22:03 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 19:22:05 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 19:22:05 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 19:22:06 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 19:22:06 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 19:22:06 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 19:22:06 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 19:22:06 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 19:22:10 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 19:22:11 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 19:22:13 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 19:22:13 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 19:22:13 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 19:22:13 INFO  ScreenShot - ScreenShot captured PolicySearch || Status :Pass
+2022-10-10 19:22:13 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 19:22:14 INFO  ScreenShot - ScreenShot captured Action || Status :Pass
+2022-10-10 19:22:14 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-10 19:22:18 INFO  CommonMethods - Sucessfully clicked on BasicDetails_XPATH
+2022-10-10 19:22:18 INFO  ScreenShot - ScreenShot captured BasicDetails || Status :Pass
+2022-10-10 19:22:18 INFO  CommonMethods - Sucessfully clicked on AgentDetails_XPATH
+2022-10-10 19:22:18 INFO  ScreenShot - ScreenShot captured AgentDetails || Status :Pass
+2022-10-10 19:22:18 INFO  CommonMethods - Sucessfully clicked on MoreInfo_XPATH
+2022-10-10 19:22:19 INFO  ScreenShot - ScreenShot captured MoreInfo || Status :Pass
+2022-10-10 19:22:19 INFO  CommonMethods - Sucessfully clicked on OwnerDetails_XPATH
+2022-10-10 19:22:19 INFO  ScreenShot - ScreenShot captured OwnerDetails || Status :Pass
+2022-10-10 19:22:19 INFO  CommonMethods - Sucessfully clicked on InsuredDetails_XPATH
+2022-10-10 19:22:19 INFO  ScreenShot - ScreenShot captured InsureDetails || Status :Pass
+2022-10-10 19:22:19 INFO  ScreenShot - ScreenShot captured ActionAlert || Status :pass
+2022-10-10 19:22:20 INFO  CommonMethods - Sucessfully clicked on KeyInfo_XPATH
+2022-10-10 19:22:20 INFO  ScreenShot - ScreenShot captured KeyInfo || Status :Pass
+2022-10-10 19:22:20 INFO  CommonMethods - Sucessfully clicked on Primary_XPATH
+2022-10-10 19:22:20 INFO  ScreenShot - ScreenShot captured Primary || Status :Pass
+2022-10-10 19:22:20 INFO  CommonMethods - Sucessfully clicked on Secondary_XPATH
+2022-10-10 19:22:20 INFO  ScreenShot - ScreenShot captured Secondary || Status :Pass
+2022-10-10 19:22:21 INFO  CommonMethods - Sucessfully clicked on SRAllFilter_XPATH
+2022-10-10 19:22:21 INFO  ScreenShot - ScreenShot captured ALL SR || Status :Pass
+2022-10-10 19:22:21 INFO  CommonMethods - Sucessfully clicked on SRNewFilter_XPATH
+2022-10-10 19:22:21 INFO  ScreenShot - ScreenShot captured NewSR || Status :Pass
+2022-10-10 19:22:21 INFO  CommonMethods - Sucessfully clicked on SRInProgressFilter_XPATH
+2022-10-10 19:22:21 INFO  ScreenShot - ScreenShot captured InPrgressSR || Status :Pass
+2022-10-10 19:22:21 INFO  CommonMethods - Sucessfully clicked on PayoutDetails_XPATH
+2022-10-10 19:22:21 INFO  CommonMethods - Sucessfully clicked on PolicyHistory_XPATH
+2022-10-10 19:22:21 INFO  CommonMethods - Sucessfully clicked on Statements_XPATH
+2022-10-10 19:22:22 INFO  ScreenShot - ScreenShot captured Statements || Status :Pass
+2022-10-10 19:22:22 INFO  CommonMethods - Sucessfully clicked on PolicyDocuments_XPATH
+2022-10-10 19:22:22 INFO  ScreenShot - ScreenShot captured PoloicyDocuments || Status :Pass
+2022-10-10 19:22:25 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-10-10 19:22:26 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-10-10 19:22:26 INFO  LoginPage - Sucessfully logout..
+2022-10-10 19:22:26 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Passed
+2022-10-10 19:22:26 INFO  CommonMethods - Row num for TestScenario = policy360CardViewTest is = 7
+2022-10-10 19:22:27 INFO  ExcelOperation - Write to excel with : Row=7 | Cell =5 | Data =Pass
+2022-10-10 19:22:28 INFO  SetUp - Browser Closed..
+2022-10-10 19:22:30 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 19:22:52 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 19:22:53 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-10-10 19:22:53 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 19:22:53 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 19:22:55 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 19:22:55 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 19:22:55 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 19:22:56 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 19:22:56 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 19:22:56 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 19:22:56 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 19:22:58 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 19:22:59 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 19:23:00 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 19:23:00 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 19:23:01 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 19:23:01 INFO  ScreenShot - ScreenShot captured PolicySearch || Status :Pass
+2022-10-10 19:23:01 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 19:23:01 INFO  ScreenShot - ScreenShot captured Action || Status :Pass
+2022-10-10 19:23:01 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-10 19:23:03 INFO  CommonMethods - Sucessfully clicked on BasicDetails_XPATH
+2022-10-10 19:23:03 INFO  ScreenShot - ScreenShot captured BasicDetails || Status :Pass
+2022-10-10 19:23:03 INFO  CommonMethods - Sucessfully clicked on AgentDetails_XPATH
+2022-10-10 19:23:03 INFO  ScreenShot - ScreenShot captured AgentDetails || Status :Pass
+2022-10-10 19:23:03 INFO  CommonMethods - Sucessfully clicked on MoreInfo_XPATH
+2022-10-10 19:23:03 INFO  ScreenShot - ScreenShot captured MoreInfo || Status :Pass
+2022-10-10 19:23:04 INFO  CommonMethods - Sucessfully clicked on OwnerDetails_XPATH
+2022-10-10 19:23:04 INFO  ScreenShot - ScreenShot captured OwnerDetails || Status :Pass
+2022-10-10 19:23:04 INFO  CommonMethods - Sucessfully clicked on InsuredDetails_XPATH
+2022-10-10 19:23:04 INFO  ScreenShot - ScreenShot captured InsureDetails || Status :Pass
+2022-10-10 19:23:04 INFO  ScreenShot - ScreenShot captured ActionAlert || Status :pass
+2022-10-10 19:23:04 INFO  CommonMethods - Sucessfully clicked on KeyInfo_XPATH
+2022-10-10 19:23:05 INFO  ScreenShot - ScreenShot captured KeyInfo || Status :Pass
+2022-10-10 19:23:05 INFO  CommonMethods - Sucessfully clicked on Primary_XPATH
+2022-10-10 19:23:05 INFO  ScreenShot - ScreenShot captured Primary || Status :Pass
+2022-10-10 19:23:05 INFO  CommonMethods - Sucessfully clicked on Secondary_XPATH
+2022-10-10 19:23:05 INFO  ScreenShot - ScreenShot captured Secondary || Status :Pass
+2022-10-10 19:23:05 INFO  CommonMethods - Sucessfully clicked on SRAllFilter_XPATH
+2022-10-10 19:23:06 INFO  ScreenShot - ScreenShot captured ALL SR || Status :Pass
+2022-10-10 19:23:06 INFO  CommonMethods - Sucessfully clicked on SRNewFilter_XPATH
+2022-10-10 19:23:06 INFO  ScreenShot - ScreenShot captured NewSR || Status :Pass
+2022-10-10 19:23:06 INFO  CommonMethods - Sucessfully clicked on SRInProgressFilter_XPATH
+2022-10-10 19:23:06 INFO  ScreenShot - ScreenShot captured InPrgressSR || Status :Pass
+2022-10-10 19:23:06 INFO  CommonMethods - Sucessfully clicked on PayoutDetails_XPATH
+2022-10-10 19:23:06 INFO  CommonMethods - Sucessfully clicked on PolicyHistory_XPATH
+2022-10-10 19:23:06 INFO  CommonMethods - Sucessfully clicked on Statements_XPATH
+2022-10-10 19:23:07 INFO  ScreenShot - ScreenShot captured Statements || Status :Pass
+2022-10-10 19:23:07 INFO  CommonMethods - Sucessfully clicked on PolicyDocuments_XPATH
+2022-10-10 19:23:07 INFO  ScreenShot - ScreenShot captured PoloicyDocuments || Status :Pass
+2022-10-10 19:23:10 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-10-10 19:23:10 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-10-10 19:23:10 INFO  LoginPage - Sucessfully logout..
+2022-10-10 19:23:10 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Passed
+2022-10-10 19:23:10 INFO  CommonMethods - Row num for TestScenario = policy360CardViewTest is = 7
+2022-10-10 19:23:12 INFO  ExcelOperation - Write to excel with : Row=7 | Cell =5 | Data =Pass
+2022-10-10 19:23:12 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-10-10 19:23:12 INFO  SetUp - Browser Closed..
+2022-10-10 19:23:14 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 19:26:44 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 19:26:45 INFO  SetUp - Test Case_cTAResponseReportTest_Successfully Started
+2022-10-10 19:26:45 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 19:26:45 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 19:26:46 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 19:26:47 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 19:26:47 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 19:26:47 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 19:26:48 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 19:26:48 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 19:26:48 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 19:26:51 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 19:26:53 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 19:26:53 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 19:26:53 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 19:26:53 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 19:26:54 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 19:26:54 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-10 19:26:57 INFO  CommonMethods - Sucessfully clicked on Yes_XPATH
+2022-10-10 19:27:03 INFO  CommonMethods - Swiched to Child window name : Call To Action || URL :https://talicaia.crmnext.biz/sn7_1/app/CRMNextObject/StartJourney?x=ypslkb5r3sxgmjugu6njswvhhg7qlgcfgtb5y2p3k56vy7845p6m62m74ngmfsjhk7ydc6uev92qawyayqgbx2dm3b6k7t5nvhsgtt5pythyfxwbqgnkefw6vtlvgsltvwrnbrfcasymmchtgs7ey9m472&winpop=1
+2022-10-10 19:27:03 INFO  ScreenShot - ScreenShot captured Childwindow || Status :Pass
+2022-10-10 19:27:21 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 19:27:21 INFO  SetUp - Test Case_cTAResponseReportTest_Successfully Started
+2022-10-10 19:27:22 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 19:27:22 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 19:27:23 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 19:27:24 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 19:27:24 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 19:27:24 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 19:27:24 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 19:27:24 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 19:27:25 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 19:27:28 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 19:27:29 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 19:27:29 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 19:27:29 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 19:27:29 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 19:27:30 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 19:27:30 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-10 19:27:31 INFO  CommonMethods - Sucessfully clicked on Yes_XPATH
+2022-10-10 19:27:35 INFO  CommonMethods - Swiched to Child window name : Call To Action || URL :https://talicaia.crmnext.biz/sn7_1/app/CRMNextObject/StartJourney?x=ypslkb5r3sxgmjugu6njswvhhg7qlgcfgtb5y2p3k56vy7845p6m62m74ngmfsjhk7ydc6uev92qawyayqgbx2dm3b6k7t5nvhsgtt5pythyfxwbqgnkefw6vtlvgsltvwrnbrfcasymmchtgs7ey9m472&winpop=1
+2022-10-10 19:27:35 INFO  ScreenShot - ScreenShot captured Childwindow || Status :Pass
+2022-10-10 19:28:05 ERROR SetUp - cTAResponseReportTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 19:28:05 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [345a8f0fcafca9404cc6d0f17938753d, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54970}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54970/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 345a8f0fcafca9404cc6d0f17938753d
+2022-10-10 19:28:05 INFO  CommonMethods - Row num for TestScenario = cTAResponseReportTest is = 4
+2022-10-10 19:28:07 INFO  ExcelOperation - Write to excel with : Row=4 | Cell =5 | Data =Fail
+2022-10-10 19:28:37 ERROR SetUp - cTAResponseReportTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55019}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55019/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 71da7e3df7d0de0bfb8ae42f7c0c56e9
+2022-10-10 19:28:37 INFO  ScreenShot - ScreenShot captured cTAResponseReportTest || Status :Fail
+2022-10-10 19:28:38 INFO  CommonMethods - Row num for TestScenario = cTAResponseReportTest is = 4
+2022-10-10 19:28:39 INFO  ExcelOperation - Write to excel with : Row=4 | Cell =5 | Data =Fail
+2022-10-10 19:28:40 INFO  SetUp - Browser Closed..
+2022-10-10 19:28:41 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 19:28:42 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 19:44:13 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 19:44:14 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-10 19:44:14 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 19:44:14 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 19:44:16 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 19:44:16 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 19:44:17 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 19:44:17 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 19:44:17 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 19:44:17 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 19:44:17 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 19:44:21 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 19:44:23 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 19:44:23 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 19:44:23 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 19:44:23 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 19:44:24 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 19:44:24 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-10 19:44:28 INFO  CommonMethods - Sucessfully clicked on Yes_XPATH
+2022-10-10 19:44:33 INFO  CommonMethods - Swiched to Child window name : Call To Action || URL :https://talicaia.crmnext.biz/sn7_1/app/CRMNextObject/StartJourney?x=ypslkb5r3sxgmjugu6njswvhhg7qlgcfgtb5y2p3k56vy7845p6m62m74ngmfsjhk7ydc6uev92qawyayqgbx2dm3b6k7t5nvhsgtt5pythyfxwbqgnkefw6vtlvgsltvwrnbrfcasymmchtgs7ey9m472&winpop=1
+2022-10-10 19:44:34 INFO  ScreenShot - ScreenShot captured Childwindow || Status :Pass
+2022-10-10 19:45:36 ERROR SetUp - cTAYesResponseTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 19:45:36 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ddcd6f14e2c480612079695773d66bb, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55438/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ddcd6f14e2c480612079695773d66bb
+2022-10-10 19:45:37 INFO  CommonMethods - Row num for TestScenario = cTAYesResponseTest is = 9
+2022-10-10 19:45:38 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =5 | Data =Fail
+2022-10-10 19:46:12 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 20:03:43 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-10-10 20:03:45 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 20:03:45 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-10 20:03:46 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 20:03:46 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 20:03:47 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 20:03:48 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 20:03:48 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 20:03:49 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 20:03:49 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 20:03:49 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 20:03:49 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 20:03:54 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 20:03:56 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 20:03:56 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 20:03:56 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 20:03:56 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 20:03:57 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 20:03:57 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-10 20:03:59 INFO  CommonMethods - Sucessfully clicked on Yes_XPATH
+2022-10-10 20:04:05 INFO  CommonMethods - Swiched to Child window name : Call To Action || URL :https://talicaia.crmnext.biz/sn7_1/app/CRMNextObject/StartJourney?x=ypslkb5r3sxgmjugu6njswvhhg7qlgcfgtb5y2p3k56vy7845p6m62m74ngmfsjhk7ydc6uev92qawyayqgbx2dm3b6k7t5nvhsgtt5pythyfxwbqgnkefw6vtlvgsltvwrnbrfcasymmchtgs7ey9m472&winpop=1
+2022-10-10 20:04:05 INFO  ScreenShot - ScreenShot captured Childwindow || Status :Pass
+2022-10-10 20:04:05 INFO  CommonMethods - Data = Web Sucessfully Selected from dropdown Mode_XPATH
+2022-10-10 20:04:05 INFO  CommonMethods - Sucessfully clicked on SubCategory_XPATH
+2022-10-10 20:04:06 INFO  CommonMethods - Data sucessfully entered on SubCategory_XPATH = Others
+2022-10-10 20:05:08 ERROR SetUp - cTAYesResponseTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 20:05:08 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cdd3df70ab4475684c8571878952695f, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56234}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56234/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cdd3df70ab4475684c8571878952695f
+2022-10-10 20:05:08 INFO  CommonMethods - Row num for TestScenario = cTAYesResponseTest is = 9
+2022-10-10 20:05:09 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =5 | Data =Fail
+2022-10-10 20:05:43 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 20:05:55 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 20:05:56 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-10 20:05:57 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 20:05:57 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 20:05:58 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 20:05:59 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 20:05:59 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 20:05:59 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 20:05:59 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 20:05:59 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 20:06:00 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 20:06:02 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 20:06:04 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 20:06:04 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 20:06:04 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 20:06:05 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 20:06:05 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 20:06:05 ERROR CommonMethods - Not Sucessfully clicked on Action_XPATH due to :stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0d0a8773d24c0a888353f9c43384186b, clickElement {id=56d55682-6a72-417f-8324-7f1c577aeb24}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56477}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56477/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0d0a8773d24c0a888353f9c43384186b)] -> xpath: (//span[@class="ff-bold"])[2]]
+Session ID: 0d0a8773d24c0a888353f9c43384186b
+2022-10-10 20:06:38 INFO  CommonMethods - Sucessfully clicked on Yes_XPATH
+2022-10-10 20:06:41 INFO  CommonMethods - Swiched to Child window name : Call To Action || URL :https://talicaia.crmnext.biz/sn7_1/app/CRMNextObject/StartJourney?x=ypslkb5r3sxgmjugu6njswvhhg7qlgcfgtb5y2p3k56vy7845p6m62m74ngmfsjhk7ydc6uev92qawyayqgbx2dm3b6k7t5nvhsgtt5pythyfxwbqgnkefw6vtlvgsltvwrnbrfcasymmchtgs7ey9m472&winpop=1
+2022-10-10 20:06:41 INFO  ScreenShot - ScreenShot captured Childwindow || Status :Pass
+2022-10-10 20:06:41 INFO  CommonMethods - Data = Web Sucessfully Selected from dropdown Mode_XPATH
+2022-10-10 20:07:06 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 20:07:07 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-10 20:07:07 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 20:07:07 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 20:07:09 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 20:07:09 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 20:07:10 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 20:07:10 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 20:07:10 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 20:07:10 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 20:07:10 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 20:07:13 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 20:07:14 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 20:07:14 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 20:07:15 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 20:07:15 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 20:07:15 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 20:07:15 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-10 20:07:16 INFO  CommonMethods - Sucessfully clicked on Yes_XPATH
+2022-10-10 20:07:20 INFO  CommonMethods - Swiched to Child window name : Call To Action || URL :https://talicaia.crmnext.biz/sn7_1/app/CRMNextObject/StartJourney?x=ypslkb5r3sxgmjugu6njswvhhg7qlgcfgtb5y2p3k56vy7845p6m62m74ngmfsjhk7ydc6uev92qawyayqgbx2dm3b6k7t5nvhsgtt5pythyfxwbqgnkefw6vtlvgsltvwrnbrfcasymmchtgs7ey9m472&winpop=1
+2022-10-10 20:07:20 INFO  ScreenShot - ScreenShot captured Childwindow || Status :Pass
+2022-10-10 20:07:21 INFO  CommonMethods - Data = Web Sucessfully Selected from dropdown Mode_XPATH
+2022-10-10 20:07:43 ERROR SetUp - cTAYesResponseTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 20:07:43 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0d0a8773d24c0a888353f9c43384186b, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56477}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56477/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0d0a8773d24c0a888353f9c43384186b
+2022-10-10 20:07:43 INFO  CommonMethods - Row num for TestScenario = cTAYesResponseTest is = 9
+2022-10-10 20:07:44 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =5 | Data =Fail
+2022-10-10 20:08:18 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 20:08:23 ERROR SetUp - cTAYesResponseTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 20:08:23 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1202aebaea69479a421f72d36e45107f, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56544}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56544/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1202aebaea69479a421f72d36e45107f
+2022-10-10 20:08:23 INFO  CommonMethods - Row num for TestScenario = cTAYesResponseTest is = 9
+2022-10-10 20:08:24 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =5 | Data =Fail
+2022-10-10 20:08:58 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 20:20:51 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 20:20:52 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-10 20:20:53 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 20:20:53 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 20:20:54 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 20:20:55 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 20:20:55 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 20:20:55 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 20:20:55 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 20:20:55 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 20:20:56 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 20:20:59 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 20:21:00 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 20:21:00 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 20:21:00 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 20:21:01 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 20:21:01 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 20:21:01 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-10 20:21:02 INFO  CommonMethods - Sucessfully clicked on Yes_XPATH
+2022-10-10 20:21:07 INFO  CommonMethods - Swiched to Child window name : Call To Action || URL :https://talicaia.crmnext.biz/sn7_1/app/CRMNextObject/StartJourney?x=ypslkb5r3sxgmjugu6njswvhhg7qlgcfgtb5y2p3k56vy7845p6m62m74ngmfsjhk7ydc6uev92qawyayqgbx2dm3b6k7t5nvhsgtt5pythyfxwbqgnkefw6vtlvgsltvwrnbrfcasymmchtgs7ey9m472&winpop=1
+2022-10-10 20:21:07 INFO  ScreenShot - ScreenShot captured Childwindow || Status :Pass
+2022-10-10 20:21:07 INFO  CommonMethods - Data = Web Sucessfully Selected from dropdown Mode_XPATH
+2022-10-10 20:21:07 INFO  CommonMethods - Sucessfully clicked on SubCategory_XPATH
+2022-10-10 20:21:07 INFO  CommonMethods - Data sucessfully entered on SubCategory_XPATH = Others
+2022-10-10 20:21:08 INFO  CommonMethods - Sucessfully clicked on Others_XPATH
+2022-10-10 20:21:08 INFO  CommonMethods - Sucessfully clicked on SubSubCategory
+2022-10-10 20:21:09 INFO  CommonMethods - Data sucessfully entered on SubSubCategory = Request
+2022-10-10 20:22:09 ERROR CommonMethods - Not Sucessfully clicked on Request_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: (//td)[1] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57216}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57216/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fc7c65ed86b717dd7b71e2c4c4783eaa
+2022-10-10 20:22:09 INFO  CommonMethods - Sucessfully clicked on Subject_XPATH
+2022-10-10 20:22:09 INFO  CommonMethods - Data sucessfully entered on Subject_XPATH = Others-Request
+2022-10-10 20:22:10 INFO  CommonMethods - Sucessfully clicked on Next111_XPATH
+2022-10-10 20:23:12 ERROR SetUp - cTAYesResponseTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 20:23:12 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fc7c65ed86b717dd7b71e2c4c4783eaa, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57216}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57216/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fc7c65ed86b717dd7b71e2c4c4783eaa
+2022-10-10 20:23:12 INFO  CommonMethods - Row num for TestScenario = cTAYesResponseTest is = 9
+2022-10-10 20:23:13 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =5 | Data =Fail
+2022-10-10 20:23:49 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 20:24:26 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 20:24:27 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-10 20:24:28 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 20:24:28 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 20:24:29 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 20:24:30 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 20:24:30 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 20:24:30 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 20:24:30 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 20:24:30 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 20:24:30 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 20:24:33 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 20:24:35 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 20:24:35 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 20:24:35 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 20:24:35 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 20:24:35 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 20:24:36 ERROR SetUp - cTAYesResponseTest Get Failed due to 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5477b32645f5dd276f53ab4b45149657, executeScript {script=arguments[0].style.border='4px solid yellow', args=[{ELEMENT=f523d2d6-a4f6-497d-9c03-0496b3165abd, element-6066-11e4-a52e-4f735466cecf=f523d2d6-a4f6-497d-9c03-0496b3165abd}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57603}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57603/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5477b32645f5dd276f53ab4b45149657
+2022-10-10 20:24:36 INFO  ScreenShot - ScreenShot captured cTAYesResponseTest || Status :Fail
+2022-10-10 20:24:36 INFO  CommonMethods - Row num for TestScenario = cTAYesResponseTest is = 9
+2022-10-10 20:24:37 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =5 | Data =Fail
+2022-10-10 20:24:38 INFO  SetUp - Browser Closed..
+2022-10-10 20:24:40 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 20:25:13 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 20:25:14 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-10 20:25:14 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 20:25:14 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 20:25:16 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 20:25:16 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 20:25:17 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 20:25:17 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 20:25:17 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 20:25:17 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 20:25:17 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 20:25:20 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 20:25:21 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 20:25:22 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 20:25:22 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 20:25:22 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 20:25:22 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 20:25:22 ERROR SetUp - cTAYesResponseTest Get Failed due to 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [61025b628aadb1ae8928e0331c24d1b8, executeScript {script=arguments[0].style.border='4px solid yellow', args=[{ELEMENT=c2804462-b10c-455b-8a7c-fa3208006af8, element-6066-11e4-a52e-4f735466cecf=c2804462-b10c-455b-8a7c-fa3208006af8}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57658}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57658/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 61025b628aadb1ae8928e0331c24d1b8
+2022-10-10 20:25:22 INFO  ScreenShot - ScreenShot captured cTAYesResponseTest || Status :Fail
+2022-10-10 20:25:23 INFO  CommonMethods - Row num for TestScenario = cTAYesResponseTest is = 9
+2022-10-10 20:25:24 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =5 | Data =Fail
+2022-10-10 20:25:24 INFO  SetUp - Browser Closed..
+2022-10-10 20:25:26 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 20:26:49 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 20:26:50 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-10 20:26:51 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 20:26:51 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 20:26:52 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 20:26:53 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 20:26:53 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 20:26:53 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 20:26:53 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 20:26:53 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 20:26:54 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 20:26:57 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 20:26:59 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 20:27:00 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 20:27:00 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 20:27:00 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 20:27:00 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 20:27:00 ERROR SetUp - cTAYesResponseTest Get Failed due to 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fc86f2c35ba0702337354213b75fa790, executeScript {script=arguments[0].style.border='4px solid yellow', args=[{ELEMENT=6a408b53-ef76-4024-86da-d0ebb4592a46, element-6066-11e4-a52e-4f735466cecf=6a408b53-ef76-4024-86da-d0ebb4592a46}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57770}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57770/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fc86f2c35ba0702337354213b75fa790
+2022-10-10 20:27:00 INFO  ScreenShot - ScreenShot captured cTAYesResponseTest || Status :Fail
+2022-10-10 20:27:01 INFO  CommonMethods - Row num for TestScenario = cTAYesResponseTest is = 9
+2022-10-10 20:27:02 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =5 | Data =Fail
+2022-10-10 20:27:03 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-10-10 20:27:04 INFO  SetUp - Browser Closed..
+2022-10-10 20:27:06 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 20:31:15 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 20:31:15 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-10 20:31:16 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 20:31:16 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 20:31:17 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 20:31:18 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 20:31:18 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 20:31:18 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 20:31:18 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 20:31:19 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 20:31:19 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 20:31:23 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 20:31:25 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 20:31:25 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 20:31:25 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 20:31:25 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 20:31:26 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 20:31:26 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-10 20:31:27 INFO  CommonMethods - Sucessfully clicked on Yes_XPATH
+2022-10-10 20:31:33 INFO  CommonMethods - Swiched to Child window name : Call To Action || URL :https://talicaia.crmnext.biz/sn7_1/app/CRMNextObject/StartJourney?x=ypslkb5r3sxgmjugu6njswvhhg7qlgcfgtb5y2p3k56vy7845p6m62m74ngmfsjhk7ydc6uev92qawyayqgbx2dm3b6k7t5nvhsgtt5pythyfxwbqgnkefw6vtlvgsltvwrnbrfcasymmchtgs7ey9m472&winpop=1
+2022-10-10 20:31:34 INFO  ScreenShot - ScreenShot captured Childwindow || Status :Pass
+2022-10-10 20:31:34 INFO  CommonMethods - Data = Web Sucessfully Selected from dropdown Mode_XPATH
+2022-10-10 20:31:34 INFO  CommonMethods - Sucessfully clicked on SubCategory_XPATH
+2022-10-10 20:31:34 INFO  CommonMethods - Data sucessfully entered on SubCategory_XPATH = Others
+2022-10-10 20:31:35 INFO  CommonMethods - Sucessfully clicked on Others_XPATH
+2022-10-10 20:31:35 INFO  CommonMethods - Sucessfully clicked on SubSubCategory
+2022-10-10 20:31:35 INFO  CommonMethods - Data sucessfully entered on SubSubCategory = Request
+2022-10-10 20:32:35 ERROR CommonMethods - Not Sucessfully clicked on Request_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: (//td)[1] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57898/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 925298eb45ee0f9ccbb6edb2255a4267
+2022-10-10 20:32:35 INFO  CommonMethods - Sucessfully clicked on Subject_XPATH
+2022-10-10 20:32:36 INFO  CommonMethods - Data sucessfully entered on Subject_XPATH = Others-Request
+2022-10-10 20:32:36 INFO  CommonMethods - Sucessfully clicked on Next111_XPATH
+2022-10-10 20:33:39 ERROR SetUp - cTAYesResponseTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 20:33:39 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [925298eb45ee0f9ccbb6edb2255a4267, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57898}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57898/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 925298eb45ee0f9ccbb6edb2255a4267
+2022-10-10 20:33:39 INFO  CommonMethods - Row num for TestScenario = cTAYesResponseTest is = 9
+2022-10-10 20:33:40 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =5 | Data =Fail
+2022-10-10 20:33:42 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 20:34:33 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 20:34:34 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-10 20:34:34 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 20:34:34 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 20:34:36 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 20:34:36 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 20:34:37 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 20:34:37 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 20:34:37 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 20:34:37 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 20:34:37 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 20:34:40 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 20:34:42 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 20:34:42 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 20:34:42 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 20:34:42 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 20:34:42 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 20:34:42 ERROR SetUp - cTAYesResponseTest Get Failed due to 
+stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [48bb59f3c0add316e3f33fd18259c468, executeScript {script=arguments[0].style.border='4px solid yellow', args=[{ELEMENT=7c683077-1c01-442d-8064-401210e15a99, element-6066-11e4-a52e-4f735466cecf=7c683077-1c01-442d-8064-401210e15a99}]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58254}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58254/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 48bb59f3c0add316e3f33fd18259c468
+2022-10-10 20:34:43 INFO  ScreenShot - ScreenShot captured cTAYesResponseTest || Status :Fail
+2022-10-10 20:34:43 INFO  CommonMethods - Row num for TestScenario = cTAYesResponseTest is = 9
+2022-10-10 20:34:44 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =5 | Data =Fail
+2022-10-10 20:34:44 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-10-10 20:34:45 INFO  SetUp - Browser Closed..
+2022-10-10 20:34:47 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 20:35:53 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 20:35:54 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-10 20:35:54 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 20:35:54 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 20:35:56 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 20:35:57 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 20:35:57 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 20:35:57 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 20:35:57 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 20:35:57 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 20:35:57 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 20:36:01 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 20:36:02 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 20:36:03 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 20:36:03 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 20:36:03 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 20:36:03 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 20:36:04 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-10 20:36:06 INFO  CommonMethods - Sucessfully clicked on Yes_XPATH
+2022-10-10 20:36:11 INFO  CommonMethods - Swiched to Child window name : Call To Action || URL :https://talicaia.crmnext.biz/sn7_1/app/CRMNextObject/StartJourney?x=ypslkb5r3sxgmjugu6njswvhhg7qlgcfgtb5y2p3k56vy7845p6m62m74ngmfsjhk7ydc6uev92qawyayqgbx2dm3b6k7t5nvhsgtt5pythyfxwbqgnkefw6vtlvgsltvwrnbrfcasymmchtgs7ey9m472&winpop=1
+2022-10-10 20:36:11 INFO  ScreenShot - ScreenShot captured Childwindow || Status :Pass
+2022-10-10 20:36:11 INFO  CommonMethods - Data = Web Sucessfully Selected from dropdown Mode_XPATH
+2022-10-10 20:36:11 INFO  CommonMethods - Sucessfully clicked on SubCategory_XPATH
+2022-10-10 20:36:11 INFO  CommonMethods - Data sucessfully entered on SubCategory_XPATH = Others
+2022-10-10 20:36:12 INFO  CommonMethods - Sucessfully clicked on Others_XPATH
+2022-10-10 20:36:12 INFO  CommonMethods - Sucessfully clicked on SubSubCategory
+2022-10-10 20:36:12 INFO  CommonMethods - Data sucessfully entered on SubSubCategory = Request
+2022-10-10 20:37:13 ERROR CommonMethods - Not Sucessfully clicked on Request_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: (//td)[1] (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 20:37:46 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 20:37:47 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-10 20:37:47 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 20:37:47 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 20:37:49 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 20:37:50 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 20:37:50 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 20:37:50 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 20:37:50 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 20:37:50 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 20:37:51 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 20:37:53 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 20:37:55 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 20:37:55 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 20:37:55 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 20:37:55 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 20:37:55 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 20:37:55 ERROR CommonMethods - Not Sucessfully clicked on Action_XPATH due to :stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5e512b4863fde53d02b1adc9e9ccaa0c, clickElement {id=b9f5521b-e682-4194-b3a6-85a30bcbfb41}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58438/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (5e512b4863fde53d02b1adc9e9ccaa0c)] -> xpath: (//span[@class="ff-bold"])[2]]
+Session ID: 5e512b4863fde53d02b1adc9e9ccaa0c
+2022-10-10 20:38:13 ERROR SetUp - cTAYesResponseTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name="CASE_SUBJECT"] (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 20:38:13 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e62855020834e6fa6f675a867d2a718e, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58316}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58316/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e62855020834e6fa6f675a867d2a718e
+2022-10-10 20:38:13 INFO  CommonMethods - Row num for TestScenario = cTAYesResponseTest is = 9
+2022-10-10 20:38:14 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =5 | Data =Fail
+2022-10-10 20:38:15 INFO  CommonMethods - Sucessfully clicked on Yes_XPATH
+2022-10-10 20:38:15 INFO  ScreenShot - ScreenShot captured Childwindow || Status :Pass
+2022-10-10 20:38:25 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 20:38:26 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-10 20:38:26 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 20:38:26 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 20:38:28 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 20:38:29 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 20:38:29 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 20:38:29 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 20:38:29 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 20:38:29 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 20:38:29 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 20:38:32 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 20:38:34 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 20:38:34 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 20:38:34 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 20:38:34 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 20:38:34 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 20:38:34 ERROR CommonMethods - Not Sucessfully clicked on Action_XPATH due to :stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e60e2f0addc1bbf5bc184b837d1c02ad, clickElement {id=29cd4a3a-e355-4e33-811c-147748a3d086}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58489/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (e60e2f0addc1bbf5bc184b837d1c02ad)] -> xpath: (//span[@class="ff-bold"])[2]]
+Session ID: e60e2f0addc1bbf5bc184b837d1c02ad
+2022-10-10 20:38:38 INFO  CommonMethods - Sucessfully clicked on Yes_XPATH
+2022-10-10 20:38:42 INFO  CommonMethods - Swiched to Child window name : Call To Action || URL :https://talicaia.crmnext.biz/sn7_1/app/CRMNextObject/StartJourney?x=ypslkb5r3sxgmjugu6njswvhhg7qlgcfgtb5y2p3k56vy7845p6m62m74ngmfsjhk7ydc6uev92qawyayqgbx2dm3b6k7t5nvhsgtt5pythyfxwbqgnkefw6vtlvgsltvwrnbrfcasymmchtgs7ey9m472&winpop=1
+2022-10-10 20:38:42 INFO  ScreenShot - ScreenShot captured Childwindow || Status :Pass
+2022-10-10 20:38:42 INFO  CommonMethods - Data = Web Sucessfully Selected from dropdown Mode_XPATH
+2022-10-10 20:38:42 INFO  CommonMethods - Sucessfully clicked on SubCategory_XPATH
+2022-10-10 20:38:42 INFO  CommonMethods - Data sucessfully entered on SubCategory_XPATH = Others
+2022-10-10 20:38:43 INFO  CommonMethods - Sucessfully clicked on Others_XPATH
+2022-10-10 20:38:43 INFO  CommonMethods - Sucessfully clicked on SubSubCategory
+2022-10-10 20:38:43 INFO  CommonMethods - Data sucessfully entered on SubSubCategory = Request
+2022-10-10 20:38:49 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 20:39:16 ERROR SetUp - cTAYesResponseTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //select[@data-autoid="cust_1401_ctrl"] (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 20:39:16 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5e512b4863fde53d02b1adc9e9ccaa0c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58438}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58438/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5e512b4863fde53d02b1adc9e9ccaa0c
+2022-10-10 20:39:16 INFO  CommonMethods - Row num for TestScenario = cTAYesResponseTest is = 9
+2022-10-10 20:39:17 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =5 | Data =Fail
+2022-10-10 20:39:44 ERROR CommonMethods - Not Sucessfully clicked on Request_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: (//td)[1] (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 20:39:51 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 20:40:44 ERROR SetUp - cTAYesResponseTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name="CASE_SUBJECT"] (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 20:40:44 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e60e2f0addc1bbf5bc184b837d1c02ad, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58489}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58489/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e60e2f0addc1bbf5bc184b837d1c02ad
+2022-10-10 20:40:44 INFO  CommonMethods - Row num for TestScenario = cTAYesResponseTest is = 9
+2022-10-10 20:40:45 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =5 | Data =Fail
+2022-10-10 20:41:19 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 20:41:31 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 20:41:32 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-10 20:41:32 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 20:41:32 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 20:41:34 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 20:41:35 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 20:41:35 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 20:41:35 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 20:41:35 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 20:41:35 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 20:41:35 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 20:41:39 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 20:41:40 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 20:41:40 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 20:41:40 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 20:41:41 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 20:41:41 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 20:41:41 ERROR CommonMethods - Not Sucessfully clicked on Action_XPATH due to :stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [97d37712ba66311e1637de264e1e54f0, clickElement {id=997174e6-f245-4c69-af5d-e4afeb038d6d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58697}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58697/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (97d37712ba66311e1637de264e1e54f0)] -> xpath: (//span[@class="ff-bold"])[2]]
+Session ID: 97d37712ba66311e1637de264e1e54f0
+2022-10-10 20:41:46 INFO  CommonMethods - Sucessfully clicked on Yes_XPATH
+2022-10-10 20:41:51 INFO  CommonMethods - Swiched to Child window name : Call To Action || URL :https://talicaia.crmnext.biz/sn7_1/app/CRMNextObject/StartJourney?x=ypslkb5r3sxgmjugu6njswvhhg7qlgcfgtb5y2p3k56vy7845p6m62m74ngmfsjhk7ydc6uev92qawyayqgbx2dm3b6k7t5nvhsgtt5pythyfxwbqgnkefw6vtlvgsltvwrnbrfcasymmchtgs7ey9m472&winpop=1
+2022-10-10 20:41:52 INFO  ScreenShot - ScreenShot captured Childwindow || Status :Pass
+2022-10-10 20:41:52 INFO  CommonMethods - Data = Web Sucessfully Selected from dropdown Mode_XPATH
+2022-10-10 20:41:52 INFO  CommonMethods - Sucessfully clicked on SubCategory_XPATH
+2022-10-10 20:41:52 INFO  CommonMethods - Data sucessfully entered on SubCategory_XPATH = Others
+2022-10-10 20:41:53 INFO  CommonMethods - Sucessfully clicked on Others_XPATH
+2022-10-10 20:41:53 ERROR SetUp - cTAYesResponseTest Get Failed due to 
+Cannot find elements when the XPath is null.
+2022-10-10 20:41:53 INFO  ScreenShot - ScreenShot captured cTAYesResponseTest || Status :Fail
+2022-10-10 20:41:53 INFO  CommonMethods - Row num for TestScenario = cTAYesResponseTest is = 9
+2022-10-10 20:41:55 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =5 | Data =Fail
+2022-10-10 20:41:55 INFO  SetUp - Browser Closed..
+2022-10-10 20:41:58 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 20:42:32 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 20:42:33 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-10 20:42:33 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 20:42:33 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 20:42:35 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 20:42:35 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 20:42:36 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 20:42:36 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 20:42:36 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 20:42:36 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 20:42:36 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 20:42:40 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 20:42:41 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 20:42:41 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 20:42:41 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 20:42:42 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 20:42:42 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 20:42:42 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-10 20:42:44 INFO  CommonMethods - Sucessfully clicked on Yes_XPATH
+2022-10-10 20:42:49 INFO  CommonMethods - Swiched to Child window name : Call To Action || URL :https://talicaia.crmnext.biz/sn7_1/app/CRMNextObject/StartJourney?x=ypslkb5r3sxgmjugu6njswvhhg7qlgcfgtb5y2p3k56vy7845p6m62m74ngmfsjhk7ydc6uev92qawyayqgbx2dm3b6k7t5nvhsgtt5pythyfxwbqgnkefw6vtlvgsltvwrnbrfcasymmchtgs7ey9m472&winpop=1
+2022-10-10 20:42:49 INFO  ScreenShot - ScreenShot captured Childwindow || Status :Pass
+2022-10-10 20:42:50 INFO  CommonMethods - Data = Web Sucessfully Selected from dropdown Mode_XPATH
+2022-10-10 20:42:50 INFO  CommonMethods - Sucessfully clicked on SubCategory_XPATH
+2022-10-10 20:42:50 INFO  CommonMethods - Data sucessfully entered on SubCategory_XPATH = Others
+2022-10-10 20:42:51 INFO  CommonMethods - Sucessfully clicked on Others_XPATH
+2022-10-10 20:42:51 ERROR SetUp - cTAYesResponseTest Get Failed due to 
+Cannot find elements when the XPath is null.
+2022-10-10 20:42:51 INFO  ScreenShot - ScreenShot captured cTAYesResponseTest || Status :Fail
+2022-10-10 20:42:52 INFO  CommonMethods - Row num for TestScenario = cTAYesResponseTest is = 9
+2022-10-10 20:42:53 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =5 | Data =Fail
+2022-10-10 20:42:54 INFO  SetUp - Browser Closed..
+2022-10-10 20:42:56 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 20:45:46 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 20:45:47 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-10 20:45:48 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 20:45:48 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 20:45:49 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 20:45:50 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 20:45:50 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 20:45:50 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 20:45:50 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 20:45:51 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 20:45:51 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 20:45:54 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 20:45:56 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 20:45:56 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 20:45:56 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 20:45:57 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 20:45:57 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 20:45:57 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-10 20:46:00 INFO  CommonMethods - Sucessfully clicked on Yes_XPATH
+2022-10-10 20:46:05 INFO  CommonMethods - Swiched to Child window name : Call To Action || URL :https://talicaia.crmnext.biz/sn7_1/app/CRMNextObject/StartJourney?x=ypslkb5r3sxgmjugu6njswvhhg7qlgcfgtb5y2p3k56vy7845p6m62m74ngmfsjhk7ydc6uev92qawyayqgbx2dm3b6k7t5nvhsgtt5pythyfxwbqgnkefw6vtlvgsltvwrnbrfcasymmchtgs7ey9m472&winpop=1
+2022-10-10 20:46:05 INFO  ScreenShot - ScreenShot captured Childwindow || Status :Pass
+2022-10-10 20:46:06 INFO  CommonMethods - Data = Web Sucessfully Selected from dropdown Mode_XPATH
+2022-10-10 20:46:06 INFO  CommonMethods - Sucessfully clicked on SubCategory_XPATH
+2022-10-10 20:46:06 INFO  CommonMethods - Data sucessfully entered on SubCategory_XPATH = Others
+2022-10-10 20:46:07 INFO  CommonMethods - Sucessfully clicked on Others_XPATH
+2022-10-10 20:46:07 INFO  CommonMethods - Sucessfully clicked on SubSubCategory_XPATH
+2022-10-10 20:46:07 INFO  CommonMethods - Data sucessfully entered on SubSubCategory_XPATH = Request
+2022-10-10 20:46:08 INFO  CommonMethods - Sucessfully clicked on Request_XPATH
+2022-10-10 20:46:08 INFO  CommonMethods - Sucessfully clicked on Subject_XPATH
+2022-10-10 20:46:09 INFO  CommonMethods - Data sucessfully entered on Subject_XPATH = Others-Request
+2022-10-10 20:46:09 INFO  CommonMethods - Sucessfully clicked on Next111_XPATH
+2022-10-10 20:47:11 ERROR SetUp - cTAYesResponseTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 20:47:11 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a41776a57cf274e5f68148c6e9ddb49, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58932}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58932/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a41776a57cf274e5f68148c6e9ddb49
+2022-10-10 20:47:12 INFO  CommonMethods - Row num for TestScenario = cTAYesResponseTest is = 9
+2022-10-10 20:47:13 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =5 | Data =Fail
+2022-10-10 20:47:15 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 20:58:29 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 20:58:29 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-10 20:58:30 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 20:58:30 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 20:58:31 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 20:58:32 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 20:58:32 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 20:58:32 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 20:58:33 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 20:58:33 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 20:58:33 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 20:58:36 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 20:58:38 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 20:58:38 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 20:58:38 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 20:58:38 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 20:58:38 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 20:58:38 ERROR CommonMethods - Not Sucessfully clicked on Action_XPATH due to :stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3dd1c55ae710005a3541f8ff67618201, clickElement {id=ccbd25b7-e557-4954-ae70-920f795d4d7d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60039}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60039/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3dd1c55ae710005a3541f8ff67618201)] -> xpath: (//span[@class="ff-bold"])[2]]
+Session ID: 3dd1c55ae710005a3541f8ff67618201
+2022-10-10 20:58:43 INFO  CommonMethods - Sucessfully clicked on Yes_XPATH
+2022-10-10 20:58:47 INFO  CommonMethods - Swiched to Child window name : Call To Action || URL :https://talicaia.crmnext.biz/sn7_1/app/CRMNextObject/StartJourney?x=ypslkb5r3sxgmjugu6njswvhhg7qlgcfgtb5y2p3k56vy7845p6m62m74ngmfsjhk7ydc6uev92qawyayqgbx2dm3b6k7t5nvhsgtt5pythyfxwbqgnkefw6vtlvgsltvwrnbrfcasymmchtgs7ey9m472&winpop=1
+2022-10-10 20:58:47 INFO  ScreenShot - ScreenShot captured Childwindow || Status :Pass
+2022-10-10 20:58:48 INFO  CommonMethods - Data = Web Sucessfully Selected from dropdown Mode_XPATH
+2022-10-10 20:58:48 INFO  CommonMethods - Sucessfully clicked on SubCategory_XPATH
+2022-10-10 20:58:48 INFO  CommonMethods - Data sucessfully entered on SubCategory_XPATH = Others
+2022-10-10 20:58:49 INFO  CommonMethods - Sucessfully clicked on Others_XPATH
+2022-10-10 20:58:49 INFO  CommonMethods - Sucessfully clicked on SubSubCategory_XPATH
+2022-10-10 20:58:49 INFO  CommonMethods - Data sucessfully entered on SubSubCategory_XPATH = Request
+2022-10-10 20:58:50 INFO  CommonMethods - Sucessfully clicked on Request_XPATH
+2022-10-10 20:58:50 INFO  CommonMethods - Sucessfully clicked on Subject_XPATH
+2022-10-10 20:58:50 INFO  CommonMethods - Data sucessfully entered on Subject_XPATH = Others-Request
+2022-10-10 20:58:51 INFO  CommonMethods - Sucessfully clicked on Next111_XPATH
+2022-10-10 20:58:57 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =77995631
+2022-10-10 20:58:57 ERROR SetUp - cTAYesResponseTest Get Failed due to 
+C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\TestData\AutomationTestData.xlsx (The process cannot access the file because it is being used by another process)
+2022-10-10 20:58:57 INFO  ScreenShot - ScreenShot captured cTAYesResponseTest || Status :Fail
+2022-10-10 20:58:58 INFO  CommonMethods - Row num for TestScenario = cTAYesResponseTest is = 9
+2022-10-10 20:58:59 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =5 | Data =Fail
+2022-10-10 20:59:00 INFO  SetUp - Browser Closed..
+2022-10-10 20:59:02 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 20:59:34 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 20:59:35 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-10 20:59:36 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 20:59:36 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 20:59:37 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 20:59:38 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 20:59:38 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 20:59:38 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 20:59:38 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 20:59:38 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 20:59:39 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 20:59:42 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 20:59:43 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 20:59:44 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 20:59:44 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 20:59:44 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 20:59:44 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 20:59:44 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-10 20:59:47 INFO  CommonMethods - Sucessfully clicked on Yes_XPATH
+2022-10-10 20:59:47 INFO  ScreenShot - ScreenShot captured Childwindow || Status :Pass
+2022-10-10 21:00:37 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-10-10 21:00:38 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 21:00:39 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-10 21:00:39 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 21:00:39 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 21:00:41 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 21:00:41 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 21:00:42 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 21:00:42 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 21:00:42 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 21:00:42 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 21:00:42 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 21:00:45 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 21:00:47 ERROR SetUp - cTAYesResponseTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //select[@data-autoid="cust_1401_ctrl"] (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 21:00:47 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [63a2ff494668064a8ec553697c41272c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60081}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60081/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 63a2ff494668064a8ec553697c41272c
+2022-10-10 21:00:48 INFO  CommonMethods - Row num for TestScenario = cTAYesResponseTest is = 9
+2022-10-10 21:00:48 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 21:00:48 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 21:00:48 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 21:00:48 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 21:00:48 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 21:00:49 ERROR CommonMethods - Not Sucessfully clicked on Action_XPATH due to :stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6639b9d91652d6c04a174c32b5af325d, clickElement {id=34e2b674-b006-4e3c-976a-b1afa7e96360}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60123}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60123/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6639b9d91652d6c04a174c32b5af325d)] -> xpath: (//span[@class="ff-bold"])[2]]
+Session ID: 6639b9d91652d6c04a174c32b5af325d
+2022-10-10 21:00:49 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =5 | Data =Fail
+2022-10-10 21:00:53 INFO  CommonMethods - Sucessfully clicked on Yes_XPATH
+2022-10-10 21:00:57 INFO  CommonMethods - Swiched to Child window name : Call To Action || URL :https://talicaia.crmnext.biz/sn7_1/app/CRMNextObject/StartJourney?x=ypslkb5r3sxgmjugu6njswvhhg7qlgcfgtb5y2p3k56vy7845p6m62m74ngmfsjhk7ydc6uev92qawyayqgbx2dm3b6k7t5nvhsgtt5pythyfxwbqgnkefw6vtlvgsltvwrnbrfcasymmchtgs7ey9m472&winpop=1
+2022-10-10 21:00:58 INFO  ScreenShot - ScreenShot captured Childwindow || Status :Pass
+2022-10-10 21:01:00 INFO  CommonMethods - Data = Web Sucessfully Selected from dropdown Mode_XPATH
+2022-10-10 21:01:00 INFO  CommonMethods - Sucessfully clicked on SubCategory_XPATH
+2022-10-10 21:01:01 INFO  CommonMethods - Data sucessfully entered on SubCategory_XPATH = Others
+2022-10-10 21:01:01 INFO  CommonMethods - Sucessfully clicked on Others_XPATH
+2022-10-10 21:01:02 INFO  CommonMethods - Sucessfully clicked on SubSubCategory_XPATH
+2022-10-10 21:01:02 INFO  CommonMethods - Data sucessfully entered on SubSubCategory_XPATH = Request
+2022-10-10 21:01:03 INFO  CommonMethods - Sucessfully clicked on Request_XPATH
+2022-10-10 21:01:03 INFO  CommonMethods - Sucessfully clicked on Subject_XPATH
+2022-10-10 21:01:04 INFO  CommonMethods - Data sucessfully entered on Subject_XPATH = Others-Request
+2022-10-10 21:01:04 INFO  CommonMethods - Sucessfully clicked on Next111_XPATH
+2022-10-10 21:01:11 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =77995632
+2022-10-10 21:01:12 INFO  CommonMethods - Sucessfully clicked on Close_XPATH
+2022-10-10 21:01:25 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 21:02:03 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 21:02:07 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-10 21:02:10 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 21:02:10 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 21:02:11 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 21:02:13 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 21:02:13 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 21:02:13 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 21:02:14 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 21:02:14 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 21:02:15 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 21:02:15 ERROR SetUp - cTAYesResponseTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 21:02:15 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6639b9d91652d6c04a174c32b5af325d, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60123}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60123/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6639b9d91652d6c04a174c32b5af325d
+2022-10-10 21:02:18 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 21:02:18 INFO  CommonMethods - Row num for TestScenario = cTAYesResponseTest is = 9
+2022-10-10 21:02:20 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =5 | Data =Fail
+2022-10-10 21:02:20 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 21:02:20 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 21:02:20 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 21:02:21 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 21:02:21 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 21:02:22 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-10 21:02:24 INFO  CommonMethods - Sucessfully clicked on Yes_XPATH
+2022-10-10 21:02:28 INFO  CommonMethods - Swiched to Child window name : Call To Action || URL :https://talicaia.crmnext.biz/sn7_1/app/CRMNextObject/StartJourney?x=ypslkb5r3sxgmjugu6njswvhhg7qlgcfgtb5y2p3k56vy7845p6m62m74ngmfsjhk7ydc6uev92qawyayqgbx2dm3b6k7t5nvhsgtt5pythyfxwbqgnkefw6vtlvgsltvwrnbrfcasymmchtgs7ey9m472&winpop=1
+2022-10-10 21:02:29 INFO  ScreenShot - ScreenShot captured Childwindow || Status :Pass
+2022-10-10 21:02:29 INFO  CommonMethods - Data = Web Sucessfully Selected from dropdown Mode_XPATH
+2022-10-10 21:02:29 INFO  CommonMethods - Sucessfully clicked on SubCategory_XPATH
+2022-10-10 21:02:30 INFO  CommonMethods - Data sucessfully entered on SubCategory_XPATH = Others
+2022-10-10 21:02:31 INFO  CommonMethods - Sucessfully clicked on Others_XPATH
+2022-10-10 21:02:31 INFO  CommonMethods - Sucessfully clicked on SubSubCategory_XPATH
+2022-10-10 21:02:31 INFO  CommonMethods - Data sucessfully entered on SubSubCategory_XPATH = Request
+2022-10-10 21:02:32 INFO  CommonMethods - Sucessfully clicked on Request_XPATH
+2022-10-10 21:02:32 INFO  CommonMethods - Sucessfully clicked on Subject_XPATH
+2022-10-10 21:02:33 INFO  CommonMethods - Data sucessfully entered on Subject_XPATH = Others-Request
+2022-10-10 21:02:34 INFO  CommonMethods - Sucessfully clicked on Next111_XPATH
+2022-10-10 21:02:40 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =77995633
+2022-10-10 21:02:41 INFO  CommonMethods - Sucessfully clicked on Close_XPATH
+2022-10-10 21:02:41 ERROR CommonMethods - Not able to switch to parent window no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e21dd7bd55b177ec48155bcb458ab72b, getCurrentWindowHandle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60204}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60204/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e21dd7bd55b177ec48155bcb458ab72b
+2022-10-10 21:02:55 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 21:03:44 ERROR SetUp - cTAYesResponseTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 21:03:44 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e21dd7bd55b177ec48155bcb458ab72b, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60204}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60204/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e21dd7bd55b177ec48155bcb458ab72b
+2022-10-10 21:03:46 INFO  CommonMethods - Row num for TestScenario = cTAYesResponseTest is = 9
+2022-10-10 21:03:47 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =5 | Data =Fail
+2022-10-10 21:04:22 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 21:05:08 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 21:05:12 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-10 21:05:15 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 21:05:15 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 21:05:16 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 21:05:17 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 21:05:18 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 21:05:18 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 21:05:19 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 21:05:19 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 21:05:19 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 21:05:23 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 21:05:24 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 21:05:25 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 21:05:25 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 21:05:25 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 21:05:26 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 21:05:26 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-10 21:05:28 INFO  CommonMethods - Sucessfully clicked on Yes_XPATH
+2022-10-10 21:05:32 INFO  CommonMethods - Swiched to Child window name : Call To Action || URL :https://talicaia.crmnext.biz/sn7_1/app/CRMNextObject/StartJourney?x=ypslkb5r3sxgmjugu6njswvhhg7qlgcfgtb5y2p3k56vy7845p6m62m74ngmfsjhk7ydc6uev92qawyayqgbx2dm3b6k7t5nvhsgtt5pythyfxwbqgnkefw6vtlvgsltvwrnbrfcasymmchtgs7ey9m472&winpop=1
+2022-10-10 21:05:32 INFO  ScreenShot - ScreenShot captured Childwindow || Status :Pass
+2022-10-10 21:05:33 INFO  CommonMethods - Data = Web Sucessfully Selected from dropdown Mode_XPATH
+2022-10-10 21:05:33 INFO  CommonMethods - Sucessfully clicked on SubCategory_XPATH
+2022-10-10 21:05:34 INFO  CommonMethods - Data sucessfully entered on SubCategory_XPATH = Others
+2022-10-10 21:05:34 INFO  CommonMethods - Sucessfully clicked on Others_XPATH
+2022-10-10 21:05:34 INFO  CommonMethods - Sucessfully clicked on SubSubCategory_XPATH
+2022-10-10 21:05:35 INFO  CommonMethods - Data sucessfully entered on SubSubCategory_XPATH = Request
+2022-10-10 21:05:36 INFO  CommonMethods - Sucessfully clicked on Request_XPATH
+2022-10-10 21:05:36 INFO  CommonMethods - Sucessfully clicked on Subject_XPATH
+2022-10-10 21:05:37 INFO  CommonMethods - Data sucessfully entered on Subject_XPATH = Others-Request
+2022-10-10 21:05:37 INFO  CommonMethods - Sucessfully clicked on Next111_XPATH
+2022-10-10 21:05:42 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =77995634
+2022-10-10 21:05:44 INFO  CommonMethods - Sucessfully clicked on Close_XPATH
+2022-10-10 21:05:44 ERROR CommonMethods - Not able switch to window no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7f313e8e6800530effd32fd75ad8270, getCurrentWindowHandle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60327}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60327/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f7f313e8e6800530effd32fd75ad8270
+2022-10-10 21:06:46 ERROR SetUp - cTAYesResponseTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 21:06:46 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f7f313e8e6800530effd32fd75ad8270, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60327}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60327/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f7f313e8e6800530effd32fd75ad8270
+2022-10-10 21:06:48 INFO  CommonMethods - Row num for TestScenario = cTAYesResponseTest is = 9
+2022-10-10 21:06:50 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =5 | Data =Fail
+2022-10-10 21:06:58 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 21:07:03 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-10 21:07:05 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 21:07:05 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 21:07:06 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 21:07:08 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 21:07:08 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 21:07:08 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 21:07:09 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 21:07:09 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 21:07:10 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 21:07:12 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 21:07:15 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 21:07:15 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 21:07:15 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 21:07:16 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 21:07:16 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 21:07:16 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-10 21:07:19 INFO  CommonMethods - Sucessfully clicked on Yes_XPATH
+2022-10-10 21:07:23 INFO  CommonMethods - Swiched to Child window name : Call To Action || URL :https://talicaia.crmnext.biz/sn7_1/app/CRMNextObject/StartJourney?x=ypslkb5r3sxgmjugu6njswvhhg7qlgcfgtb5y2p3k56vy7845p6m62m74ngmfsjhk7ydc6uev92qawyayqgbx2dm3b6k7t5nvhsgtt5pythyfxwbqgnkefw6vtlvgsltvwrnbrfcasymmchtgs7ey9m472&winpop=1
+2022-10-10 21:07:23 INFO  ScreenShot - ScreenShot captured Childwindow || Status :Pass
+2022-10-10 21:07:24 INFO  CommonMethods - Data = Web Sucessfully Selected from dropdown Mode_XPATH
+2022-10-10 21:07:24 INFO  CommonMethods - Sucessfully clicked on SubCategory_XPATH
+2022-10-10 21:07:25 INFO  CommonMethods - Data sucessfully entered on SubCategory_XPATH = Others
+2022-10-10 21:07:25 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 21:07:26 INFO  CommonMethods - Sucessfully clicked on Others_XPATH
+2022-10-10 21:07:26 INFO  CommonMethods - Sucessfully clicked on SubSubCategory_XPATH
+2022-10-10 21:07:26 INFO  CommonMethods - Data sucessfully entered on SubSubCategory_XPATH = Request
+2022-10-10 21:07:27 INFO  CommonMethods - Sucessfully clicked on Request_XPATH
+2022-10-10 21:07:27 INFO  CommonMethods - Sucessfully clicked on Subject_XPATH
+2022-10-10 21:07:28 INFO  CommonMethods - Data sucessfully entered on Subject_XPATH = Others-Request
+2022-10-10 21:07:29 INFO  CommonMethods - Sucessfully clicked on Next111_XPATH
+2022-10-10 21:07:34 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =77995635
+2022-10-10 21:07:35 INFO  CommonMethods - Sucessfully clicked on Close_XPATH
+2022-10-10 21:07:35 ERROR CommonMethods - Not able to switch to parent window no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b316dcf77d7dd2a92d83d796ecef0e89, getCurrentWindowHandle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60505/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b316dcf77d7dd2a92d83d796ecef0e89
+2022-10-10 21:08:38 ERROR SetUp - cTAYesResponseTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 21:08:38 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b316dcf77d7dd2a92d83d796ecef0e89, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60505}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60505/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b316dcf77d7dd2a92d83d796ecef0e89
+2022-10-10 21:08:40 INFO  CommonMethods - Row num for TestScenario = cTAYesResponseTest is = 9
+2022-10-10 21:08:41 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =5 | Data =Fail
+2022-10-10 21:08:48 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 21:08:52 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-10 21:08:55 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 21:08:55 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 21:08:56 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 21:08:57 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 21:08:58 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 21:08:58 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 21:08:58 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 21:08:59 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 21:08:59 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 21:09:02 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 21:09:04 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 21:09:04 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 21:09:04 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 21:09:05 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 21:09:05 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 21:09:06 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-10 21:09:07 INFO  CommonMethods - Sucessfully clicked on Yes_XPATH
+2022-10-10 21:09:12 INFO  CommonMethods - Swiched to Child window name : Call To Action || URL :https://talicaia.crmnext.biz/sn7_1/app/CRMNextObject/StartJourney?x=ypslkb5r3sxgmjugu6njswvhhg7qlgcfgtb5y2p3k56vy7845p6m62m74ngmfsjhk7ydc6uev92qawyayqgbx2dm3b6k7t5nvhsgtt5pythyfxwbqgnkefw6vtlvgsltvwrnbrfcasymmchtgs7ey9m472&winpop=1
+2022-10-10 21:09:12 INFO  ScreenShot - ScreenShot captured Childwindow || Status :Pass
+2022-10-10 21:09:12 INFO  CommonMethods - Data = Web Sucessfully Selected from dropdown Mode_XPATH
+2022-10-10 21:09:13 INFO  CommonMethods - Sucessfully clicked on SubCategory_XPATH
+2022-10-10 21:09:13 INFO  CommonMethods - Data sucessfully entered on SubCategory_XPATH = Others
+2022-10-10 21:09:14 INFO  CommonMethods - Sucessfully clicked on Others_XPATH
+2022-10-10 21:09:14 INFO  CommonMethods - Sucessfully clicked on SubSubCategory_XPATH
+2022-10-10 21:09:15 INFO  CommonMethods - Data sucessfully entered on SubSubCategory_XPATH = Request
+2022-10-10 21:09:16 INFO  CommonMethods - Sucessfully clicked on Request_XPATH
+2022-10-10 21:09:16 INFO  CommonMethods - Sucessfully clicked on Subject_XPATH
+2022-10-10 21:09:17 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 21:09:17 INFO  CommonMethods - Data sucessfully entered on Subject_XPATH = Others-Request
+2022-10-10 21:09:17 INFO  CommonMethods - Sucessfully clicked on Next111_XPATH
+2022-10-10 21:09:22 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =77995636
+2022-10-10 21:09:23 INFO  CommonMethods - Sucessfully clicked on Close_XPATH
+2022-10-10 22:27:54 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-10-10 22:27:57 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 22:27:59 INFO  SetUp - Test Case_cTAResponseReportTest_Successfully Started
+2022-10-10 22:28:01 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 22:28:01 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 22:28:04 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 22:28:06 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 22:28:06 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 22:28:06 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 22:28:07 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 22:28:07 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 22:28:08 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 22:28:12 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 22:28:14 INFO  CommonMethods - Sucessfully clicked on Report_XPATH
+2022-10-10 22:29:14 ERROR SetUp - cTAResponseReportTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Call To Action - ( 1 )'] (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 22:29:14 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1b57d84c1a1e43d0ffe013161f777e04, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63462}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63462/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b57d84c1a1e43d0ffe013161f777e04
+2022-10-10 22:29:15 INFO  CommonMethods - Row num for TestScenario = cTAResponseReportTest is = 4
+2022-10-10 22:29:16 INFO  ExcelOperation - Write to excel with : Row=4 | Cell =5 | Data =Fail
+2022-10-10 22:29:53 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 22:30:08 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 22:30:10 INFO  SetUp - Test Case_cTAResponseReportTest_Successfully Started
+2022-10-10 22:30:11 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 22:30:11 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 22:30:14 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 22:30:15 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 22:30:15 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 22:30:16 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-10-10 22:30:16 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 22:30:16 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 22:30:17 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 22:30:23 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 22:30:24 INFO  CommonMethods - Sucessfully clicked on Report_XPATH
+2022-10-10 22:31:20 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 22:31:22 INFO  SetUp - Test Case_cTAResponseReportTest_Successfully Started
+2022-10-10 22:31:23 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 22:31:23 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 22:31:24 ERROR SetUp - cTAResponseReportTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //span[normalize-space()='Call To Action - ( 1 )'] (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 22:31:24 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b68e6451502728099e7fda072ac30a87, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63567}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63567/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b68e6451502728099e7fda072ac30a87
+2022-10-10 22:31:25 INFO  CommonMethods - Row num for TestScenario = cTAResponseReportTest is = 4
+2022-10-10 22:31:26 INFO  ExcelOperation - Write to excel with : Row=4 | Cell =5 | Data =Fail
+2022-10-10 22:31:26 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 22:31:29 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 22:31:29 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 22:31:30 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-10-10 22:31:30 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 22:31:32 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 22:31:33 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 22:31:37 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 22:31:39 INFO  CommonMethods - Sucessfully clicked on Report_XPATH
+2022-10-10 22:31:40 INFO  CommonMethods - Sucessfully clicked on CallToAction_XPATH
+2022-10-10 22:31:40 INFO  CommonMethods - Sucessfully clicked on CallToActionResponse_XPATH
+2022-10-10 22:31:41 INFO  CommonMethods - Swiched to Child window name : Call To Action Response || URL :https://talicaia.crmnext.biz/sn7_1/app/Report/GetReportDetailControl?x=3nc2ksnk2m6gq7vf7478g2wpqc2knetj369xurxx3lcrwuqjly5q&winpop=1
+2022-10-10 22:32:03 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 22:32:41 ERROR SetUp - cTAResponseReportTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class='menupopover'] (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 22:32:41 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fb833c6e418d3e4d3338e7a9d52eda3f, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63637}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63637/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fb833c6e418d3e4d3338e7a9d52eda3f
+2022-10-10 22:32:45 INFO  CommonMethods - Row num for TestScenario = cTAResponseReportTest is = 4
+2022-10-10 22:32:47 INFO  ExcelOperation - Write to excel with : Row=4 | Cell =5 | Data =Fail
+2022-10-10 22:32:52 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 22:33:46 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 22:33:54 INFO  SetUp - Test Case_cTAResponseReportTest_Successfully Started
+2022-10-10 22:33:56 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 22:33:56 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 22:33:59 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 22:34:02 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 22:34:02 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 22:34:03 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-10-10 22:34:04 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 22:34:06 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 22:34:07 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 22:34:11 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 22:34:13 INFO  CommonMethods - Sucessfully clicked on Report_XPATH
+2022-10-10 22:34:14 INFO  CommonMethods - Sucessfully clicked on CallToAction_XPATH
+2022-10-10 22:34:14 INFO  CommonMethods - Sucessfully clicked on CallToActionResponse_XPATH
+2022-10-10 22:34:15 INFO  CommonMethods - Swiched to Child window name : Call To Action Response || URL :https://talicaia.crmnext.biz/sn7_1/app/Report/GetReportDetailControl?x=3nc2ksnk2m6gq7vf7478g2wpqc2knetj369xurxx3lcrwuqjly5q&winpop=1
+2022-10-10 22:34:16 INFO  CommonMethods - Sucessfully clicked on CSV_XPATH
+2022-10-10 22:35:19 ERROR SetUp - cTAResponseReportTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 22:35:19 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2c39e8d68b49702825c75d6e1645f74b, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63934}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63934/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2c39e8d68b49702825c75d6e1645f74b
+2022-10-10 22:35:22 INFO  CommonMethods - Row num for TestScenario = cTAResponseReportTest is = 4
+2022-10-10 22:35:24 INFO  ExcelOperation - Write to excel with : Row=4 | Cell =5 | Data =Fail
+2022-10-10 22:36:01 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 22:54:10 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 22:54:12 INFO  SetUp - Test Case_cTANoResponseTest_Successfully Started
+2022-10-10 22:54:14 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 22:54:14 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 22:54:16 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 22:54:18 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 22:54:18 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 22:54:18 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 22:54:19 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 22:54:19 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 22:54:19 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 22:54:25 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 22:54:28 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 22:54:28 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 22:54:29 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 22:54:29 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 22:54:29 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 22:54:30 ERROR CommonMethods - Not Sucessfully clicked on Action_XPATH due to :stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9beeb0fe16ef6d3c119d23fda3177649, clickElement {id=b18f8c17-4a70-4294-bf61-f4db20c4d37a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64843}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64843/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (9beeb0fe16ef6d3c119d23fda3177649)] -> xpath: (//span[@class="ff-bold"])[2]]
+Session ID: 9beeb0fe16ef6d3c119d23fda3177649
+2022-10-10 22:54:55 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-10-10 22:54:57 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-10-10 22:54:57 INFO  LoginPage - Sucessfully logout..
+2022-10-10 22:54:57 INFO  SetUp - Test Case_cTANoResponseTest_Successfully Passed
+2022-10-10 22:54:58 INFO  CommonMethods - Row num for TestScenario = cTANoResponseTest is = 10
+2022-10-10 22:54:59 INFO  ExcelOperation - Write to excel with : Row=10 | Cell =5 | Data =Pass
+2022-10-10 22:54:59 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-10-10 22:55:00 INFO  SetUp - Browser Closed..
+2022-10-10 22:55:03 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 22:56:46 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 22:56:48 INFO  SetUp - Test Case_cTANoResponseTest_Successfully Started
+2022-10-10 22:56:49 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 22:56:49 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 22:56:52 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 22:56:53 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 22:56:54 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 22:56:54 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 22:56:54 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 22:56:55 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 22:56:55 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 22:56:59 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 22:57:03 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 22:57:03 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 22:57:03 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 22:57:04 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 22:57:04 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 22:57:05 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-10 22:57:09 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-10-10 22:57:09 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-10-10 22:57:09 INFO  LoginPage - Sucessfully logout..
+2022-10-10 22:57:09 INFO  SetUp - Test Case_cTANoResponseTest_Successfully Passed
+2022-10-10 22:57:10 INFO  CommonMethods - Row num for TestScenario = cTANoResponseTest is = 10
+2022-10-10 22:57:11 INFO  ExcelOperation - Write to excel with : Row=10 | Cell =5 | Data =Pass
+2022-10-10 22:57:12 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-10-10 22:57:13 INFO  SetUp - Browser Closed..
+2022-10-10 22:57:16 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 23:17:46 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-10-10 23:17:49 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 23:17:51 INFO  SetUp - Test Case_cTANoResponseTest_Successfully Started
+2022-10-10 23:17:52 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 23:17:52 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 23:17:55 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 23:17:57 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 23:17:57 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 23:17:57 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 23:17:58 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 23:17:58 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 23:17:58 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 23:18:03 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 23:18:07 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 23:18:07 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 23:18:07 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 23:18:08 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 23:18:08 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 23:18:09 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-10 23:18:13 INFO  CommonMethods - Sucessfully clicked on No_XPATH
+2022-10-10 23:18:18 INFO  CommonMethods - Swiched to Child window name : Customer Feedback || URL :https://talicaia.crmnext.biz/sn7_1/app/CRMNextObject/StartJourney?x=ypslkb5r3sxgmjugu6njswvhhg7qlgcfgtb5y2p3k56vy7845p6m62m74ngmfsjhk7ydc6uev92qawyayqgbx2dm3b6k7t5nvhsgtt5pythyfxwbqgnrkarz7sv3lc6tkq2mvllkgehw63xqz9gtnt2qu2&winpop=1
+2022-10-10 23:18:18 INFO  CommonMethods - Data = Document Not Available With Customer Sucessfully Selected from dropdown Reason_XPATH
+2022-10-10 23:18:19 INFO  CommonMethods - Sucessfully clicked on Details_XPATH
+2022-10-10 23:18:19 INFO  CommonMethods - Data sucessfully entered on Details_XPATH = No Journey
+2022-10-10 23:18:20 INFO  CommonMethods - Sucessfully clicked on Save_XPATH
+2022-10-10 23:18:23 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =183835451
+2022-10-10 23:18:23 ERROR SetUp - cTANoResponseTest Get Failed due to 
+C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\TestData\AutomationTestData.xlsx (The process cannot access the file because it is being used by another process)
+2022-10-10 23:18:24 INFO  ScreenShot - ScreenShot captured cTANoResponseTest || Status :Fail
+2022-10-10 23:18:25 INFO  CommonMethods - Row num for TestScenario = cTANoResponseTest is = 10
+2022-10-10 23:18:26 INFO  ExcelOperation - Write to excel with : Row=10 | Cell =5 | Data =Fail
+2022-10-10 23:18:27 INFO  SetUp - Browser Closed..
+2022-10-10 23:18:30 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-10 23:18:53 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-10 23:18:55 INFO  SetUp - Test Case_cTANoResponseTest_Successfully Started
+2022-10-10 23:18:56 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-10 23:18:56 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-10 23:18:59 INFO  SetUp - Chrome Browser Launched..
+2022-10-10 23:19:00 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-10 23:19:01 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-10 23:19:01 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-10 23:19:01 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-10 23:19:02 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-10 23:19:02 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-10 23:19:07 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-10 23:19:09 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-10 23:19:10 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-10 23:19:10 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-10 23:19:10 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-10 23:19:11 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-10 23:19:11 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-10 23:19:15 INFO  CommonMethods - Sucessfully clicked on No_XPATH
+2022-10-10 23:19:18 INFO  CommonMethods - Swiched to Child window name : Customer Feedback || URL :https://talicaia.crmnext.biz/sn7_1/app/CRMNextObject/StartJourney?x=ypslkb5r3sxgmjugu6njswvhhg7qlgcfgtb5y2p3k56vy7845p6m62m74ngmfsjhk7ydc6uev92qawyayqgbx2dm3b6k7t5nvhsgtt5pythyfxwbqgnrkarz7sv3lc6tkq2mvllkgehw63xqz9gtnt2qu2&winpop=1
+2022-10-10 23:19:19 INFO  CommonMethods - Data = Document Not Available With Customer Sucessfully Selected from dropdown Reason_XPATH
+2022-10-10 23:19:19 INFO  CommonMethods - Sucessfully clicked on Details_XPATH
+2022-10-10 23:19:20 INFO  CommonMethods - Data sucessfully entered on Details_XPATH = No Journey
+2022-10-10 23:19:20 INFO  CommonMethods - Sucessfully clicked on Save_XPATH
+2022-10-10 23:19:23 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =5 | Data =183835452
+2022-10-10 23:19:25 INFO  CommonMethods - Sucessfully clicked on Close12_XPATH
+2022-10-10 23:20:27 ERROR SetUp - cTANoResponseTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-10 23:20:27 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.101', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6126c633c8b53f0706dadaf73e6dea83, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49207}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49207/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6126c633c8b53f0706dadaf73e6dea83
+2022-10-10 23:20:33 INFO  CommonMethods - Row num for TestScenario = cTANoResponseTest is = 10
+2022-10-10 23:20:34 INFO  ExcelOperation - Write to excel with : Row=10 | Cell =5 | Data =Fail

@@ -1,0 +1,997 @@
+2022-11-26 20:49:10 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-11-26 20:49:12 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-26 20:49:13 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-11-26 20:49:13 INFO  SetUp - Test Case_customer360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 20:49:13 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-11-26 20:49:14 INFO  SetUp - Test Case_policy360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 20:49:14 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-11-26 20:49:19 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-26 20:49:19 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-26 20:49:21 INFO  SetUp - Chrome Browser Launched..
+2022-11-26 20:49:51 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-11-26 20:49:51 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-11-26 20:49:51 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-11-26 20:49:51 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-11-26 20:49:51 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-11-26 20:49:51 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-26 20:50:39 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-26 20:50:40 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-11-26 20:50:40 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-11-26 20:51:41 ERROR SetUp - cCLevel1ValidationTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name="cust_238"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54904}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54904/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bf963c1c90ad8edaf831d67e214831a3
+2022-11-26 20:51:41 INFO  ScreenShot - ScreenShot captured cCLevel1ValidationTest || Status :Fail
+2022-11-26 20:51:41 INFO  CommonMethods - Row num for TestScenario = cCLevel1ValidationTest is = 2
+2022-11-26 20:51:42 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =5 | Data =Fail
+2022-11-26 20:51:44 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-11-26 20:51:44 INFO  SetUp - Browser Closed..
+2022-11-26 20:51:46 INFO  SetUp - Test Case_cCLevel2ValidationTest_Successfully Started
+2022-11-26 20:51:47 INFO  SetUp - Test Case_cCLevel2ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 20:51:48 INFO  SetUp - Test Case_branchLevel1ValidationTest_Successfully Started
+2022-11-26 20:51:50 INFO  SetUp - Test Case_branchLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 20:51:52 INFO  SetUp - Test Case_quickLinksTest_Successfully Started
+2022-11-26 20:51:54 INFO  SetUp - Test Case_quickLinksTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 20:51:57 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-11-26 20:51:59 INFO  SetUp - Test Case_cTAYesResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 20:52:02 INFO  SetUp - Test Case_cTANoResponseTest_Successfully Started
+2022-11-26 20:52:05 INFO  SetUp - Test Case_cTANoResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 20:52:06 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-11-26 20:57:00 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-26 20:57:04 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-11-26 20:57:07 INFO  SetUp - Test Case_customer360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 20:57:09 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-11-26 20:57:11 INFO  SetUp - Test Case_policy360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 20:57:12 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-11-26 20:57:13 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-26 20:57:13 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-26 20:57:14 INFO  SetUp - Chrome Browser Launched..
+2022-11-26 20:57:15 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-11-26 20:57:15 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-11-26 20:57:16 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-11-26 20:57:16 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-11-26 20:57:17 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-11-26 20:57:17 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-26 20:57:22 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-26 20:57:23 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-11-26 20:57:23 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-11-26 20:58:23 ERROR SetUp - cCLevel1ValidationTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name="cust_238"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55533}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55533/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0458a58f95709cbe56b226c01fc0b6c7
+2022-11-26 20:58:23 INFO  ScreenShot - ScreenShot captured cCLevel1ValidationTest || Status :Fail
+2022-11-26 20:58:24 INFO  CommonMethods - Row num for TestScenario = cCLevel1ValidationTest is = 2
+2022-11-26 20:58:25 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =5 | Data =Fail
+2022-11-26 20:58:26 INFO  SetUp - Browser Closed..
+2022-11-26 20:58:27 INFO  SetUp - Test Case_cCLevel2ValidationTest_Successfully Started
+2022-11-26 20:58:28 INFO  SetUp - Test Case_cCLevel2ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 20:58:29 INFO  SetUp - Test Case_branchLevel1ValidationTest_Successfully Started
+2022-11-26 20:58:31 INFO  SetUp - Test Case_branchLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 20:58:33 INFO  SetUp - Test Case_quickLinksTest_Successfully Started
+2022-11-26 20:58:34 INFO  SetUp - Test Case_quickLinksTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 20:58:37 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-11-26 20:58:39 INFO  SetUp - Test Case_cTAYesResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 20:58:41 INFO  SetUp - Test Case_cTANoResponseTest_Successfully Started
+2022-11-26 20:58:44 INFO  SetUp - Test Case_cTANoResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 20:58:45 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-11-26 21:17:49 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-26 21:17:50 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-11-26 21:17:50 INFO  SetUp - Test Case_customer360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 21:17:51 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-11-26 21:17:51 INFO  SetUp - Test Case_policy360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 21:17:51 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-11-26 21:17:51 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-26 21:17:51 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-26 21:17:53 INFO  SetUp - Chrome Browser Launched..
+2022-11-26 21:17:54 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-11-26 21:17:54 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-11-26 21:17:54 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-11-26 21:17:54 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-11-26 21:17:54 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-11-26 21:17:54 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-26 21:18:00 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-26 21:18:00 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-11-26 21:18:00 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-11-26 21:22:47 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-26 21:22:48 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-11-26 21:22:48 INFO  SetUp - Test Case_customer360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 21:22:48 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-11-26 21:22:49 INFO  SetUp - Test Case_policy360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 21:22:49 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-11-26 21:22:49 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-26 21:22:49 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-26 21:22:51 INFO  SetUp - Chrome Browser Launched..
+2022-11-26 21:22:51 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-11-26 21:22:52 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-11-26 21:22:52 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-11-26 21:22:52 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-11-26 21:22:52 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-11-26 21:22:52 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-26 21:22:58 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-26 21:22:58 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-11-26 21:22:58 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-11-26 21:22:59 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-11-26 21:22:59 ERROR CommonMethods - Data Not Sucessfully entered on PolicyNumber_XPATH due to :invalid element state
+  (Session info: chrome=107.0.5304.108)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bd0f137f7127769a3d5077d074015779, clearElement {id=627422c7-23d5-4c91-b99e-7bf55221da6b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56885}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56885/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (bd0f137f7127769a3d5077d074015779)] -> xpath: (//input[@class="textbox field__item"])[1]]
+Session ID: bd0f137f7127769a3d5077d074015779
+2022-11-26 22:13:28 ERROR CommonMethods - Not Sucessfully clicked on SideClick_XPATH due to :Error communicating with the remote browser. It may have died.
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bd0f137f7127769a3d5077d074015779, findElement {using=xpath, value=//div[@class="scrennflowStep__title ff-bold f18"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56885}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56885/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bd0f137f7127769a3d5077d074015779
+2022-11-26 22:14:20 ERROR SetUp - cCLevel1ValidationTest Get Failed due to 
+disconnected: unable to connect to renderer
+  (failed to check if window was closed: disconnected: unable to connect to renderer)
+  (Session info: chrome=107.0.5304.108)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bd0f137f7127769a3d5077d074015779, findElement {using=xpath, value=(//span[@class="ff-regular"])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56885}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56885/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bd0f137f7127769a3d5077d074015779
+2022-11-26 22:14:52 ERROR ScreenShot - Unbale to capture screenshot due to disconnected: unable to connect to renderer
+  (failed to check if window was closed: disconnected: unable to connect to renderer)
+  (Session info: chrome=107.0.5304.108)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [bd0f137f7127769a3d5077d074015779, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56885}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56885/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bd0f137f7127769a3d5077d074015779
+2022-11-26 22:14:52 INFO  CommonMethods - Row num for TestScenario = cCLevel1ValidationTest is = 2
+2022-11-26 22:14:53 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =5 | Data =Fail
+2022-11-26 22:15:28 INFO  SetUp - Test Case_cCLevel2ValidationTest_Successfully Started
+2022-11-26 22:15:29 INFO  SetUp - Test Case_cCLevel2ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:16:03 INFO  SetUp - Test Case_branchLevel1ValidationTest_Successfully Started
+2022-11-26 22:16:04 INFO  SetUp - Test Case_branchLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:16:36 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-11-26 22:16:39 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-26 22:16:44 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-11-26 22:16:46 INFO  SetUp - Test Case_customer360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:16:49 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-11-26 22:16:51 INFO  SetUp - Test Case_policy360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:16:52 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-11-26 22:16:53 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-26 22:16:53 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-26 22:16:55 INFO  SetUp - Chrome Browser Launched..
+2022-11-26 22:16:56 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-11-26 22:16:56 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-11-26 22:16:57 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-11-26 22:16:57 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-11-26 22:16:57 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-11-26 22:16:58 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-26 22:17:04 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-26 22:17:05 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-11-26 22:17:05 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-11-26 22:17:05 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-11-26 22:17:05 ERROR CommonMethods - Data Not Sucessfully entered on PolicyNumber_XPATH due to :invalid element state
+  (Session info: chrome=107.0.5304.108)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [683659548a178e458097f8fe77660980, clearElement {id=6c785a5b-828e-491e-ba7c-4e578c26397a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57806/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (683659548a178e458097f8fe77660980)] -> xpath: (//input[@class="textbox field__item"])[1]]
+Session ID: 683659548a178e458097f8fe77660980
+2022-11-26 22:18:05 ERROR CommonMethods - Not Sucessfully clicked on SideClick_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="scrennflowStep__title ff-bold f18"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57806/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 683659548a178e458097f8fe77660980
+2022-11-26 22:19:06 ERROR SetUp - cCLevel1ValidationTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: (//span[@class="ff-regular"])[2] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57806/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 683659548a178e458097f8fe77660980
+2022-11-26 22:19:06 INFO  ScreenShot - ScreenShot captured cCLevel1ValidationTest || Status :Fail
+2022-11-26 22:19:06 INFO  CommonMethods - Row num for TestScenario = cCLevel1ValidationTest is = 2
+2022-11-26 22:19:08 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =5 | Data =Fail
+2022-11-26 22:19:10 INFO  SetUp - Browser Closed..
+2022-11-26 22:19:11 INFO  SetUp - Test Case_cCLevel2ValidationTest_Successfully Started
+2022-11-26 22:19:12 INFO  SetUp - Test Case_cCLevel2ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:19:13 INFO  SetUp - Test Case_branchLevel1ValidationTest_Successfully Started
+2022-11-26 22:19:15 INFO  SetUp - Test Case_branchLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:19:17 INFO  SetUp - Test Case_quickLinksTest_Successfully Started
+2022-11-26 22:19:18 INFO  SetUp - Test Case_quickLinksTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:19:20 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-11-26 22:19:23 INFO  SetUp - Test Case_cTAYesResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:19:25 INFO  SetUp - Test Case_cTANoResponseTest_Successfully Started
+2022-11-26 22:19:27 INFO  SetUp - Test Case_cTANoResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:19:29 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-11-26 22:27:45 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-26 22:27:45 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-11-26 22:27:46 INFO  SetUp - Test Case_customer360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:27:46 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-11-26 22:27:46 INFO  SetUp - Test Case_policy360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:27:47 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-11-26 22:27:47 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-26 22:27:47 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-26 22:27:48 INFO  SetUp - Chrome Browser Launched..
+2022-11-26 22:27:49 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-11-26 22:27:49 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-11-26 22:27:49 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-11-26 22:27:50 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-11-26 22:27:50 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-11-26 22:27:50 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-26 22:27:57 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-26 22:27:57 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-11-26 22:27:57 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-11-26 22:27:58 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-11-26 22:27:58 ERROR CommonMethods - Data Not Sucessfully entered on PolicyNumber_XPATH due to :invalid element state
+  (Session info: chrome=107.0.5304.108)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f4d765b3ffbd1617ac94bd33de24116, clearElement {id=1048f02e-6c62-4e8c-873a-11c80bb61326}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58186}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58186/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7f4d765b3ffbd1617ac94bd33de24116)] -> xpath: (//input[@class="textbox field__item"])[1]]
+Session ID: 7f4d765b3ffbd1617ac94bd33de24116
+2022-11-26 22:28:58 ERROR CommonMethods - Not Sucessfully clicked on SideClick_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="scrennflowStep__title ff-bold f18"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58186}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58186/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f4d765b3ffbd1617ac94bd33de24116
+2022-11-26 22:29:58 ERROR SetUp - cCLevel1ValidationTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: (//span[@class="ff-regular"])[2] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58186}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58186/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f4d765b3ffbd1617ac94bd33de24116
+2022-11-26 22:29:58 INFO  ScreenShot - ScreenShot captured cCLevel1ValidationTest || Status :Fail
+2022-11-26 22:29:58 INFO  CommonMethods - Row num for TestScenario = cCLevel1ValidationTest is = 2
+2022-11-26 22:30:00 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =5 | Data =Fail
+2022-11-26 22:30:02 INFO  SetUp - Browser Closed..
+2022-11-26 22:30:04 INFO  SetUp - Test Case_cCLevel2ValidationTest_Successfully Started
+2022-11-26 22:30:06 INFO  SetUp - Test Case_cCLevel2ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:30:08 INFO  SetUp - Test Case_branchLevel1ValidationTest_Successfully Started
+2022-11-26 22:30:10 INFO  SetUp - Test Case_branchLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:30:13 INFO  SetUp - Test Case_quickLinksTest_Successfully Started
+2022-11-26 22:30:16 INFO  SetUp - Test Case_quickLinksTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:30:20 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-11-26 22:30:24 INFO  SetUp - Test Case_cTAYesResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:30:27 INFO  SetUp - Test Case_cTANoResponseTest_Successfully Started
+2022-11-26 22:30:29 INFO  SetUp - Test Case_cTANoResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:30:31 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-11-26 22:31:20 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-26 22:31:21 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-11-26 22:31:22 INFO  SetUp - Test Case_customer360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:31:22 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-11-26 22:31:22 INFO  SetUp - Test Case_policy360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:31:22 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-11-26 22:31:23 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-26 22:31:23 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-26 22:31:24 INFO  SetUp - Chrome Browser Launched..
+2022-11-26 22:31:25 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-11-26 22:31:25 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-11-26 22:31:25 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-11-26 22:31:25 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-11-26 22:31:26 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-11-26 22:31:26 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-26 22:31:30 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-26 22:31:30 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-11-26 22:31:30 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-11-26 22:31:30 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-11-26 22:31:30 ERROR CommonMethods - Data Not Sucessfully entered on PolicyNumber_XPATH due to :invalid element state
+  (Session info: chrome=107.0.5304.108)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c5e775286d91d25d65809e62385622b2, clearElement {id=75075394-f6d4-4dfd-bfe5-b20341558586}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58513}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58513/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (c5e775286d91d25d65809e62385622b2)] -> xpath: (//input[@class="textbox field__item"])[1]]
+Session ID: c5e775286d91d25d65809e62385622b2
+2022-11-26 22:56:41 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-26 22:56:42 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-11-26 22:56:43 INFO  SetUp - Test Case_customer360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:56:43 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-11-26 22:56:43 INFO  SetUp - Test Case_policy360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:56:43 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-11-26 22:56:44 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-26 22:56:44 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-26 22:56:45 INFO  SetUp - Chrome Browser Launched..
+2022-11-26 22:56:46 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-11-26 22:56:46 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-11-26 22:56:47 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-11-26 22:56:47 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-11-26 22:56:47 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-11-26 22:56:47 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-26 22:56:54 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-26 22:56:55 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-11-26 22:56:55 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-11-26 22:56:55 INFO  CommonMethods - Sucessfully clicked on PolicyNumber5_XPATH
+2022-11-26 22:56:55 ERROR CommonMethods - Data Not Sucessfully entered on PolicyNumber5_XPATH due to :invalid element state
+  (Session info: chrome=107.0.5304.108)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [32a683ffd961b2436835977939171d4e, clearElement {id=55091554-aca9-4a16-93f8-f9b6b4065757}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59174/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (32a683ffd961b2436835977939171d4e)] -> xpath: (//input[@class="textbox field__item"])[1]]
+Session ID: 32a683ffd961b2436835977939171d4e
+2022-11-26 22:57:56 ERROR CommonMethods - Not Sucessfully clicked on SideClick_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="scrennflowStep__title ff-bold f18"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59174/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 32a683ffd961b2436835977939171d4e
+2022-11-26 22:58:56 ERROR SetUp - cCLevel1ValidationTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: (//span[@class="ff-regular"])[2] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59174}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59174/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 32a683ffd961b2436835977939171d4e
+2022-11-26 22:58:56 INFO  ScreenShot - ScreenShot captured cCLevel1ValidationTest || Status :Fail
+2022-11-26 22:58:56 INFO  CommonMethods - Row num for TestScenario = cCLevel1ValidationTest is = 2
+2022-11-26 22:58:57 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =5 | Data =Fail
+2022-11-26 22:58:58 INFO  SetUp - Browser Closed..
+2022-11-26 22:58:58 INFO  SetUp - Test Case_cCLevel2ValidationTest_Successfully Started
+2022-11-26 22:58:58 INFO  SetUp - Test Case_cCLevel2ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:58:58 INFO  SetUp - Test Case_branchLevel1ValidationTest_Successfully Started
+2022-11-26 22:58:58 INFO  SetUp - Test Case_branchLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:58:59 INFO  SetUp - Test Case_quickLinksTest_Successfully Started
+2022-11-26 22:58:59 INFO  SetUp - Test Case_quickLinksTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:58:59 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-11-26 22:58:59 INFO  SetUp - Test Case_cTAYesResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:59:00 INFO  SetUp - Test Case_cTANoResponseTest_Successfully Started
+2022-11-26 22:59:00 INFO  SetUp - Test Case_cTANoResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 22:59:01 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-11-26 23:06:54 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-11-26 23:06:56 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-26 23:06:56 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-11-26 23:06:57 INFO  SetUp - Test Case_customer360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:06:57 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-11-26 23:06:58 INFO  SetUp - Test Case_policy360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:06:58 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-11-26 23:06:58 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-26 23:06:58 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-26 23:06:59 INFO  SetUp - Chrome Browser Launched..
+2022-11-26 23:07:00 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-11-26 23:07:00 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-11-26 23:07:00 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-11-26 23:07:01 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-11-26 23:07:01 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-11-26 23:07:01 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-26 23:07:06 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-26 23:07:06 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-11-26 23:07:06 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-11-26 23:07:06 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-11-26 23:07:06 ERROR CommonMethods - Data Not Sucessfully entered on PolicyNumber_XPATH due to :invalid element state
+  (Session info: chrome=107.0.5304.108)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3b99e8e364230d62e09531c9a5d9b60f, clearElement {id=622d2005-9d10-4ac6-a718-d121bc41af07}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59602}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59602/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3b99e8e364230d62e09531c9a5d9b60f)] -> xpath: (//input[@class="textbox field__item"])[1]]
+Session ID: 3b99e8e364230d62e09531c9a5d9b60f
+2022-11-26 23:08:06 ERROR CommonMethods - Not Sucessfully clicked on SideClick_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="scrennflowStep__title ff-bold f18"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59602}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59602/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b99e8e364230d62e09531c9a5d9b60f
+2022-11-26 23:09:07 ERROR SetUp - cCLevel1ValidationTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: (//span[@class="ff-regular"])[2] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59602}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59602/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b99e8e364230d62e09531c9a5d9b60f
+2022-11-26 23:09:07 INFO  ScreenShot - ScreenShot captured cCLevel1ValidationTest || Status :Fail
+2022-11-26 23:09:07 INFO  CommonMethods - Row num for TestScenario = cCLevel1ValidationTest is = 2
+2022-11-26 23:09:08 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =5 | Data =Fail
+2022-11-26 23:09:09 INFO  SetUp - Browser Closed..
+2022-11-26 23:09:09 INFO  SetUp - Test Case_cCLevel2ValidationTest_Successfully Started
+2022-11-26 23:09:09 INFO  SetUp - Test Case_cCLevel2ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:09:09 INFO  SetUp - Test Case_branchLevel1ValidationTest_Successfully Started
+2022-11-26 23:09:10 INFO  SetUp - Test Case_branchLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:09:10 INFO  SetUp - Test Case_quickLinksTest_Successfully Started
+2022-11-26 23:09:10 INFO  SetUp - Test Case_quickLinksTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:09:10 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-11-26 23:09:10 INFO  SetUp - Test Case_cTAYesResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:09:11 INFO  SetUp - Test Case_cTANoResponseTest_Successfully Started
+2022-11-26 23:09:11 INFO  SetUp - Test Case_cTANoResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:09:12 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-11-26 23:13:58 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-26 23:13:58 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-11-26 23:13:59 INFO  SetUp - Test Case_customer360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:13:59 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-11-26 23:14:00 INFO  SetUp - Test Case_policy360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:14:00 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-11-26 23:14:00 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-26 23:14:00 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-26 23:14:01 INFO  SetUp - Chrome Browser Launched..
+2022-11-26 23:14:02 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-11-26 23:14:03 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-11-26 23:14:03 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-11-26 23:14:03 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-11-26 23:14:03 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-11-26 23:14:03 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-26 23:14:07 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-26 23:14:07 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-11-26 23:14:07 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-11-26 23:14:07 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-11-26 23:14:07 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-11-26 23:14:07 ERROR CommonMethods - Data Not Sucessfully entered on PolicyNumber_XPATH due to :invalid element state
+  (Session info: chrome=107.0.5304.108)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [381095b5998a2a056cc339e315f210e9, clearElement {id=5eb25349-5253-46ac-9ac6-5d7429ffef59}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60091}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60091/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (381095b5998a2a056cc339e315f210e9)] -> xpath: (//input[@class="textbox field__item"])[1]]
+Session ID: 381095b5998a2a056cc339e315f210e9
+2022-11-26 23:15:08 ERROR CommonMethods - Not Sucessfully clicked on SideClick_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="scrennflowStep__title ff-bold f18"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60091}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60091/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 381095b5998a2a056cc339e315f210e9
+2022-11-26 23:16:08 ERROR SetUp - cCLevel1ValidationTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: (//span[@class="ff-regular"])[2] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60091}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60091/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 381095b5998a2a056cc339e315f210e9
+2022-11-26 23:16:08 INFO  ScreenShot - ScreenShot captured cCLevel1ValidationTest || Status :Fail
+2022-11-26 23:16:08 INFO  CommonMethods - Row num for TestScenario = cCLevel1ValidationTest is = 2
+2022-11-26 23:16:09 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =5 | Data =Fail
+2022-11-26 23:16:10 INFO  SetUp - Browser Closed..
+2022-11-26 23:16:10 INFO  SetUp - Test Case_cCLevel2ValidationTest_Successfully Started
+2022-11-26 23:16:10 INFO  SetUp - Test Case_cCLevel2ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:16:10 INFO  SetUp - Test Case_branchLevel1ValidationTest_Successfully Started
+2022-11-26 23:16:10 INFO  SetUp - Test Case_branchLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:16:11 INFO  SetUp - Test Case_quickLinksTest_Successfully Started
+2022-11-26 23:16:11 INFO  SetUp - Test Case_quickLinksTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:16:11 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-11-26 23:16:11 INFO  SetUp - Test Case_cTAYesResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:16:12 INFO  SetUp - Test Case_cTANoResponseTest_Successfully Started
+2022-11-26 23:16:12 INFO  SetUp - Test Case_cTANoResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:16:13 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-11-26 23:19:20 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-26 23:19:21 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-11-26 23:19:21 INFO  SetUp - Test Case_customer360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:19:22 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-11-26 23:19:22 INFO  SetUp - Test Case_policy360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:19:22 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-11-26 23:19:23 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-26 23:19:23 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-26 23:19:24 INFO  SetUp - Chrome Browser Launched..
+2022-11-26 23:19:25 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-11-26 23:19:26 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-11-26 23:19:26 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-11-26 23:19:26 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-11-26 23:19:26 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-11-26 23:19:26 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-26 23:19:30 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-26 23:19:31 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-11-26 23:19:31 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-11-26 23:19:31 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-11-26 23:19:31 ERROR SetUp - cCLevel1ValidationTest Get Failed due to 
+javascript error: U330119218 is not defined
+  (Session info: chrome=107.0.5304.108)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f96a53cee5475f39f11b75b877f5b49, executeScript {script=U330119218, args=[]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60451}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60451/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f96a53cee5475f39f11b75b877f5b49
+2022-11-26 23:19:31 INFO  ScreenShot - ScreenShot captured cCLevel1ValidationTest || Status :Fail
+2022-11-26 23:19:31 INFO  CommonMethods - Row num for TestScenario = cCLevel1ValidationTest is = 2
+2022-11-26 23:19:32 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =5 | Data =Fail
+2022-11-26 23:19:33 INFO  SetUp - Browser Closed..
+2022-11-26 23:19:33 INFO  SetUp - Test Case_cCLevel2ValidationTest_Successfully Started
+2022-11-26 23:19:34 INFO  SetUp - Test Case_cCLevel2ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:19:34 INFO  SetUp - Test Case_branchLevel1ValidationTest_Successfully Started
+2022-11-26 23:19:34 INFO  SetUp - Test Case_branchLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:19:35 INFO  SetUp - Test Case_quickLinksTest_Successfully Started
+2022-11-26 23:19:35 INFO  SetUp - Test Case_quickLinksTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:19:35 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-11-26 23:19:36 INFO  SetUp - Test Case_cTAYesResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:19:36 INFO  SetUp - Test Case_cTANoResponseTest_Successfully Started
+2022-11-26 23:19:37 INFO  SetUp - Test Case_cTANoResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:19:38 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-11-26 23:22:10 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-26 23:22:11 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-11-26 23:22:11 INFO  SetUp - Test Case_customer360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:22:12 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-11-26 23:22:12 INFO  SetUp - Test Case_policy360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:22:12 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-11-26 23:22:12 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-26 23:22:12 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-26 23:22:14 INFO  SetUp - Chrome Browser Launched..
+2022-11-26 23:22:15 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-11-26 23:22:15 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-11-26 23:22:15 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-11-26 23:22:15 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-11-26 23:22:15 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-11-26 23:22:15 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-26 23:22:23 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-26 23:22:23 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-11-26 23:22:23 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-11-26 23:22:23 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-11-26 23:22:23 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-11-26 23:22:23 ERROR CommonMethods - Data Not Sucessfully entered on PolicyNumber_XPATH due to :invalid element state
+  (Session info: chrome=107.0.5304.108)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0e64aed31c9701149896c0a6cfe6a934, clearElement {id=b71de9f8-c213-4c1e-844b-58ff39385ce1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60598}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60598/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (0e64aed31c9701149896c0a6cfe6a934)] -> xpath: (//input[@class="textbox field__item"])[1]]
+Session ID: 0e64aed31c9701149896c0a6cfe6a934
+2022-11-26 23:23:24 ERROR CommonMethods - Not Sucessfully clicked on SideClick_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="scrennflowStep__title ff-bold f18"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60598}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60598/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e64aed31c9701149896c0a6cfe6a934
+2022-11-26 23:24:24 ERROR SetUp - cCLevel1ValidationTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: (//span[@class="ff-regular"])[2] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60598}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60598/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0e64aed31c9701149896c0a6cfe6a934
+2022-11-26 23:24:24 INFO  ScreenShot - ScreenShot captured cCLevel1ValidationTest || Status :Fail
+2022-11-26 23:24:24 INFO  CommonMethods - Row num for TestScenario = cCLevel1ValidationTest is = 2
+2022-11-26 23:24:25 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =5 | Data =Fail
+2022-11-26 23:24:26 INFO  SetUp - Browser Closed..
+2022-11-26 23:24:26 INFO  SetUp - Test Case_cCLevel2ValidationTest_Successfully Started
+2022-11-26 23:24:26 INFO  SetUp - Test Case_cCLevel2ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:24:27 INFO  SetUp - Test Case_branchLevel1ValidationTest_Successfully Started
+2022-11-26 23:24:27 INFO  SetUp - Test Case_branchLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:24:27 INFO  SetUp - Test Case_quickLinksTest_Successfully Started
+2022-11-26 23:24:27 INFO  SetUp - Test Case_quickLinksTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:24:27 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-11-26 23:24:28 INFO  SetUp - Test Case_cTAYesResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:24:28 INFO  SetUp - Test Case_cTANoResponseTest_Successfully Started
+2022-11-26 23:24:28 INFO  SetUp - Test Case_cTANoResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:24:29 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-11-26 23:29:43 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-26 23:29:44 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-11-26 23:29:44 INFO  SetUp - Test Case_customer360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:29:45 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-11-26 23:29:45 INFO  SetUp - Test Case_policy360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:29:45 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-11-26 23:29:45 INFO  SetUp - Test Case_cCLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:29:45 INFO  SetUp - Test Case_cCLevel2ValidationTest_Successfully Started
+2022-11-26 23:29:46 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-26 23:29:46 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-26 23:29:47 INFO  SetUp - Chrome Browser Launched..
+2022-11-26 23:29:48 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-11-26 23:29:48 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-11-26 23:29:48 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-11-26 23:29:48 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-11-26 23:29:48 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-11-26 23:29:49 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-26 23:29:53 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-26 23:29:54 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-11-26 23:29:56 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-11-26 23:29:56 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-11-26 23:29:56 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-11-26 23:29:57 INFO  ScreenShot - ScreenShot captured PolicySearch || Status :Pass
+2022-11-26 23:29:57 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-11-26 23:29:57 INFO  ScreenShot - ScreenShot captured Action || Status :Pass
+2022-11-26 23:29:57 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-11-26 23:30:00 INFO  ScreenShot - ScreenShot captured ActionCentre || Status :Pass
+2022-11-26 23:30:00 INFO  CommonMethods - Sucessfully clicked on ActionCentre_XPATH
+2022-11-26 23:30:01 INFO  ScreenShot - ScreenShot captured Level2ValidationJourney || Status :Pass
+2022-11-26 23:30:02 INFO  CommonMethods - Sucessfully clicked on Level2Validation_XPATH
+2022-11-26 23:30:02 INFO  ScreenShot - ScreenShot captured Validate || Status :Pass
+2022-11-26 23:30:02 INFO  CommonMethods - Sucessfully clicked on Toggle11_XPATH
+2022-11-26 23:30:02 INFO  CommonMethods - Sucessfully clicked on Toggle12_XPATH
+2022-11-26 23:30:02 INFO  ScreenShot - ScreenShot captured PassingCriteria || Status :Pass
+2022-11-26 23:30:03 INFO  CommonMethods - Sucessfully clicked on Next3_XPATH
+2022-11-26 23:31:03 ERROR SetUp - cCLevel2ValidationTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class="icon icon-cancel"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61088}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61088/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: efa8a605cf280deef3ed99b6c96fb6ea
+2022-11-26 23:31:03 INFO  ScreenShot - ScreenShot captured cCLevel2ValidationTest || Status :Fail
+2022-11-26 23:31:03 INFO  CommonMethods - Row num for TestScenario = cCLevel2ValidationTest is = 3
+2022-11-26 23:31:04 INFO  ExcelOperation - Write to excel with : Row=3 | Cell =5 | Data =Fail
+2022-11-26 23:31:05 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-11-26 23:31:06 INFO  SetUp - Browser Closed..
+2022-11-26 23:31:09 INFO  SetUp - Test Case_branchLevel1ValidationTest_Successfully Started
+2022-11-26 23:31:11 INFO  SetUp - Test Case_branchLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:31:13 INFO  SetUp - Test Case_quickLinksTest_Successfully Started
+2022-11-26 23:31:15 INFO  SetUp - Test Case_quickLinksTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:31:17 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-11-26 23:31:20 INFO  SetUp - Test Case_cTAYesResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:31:23 INFO  SetUp - Test Case_cTANoResponseTest_Successfully Started
+2022-11-26 23:31:25 INFO  SetUp - Test Case_cTANoResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:31:27 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-11-26 23:33:21 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-26 23:33:26 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-11-26 23:33:28 INFO  SetUp - Test Case_customer360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:33:31 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-11-26 23:33:33 INFO  SetUp - Test Case_policy360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:33:34 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-11-26 23:33:34 INFO  SetUp - Test Case_cCLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:33:35 INFO  SetUp - Test Case_cCLevel2ValidationTest_Successfully Started
+2022-11-26 23:33:37 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-26 23:33:37 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-26 23:33:38 INFO  SetUp - Chrome Browser Launched..
+2022-11-26 23:33:39 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-11-26 23:33:39 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-11-26 23:33:40 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-11-26 23:33:40 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-11-26 23:33:41 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-11-26 23:33:41 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-26 23:33:46 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-26 23:33:46 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-11-26 23:33:48 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-11-26 23:33:48 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-11-26 23:33:49 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-11-26 23:33:49 INFO  ScreenShot - ScreenShot captured PolicySearch || Status :Pass
+2022-11-26 23:33:50 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-11-26 23:33:50 INFO  ScreenShot - ScreenShot captured Action || Status :Pass
+2022-11-26 23:33:50 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-11-26 23:33:52 INFO  ScreenShot - ScreenShot captured ActionCentre || Status :Pass
+2022-11-26 23:33:52 INFO  CommonMethods - Sucessfully clicked on ActionCentre_XPATH
+2022-11-26 23:33:53 INFO  ScreenShot - ScreenShot captured Level2ValidationJourney || Status :Pass
+2022-11-26 23:33:55 INFO  CommonMethods - Sucessfully clicked on Level2Validation_XPATH
+2022-11-26 23:33:55 INFO  ScreenShot - ScreenShot captured Validate || Status :Pass
+2022-11-26 23:33:55 INFO  CommonMethods - Sucessfully clicked on Toggle11_XPATH
+2022-11-26 23:33:55 INFO  CommonMethods - Sucessfully clicked on Toggle12_XPATH
+2022-11-26 23:33:55 INFO  ScreenShot - ScreenShot captured PassingCriteria || Status :Pass
+2022-11-26 23:33:55 INFO  CommonMethods - Sucessfully clicked on Next3_XPATH
+2022-11-26 23:34:57 ERROR SetUp - cCLevel2ValidationTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class="icon icon-close"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61303}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61303/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c4c1b80b68ed8ead4838673f32a0653
+2022-11-26 23:34:57 INFO  ScreenShot - ScreenShot captured cCLevel2ValidationTest || Status :Fail
+2022-11-26 23:34:58 INFO  CommonMethods - Row num for TestScenario = cCLevel2ValidationTest is = 3
+2022-11-26 23:35:00 INFO  ExcelOperation - Write to excel with : Row=3 | Cell =5 | Data =Fail
+2022-11-26 23:35:01 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-11-26 23:35:01 INFO  SetUp - Browser Closed..
+2022-11-26 23:35:03 INFO  SetUp - Test Case_branchLevel1ValidationTest_Successfully Started
+2022-11-26 23:35:05 INFO  SetUp - Test Case_branchLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:35:06 INFO  SetUp - Test Case_quickLinksTest_Successfully Started
+2022-11-26 23:35:08 INFO  SetUp - Test Case_quickLinksTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:35:11 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-11-26 23:35:13 INFO  SetUp - Test Case_cTAYesResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:35:16 INFO  SetUp - Test Case_cTANoResponseTest_Successfully Started
+2022-11-26 23:35:18 INFO  SetUp - Test Case_cTANoResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:35:20 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-11-26 23:36:50 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-26 23:36:55 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-11-26 23:36:57 INFO  SetUp - Test Case_customer360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:37:00 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-11-26 23:37:02 INFO  SetUp - Test Case_policy360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:37:03 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-11-26 23:37:03 INFO  SetUp - Test Case_cCLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:37:04 INFO  SetUp - Test Case_cCLevel2ValidationTest_Successfully Started
+2022-11-26 23:37:06 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-26 23:37:06 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-26 23:37:07 INFO  SetUp - Chrome Browser Launched..
+2022-11-26 23:37:08 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-11-26 23:37:08 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-11-26 23:37:09 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-11-26 23:37:09 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-11-26 23:37:10 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-11-26 23:37:10 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-26 23:37:14 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-26 23:37:15 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-11-26 23:37:16 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-11-26 23:37:17 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-11-26 23:37:17 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-11-26 23:37:18 INFO  ScreenShot - ScreenShot captured PolicySearch || Status :Pass
+2022-11-26 23:37:18 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-11-26 23:37:19 INFO  ScreenShot - ScreenShot captured Action || Status :Pass
+2022-11-26 23:37:19 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-11-26 23:37:21 INFO  ScreenShot - ScreenShot captured ActionCentre || Status :Pass
+2022-11-26 23:37:21 INFO  CommonMethods - Sucessfully clicked on ActionCentre_XPATH
+2022-11-26 23:37:22 INFO  ScreenShot - ScreenShot captured Level2ValidationJourney || Status :Pass
+2022-11-26 23:37:23 INFO  CommonMethods - Sucessfully clicked on Level2Validation_XPATH
+2022-11-26 23:37:23 INFO  ScreenShot - ScreenShot captured Validate || Status :Pass
+2022-11-26 23:37:24 INFO  CommonMethods - Sucessfully clicked on Toggle11_XPATH
+2022-11-26 23:37:24 INFO  CommonMethods - Sucessfully clicked on Toggle12_XPATH
+2022-11-26 23:37:24 INFO  ScreenShot - ScreenShot captured PassingCriteria || Status :Pass
+2022-11-26 23:37:24 INFO  CommonMethods - Sucessfully clicked on Next3_XPATH
+2022-11-26 23:37:28 INFO  CommonMethods - Sucessfully clicked on Close22_XPATH
+2022-11-26 23:37:30 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-11-26 23:37:31 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-11-26 23:37:31 INFO  LoginPage - Sucessfully logout..
+2022-11-26 23:37:31 INFO  SetUp - Test Case_cCLevel2ValidationTest_Successfully Passed
+2022-11-26 23:37:32 INFO  CommonMethods - Row num for TestScenario = cCLevel2ValidationTest is = 3
+2022-11-26 23:37:33 INFO  ExcelOperation - Write to excel with : Row=3 | Cell =5 | Data =Pass
+2022-11-26 23:37:35 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-11-26 23:37:35 INFO  SetUp - Browser Closed..
+2022-11-26 23:37:38 INFO  SetUp - Test Case_branchLevel1ValidationTest_Successfully Started
+2022-11-26 23:37:40 INFO  SetUp - Test Case_branchLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:37:42 INFO  SetUp - Test Case_quickLinksTest_Successfully Started
+2022-11-26 23:37:43 INFO  SetUp - Test Case_quickLinksTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:37:46 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-11-26 23:37:48 INFO  SetUp - Test Case_cTAYesResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:37:51 INFO  SetUp - Test Case_cTANoResponseTest_Successfully Started
+2022-11-26 23:37:53 INFO  SetUp - Test Case_cTANoResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:37:55 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-11-26 23:42:20 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-26 23:42:21 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-11-26 23:42:21 INFO  SetUp - Test Case_customer360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:42:22 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-11-26 23:42:22 INFO  SetUp - Test Case_policy360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:42:22 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-11-26 23:42:23 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-26 23:42:23 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-26 23:42:24 INFO  SetUp - Chrome Browser Launched..
+2022-11-26 23:42:25 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-11-26 23:42:25 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-11-26 23:42:25 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-11-26 23:42:26 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-11-26 23:42:26 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-11-26 23:42:26 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-26 23:42:31 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-26 23:42:32 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-11-26 23:42:32 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-11-26 23:43:32 ERROR SetUp - cCLevel1ValidationTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name="cust_238"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61894}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61894/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a6ab0bf085674e0c4ebd541fba1f2689
+2022-11-26 23:43:33 INFO  ScreenShot - ScreenShot captured cCLevel1ValidationTest || Status :Fail
+2022-11-26 23:43:33 INFO  CommonMethods - Row num for TestScenario = cCLevel1ValidationTest is = 2
+2022-11-26 23:43:34 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =5 | Data =Fail
+2022-11-26 23:43:36 INFO  SetUp - Browser Closed..
+2022-11-26 23:43:37 INFO  SetUp - Test Case_cCLevel2ValidationTest_Successfully Started
+2022-11-26 23:43:38 INFO  SetUp - Test Case_cCLevel2ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:43:40 INFO  SetUp - Test Case_branchLevel1ValidationTest_Successfully Started
+2022-11-26 23:43:42 INFO  SetUp - Test Case_branchLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:43:43 INFO  SetUp - Test Case_quickLinksTest_Successfully Started
+2022-11-26 23:43:45 INFO  SetUp - Test Case_quickLinksTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:43:48 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-11-26 23:43:50 INFO  SetUp - Test Case_cTAYesResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:43:53 INFO  SetUp - Test Case_cTANoResponseTest_Successfully Started
+2022-11-26 23:43:56 INFO  SetUp - Test Case_cTANoResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:43:57 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-11-26 23:50:59 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-26 23:51:00 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-11-26 23:51:01 INFO  SetUp - Test Case_customer360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:51:01 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-11-26 23:51:01 INFO  SetUp - Test Case_policy360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:51:01 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-11-26 23:51:02 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-26 23:51:02 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-26 23:51:03 INFO  SetUp - Chrome Browser Launched..
+2022-11-26 23:51:04 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-11-26 23:51:04 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-11-26 23:51:04 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-11-26 23:51:04 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-11-26 23:51:04 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-11-26 23:51:05 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-26 23:51:09 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-26 23:51:09 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-11-26 23:51:09 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-11-26 23:53:16 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-26 23:53:17 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-11-26 23:53:17 INFO  SetUp - Test Case_customer360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:53:18 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-11-26 23:53:18 INFO  SetUp - Test Case_policy360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:53:18 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-11-26 23:53:18 INFO  SetUp - Test Case_cCLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:53:19 INFO  SetUp - Test Case_cCLevel2ValidationTest_Successfully Started
+2022-11-26 23:53:19 INFO  SetUp - Test Case_cCLevel2ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:53:19 INFO  SetUp - Test Case_branchLevel1ValidationTest_Successfully Started
+2022-11-26 23:53:19 INFO  SetUp - Test Case_branchLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:53:19 INFO  SetUp - Test Case_quickLinksTest_Successfully Started
+2022-11-26 23:53:19 INFO  SetUp - Test Case_quickLinksTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:53:20 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-11-26 23:53:20 INFO  SetUp - Test Case_cTAYesResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:53:20 INFO  SetUp - Test Case_cTANoResponseTest_Successfully Started
+2022-11-26 23:53:20 INFO  SetUp - Test Case_cTANoResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:53:55 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-26 23:53:56 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-11-26 23:53:56 INFO  SetUp - Test Case_customer360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:53:56 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-11-26 23:53:57 INFO  SetUp - Test Case_policy360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:53:57 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-11-26 23:53:57 INFO  SetUp - Test Case_cCLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:53:57 INFO  SetUp - Test Case_cCLevel2ValidationTest_Successfully Started
+2022-11-26 23:53:57 INFO  SetUp - Test Case_cCLevel2ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:53:57 INFO  SetUp - Test Case_branchLevel1ValidationTest_Successfully Started
+2022-11-26 23:53:58 INFO  SetUp - Test Case_branchLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:53:58 INFO  SetUp - Test Case_quickLinksTest_Successfully Started
+2022-11-26 23:53:58 INFO  SetUp - Test Case_quickLinksTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:53:58 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-11-26 23:53:58 INFO  SetUp - Test Case_cTAYesResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:53:59 INFO  SetUp - Test Case_cTANoResponseTest_Successfully Started
+2022-11-26 23:53:59 INFO  SetUp - Test Case_cTANoResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:57:13 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-26 23:57:14 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-11-26 23:57:14 INFO  SetUp - Test Case_customer360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:57:15 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-11-26 23:57:15 INFO  SetUp - Test Case_policy360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:57:15 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-11-26 23:57:15 INFO  SetUp - Test Case_cCLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:57:15 INFO  SetUp - Test Case_cCLevel2ValidationTest_Successfully Started
+2022-11-26 23:57:16 INFO  SetUp - Test Case_cCLevel2ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:57:16 INFO  SetUp - Test Case_branchLevel1ValidationTest_Successfully Started
+2022-11-26 23:57:16 INFO  SetUp - Test Case_branchLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:57:16 INFO  SetUp - Test Case_quickLinksTest_Successfully Started
+2022-11-26 23:57:16 INFO  SetUp - Test Case_quickLinksTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:57:17 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-11-26 23:57:17 INFO  SetUp - Test Case_cTAYesResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:57:17 INFO  SetUp - Test Case_cTANoResponseTest_Successfully Started
+2022-11-26 23:57:17 INFO  SetUp - Test Case_cTANoResponseTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:57:17 INFO  SetUp - Test Case_cTAResponseReportTest_Successfully Started
+2022-11-26 23:57:18 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-26 23:57:18 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-26 23:57:19 INFO  SetUp - Chrome Browser Launched..
+2022-11-26 23:57:20 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-11-26 23:57:20 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-11-26 23:57:20 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-11-26 23:57:20 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-11-26 23:57:21 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-11-26 23:57:21 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-26 23:57:25 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-26 23:57:27 INFO  CommonMethods - Sucessfully clicked on Report_XPATH
+2022-11-26 23:57:28 INFO  CommonMethods - Sucessfully clicked on CallToAction_XPATH
+2022-11-26 23:57:28 INFO  CommonMethods - Sucessfully clicked on CallToActionResponse_XPATH
+2022-11-26 23:57:30 INFO  CommonMethods - Swiched to Child window name : Call To Action Response || URL :https://talicaia.crmnext.biz/sn7_1/app/Report/GetReportDetailControl?x=3nc2ksnk2m6gq7vf7478g2wpqc2knetj369xurxx3lcrwuqjly5q&winpop=1
+2022-11-26 23:57:36 INFO  CommonMethods - Sucessfully clicked on CSV_XPATH
+2022-11-26 23:58:38 ERROR SetUp - cTAResponseReportTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+2022-11-26 23:58:38 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=107.0.5304.108)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [867892de60ad7e29c6636f55b612a136, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.108, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62536}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62536/devtoo..., se:cdpVersion: 107.0.5304.108, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 867892de60ad7e29c6636f55b612a136
+2022-11-26 23:58:38 INFO  CommonMethods - Row num for TestScenario = cTAResponseReportTest is = 4
+2022-11-26 23:58:40 INFO  ExcelOperation - Write to excel with : Row=4 | Cell =5 | Data =Fail
+2022-11-26 23:58:42 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-11-26 23:59:48 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-26 23:59:49 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-11-26 23:59:49 INFO  SetUp - Test Case_customer360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:59:50 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-11-26 23:59:50 INFO  SetUp - Test Case_policy360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:59:50 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-11-26 23:59:51 INFO  SetUp - Test Case_cCLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:59:51 INFO  SetUp - Test Case_cCLevel2ValidationTest_Successfully Started
+2022-11-26 23:59:51 INFO  SetUp - Test Case_cCLevel2ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-11-26 23:59:51 INFO  SetUp - Test Case_branchLevel1ValidationTest_Successfully Started
+2022-11-26 23:59:51 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-26 23:59:51 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-26 23:59:53 INFO  SetUp - Chrome Browser Launched..
+2022-11-26 23:59:53 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-11-26 23:59:54 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-11-26 23:59:54 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-11-26 23:59:54 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-11-26 23:59:54 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-11-26 23:59:54 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-26 23:59:59 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH

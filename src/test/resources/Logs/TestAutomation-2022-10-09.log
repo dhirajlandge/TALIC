@@ -1,0 +1,212 @@
+2022-10-09 19:12:27 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-10-09 19:12:29 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-09 19:12:31 INFO  SetUp - Test Case_CTAResponseReport_Successfully Started
+2022-10-09 19:12:33 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-09 19:12:33 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-09 19:12:36 INFO  SetUp - Chrome Browser Launched..
+2022-10-09 19:12:37 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-09 19:12:37 ERROR SetUp - CTAResponseReport Get Failed due to 
+Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)" because the return value of "java.lang.ThreadLocal.get()" is null
+2022-10-09 19:12:37 ERROR SetUp - CTAResponseReport Get Failed due to 
+Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String)" because the return value of "java.lang.ThreadLocal.get()" is null
+2022-10-09 19:12:38 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-10-09 19:12:38 INFO  SetUp - Browser Closed..
+2022-10-09 19:12:41 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-09 19:13:40 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-09 19:13:42 INFO  SetUp - Test Case_CTAResponseReport_Successfully Started
+2022-10-09 19:13:43 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-09 19:13:43 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-09 19:13:46 INFO  SetUp - Chrome Browser Launched..
+2022-10-09 19:13:47 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-09 19:13:47 ERROR SetUp - CTAResponseReport Get Failed due to 
+Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)" because the return value of "java.lang.ThreadLocal.get()" is null
+2022-10-09 19:13:47 ERROR SetUp - CTAResponseReport Get Failed due to 
+Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String)" because the return value of "java.lang.ThreadLocal.get()" is null
+2022-10-09 19:13:48 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-10-09 19:13:48 INFO  SetUp - Browser Closed..
+2022-10-09 19:13:50 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-09 19:16:16 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-09 19:16:18 INFO  SetUp - Test Case_CTAResponseReport_Successfully Started
+2022-10-09 19:16:19 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-09 19:16:19 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-09 19:16:22 INFO  SetUp - Chrome Browser Launched..
+2022-10-09 19:16:23 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-09 19:16:23 ERROR SetUp - CTAResponseReport Get Failed due to 
+Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)" because the return value of "java.lang.ThreadLocal.get()" is null
+2022-10-09 19:16:23 ERROR SetUp - CTAResponseReport Get Failed due to 
+Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String)" because the return value of "java.lang.ThreadLocal.get()" is null
+2022-10-09 19:16:24 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-10-09 19:16:24 INFO  SetUp - Browser Closed..
+2022-10-09 19:16:26 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-09 19:18:17 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-09 19:18:19 INFO  SetUp - Test Case_CTAResponseReport_Successfully Started
+2022-10-09 19:18:20 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-09 19:18:20 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-09 19:18:23 INFO  SetUp - Chrome Browser Launched..
+2022-10-09 19:18:24 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-09 19:18:24 ERROR SetUp - CTAResponseReport Get Failed due to 
+Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)" because the return value of "java.lang.ThreadLocal.get()" is null
+2022-10-09 19:18:24 ERROR SetUp - CTAResponseReport Get Failed due to 
+Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String)" because the return value of "java.lang.ThreadLocal.get()" is null
+2022-10-09 19:18:25 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-10-09 19:18:25 INFO  SetUp - Browser Closed..
+2022-10-09 19:18:27 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-09 19:52:46 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-09 19:52:48 INFO  SetUp - Test Case_CTAResponseReport_Successfully Started
+2022-10-09 19:52:49 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-09 19:52:49 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-09 19:52:52 INFO  SetUp - Chrome Browser Launched..
+2022-10-09 19:52:59 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-09 19:52:59 ERROR SetUp - CTAResponseReport Get Failed due to 
+Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)" because the return value of "java.lang.ThreadLocal.get()" is null
+2022-10-09 19:52:59 ERROR SetUp - CTAResponseReport Get Failed due to 
+Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String)" because the return value of "java.lang.ThreadLocal.get()" is null
+2022-10-09 19:53:00 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-10-09 19:53:01 INFO  SetUp - Browser Closed..
+2022-10-09 19:53:05 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-09 19:53:44 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-09 19:53:46 INFO  SetUp - Test Case_CTAResponseReport_Successfully Started
+2022-10-09 19:53:47 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-09 19:53:47 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-09 19:53:50 INFO  SetUp - Chrome Browser Launched..
+2022-10-09 19:53:51 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-09 19:53:51 ERROR SetUp - CTAResponseReport Get Failed due to 
+Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)" because the return value of "java.lang.ThreadLocal.get()" is null
+2022-10-09 19:53:51 ERROR SetUp - CTAResponseReport Get Failed due to 
+Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String)" because the return value of "java.lang.ThreadLocal.get()" is null
+2022-10-09 19:53:51 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-10-09 19:53:52 INFO  SetUp - Browser Closed..
+2022-10-09 19:53:54 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-09 21:54:38 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-10-09 21:54:41 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-09 21:54:42 INFO  SetUp - Test Case_CTAResponseReport_Successfully Started
+2022-10-09 21:54:44 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-09 21:54:44 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-09 21:54:48 INFO  SetUp - Chrome Browser Launched..
+2022-10-09 21:54:54 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-09 21:54:55 ERROR SetUp - CTAResponseReport Get Failed due to 
+Cannot invoke "com.aventstack.extentreports.ExtentTest.log(com.aventstack.extentreports.Status, com.aventstack.extentreports.markuputils.Markup)" because the return value of "java.lang.ThreadLocal.get()" is null
+2022-10-09 21:54:55 ERROR SetUp - CTAResponseReport Get Failed due to 
+Cannot invoke "com.aventstack.extentreports.ExtentTest.fail(String)" because the return value of "java.lang.ThreadLocal.get()" is null
+2022-10-09 21:54:55 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-10-09 21:54:56 INFO  SetUp - Browser Closed..
+2022-10-09 21:54:59 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com

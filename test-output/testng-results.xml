@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-07T11:43:25 IST" name="Sanity_Suite" finished-at="2022-12-07T11:44:59 IST" duration-ms="93967">
+    <groups>
+    </groups>
+    <test started-at="2022-12-07T11:43:25 IST" name="Customer360" finished-at="2022-12-07T11:44:59 IST" duration-ms="93967">
+      <class name="com.crm.testCases.Customer360CardViewTest">
+        <test-method signature="customer360CardViewTest()[pri:0, instance:com.crm.testCases.Customer360CardViewTest@1b5c3e5f]" started-at="2022-12-07T11:43:25 IST" name="customer360CardViewTest" finished-at="2022-12-07T11:44:53 IST" duration-ms="88496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customer360CardViewTest -->
+        <test-method is-config="true" signature="tearDownTest()[pri:0, instance:com.crm.testCases.Customer360CardViewTest@1b5c3e5f]" started-at="2022-12-07T11:44:57 IST" name="tearDownTest" finished-at="2022-12-07T11:44:59 IST" duration-ms="1627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- com.crm.testCases.Customer360CardViewTest -->
+    </test> <!-- Customer360 -->
+  </suite> <!-- Sanity_Suite -->
+</testng-results>

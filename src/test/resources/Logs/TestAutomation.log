@@ -1,0 +1,71 @@
+2022-12-07 11:43:20 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-12-07 11:43:23 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-12-07 11:43:26 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-12-07 11:43:36 INFO  WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+2022-12-07 11:43:36 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+2022-12-07 11:43:40 INFO  SetUp - Chrome Browser Launched..
+2022-12-07 11:43:41 INFO  SetUp - URL : https://crmpreprod.tataaia.com/sng7/app/login/login
+2022-12-07 11:43:42 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-12-07 11:43:42 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OEAIV36
+2022-12-07 11:43:42 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-12-07 11:43:43 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-12-07 11:43:43 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-12-07 11:43:47 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-12-07 11:43:48 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-12-07 11:43:48 INFO  CommonMethods - Sucessfully clicked on Role_XPATH
+2022-12-07 11:43:48 INFO  CommonMethods - Data = Branch Operations Executive Sucessfully Selected from dropdown Role_XPATH
+2022-12-07 11:44:17 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-12-07 11:44:18 ERROR CommonMethods - Not Sucessfully clicked on CustomerSearch_XPATH due to :element click intercepted: Element <span class="sub-menu-list__label  sm-list__labelThr f13 pointer " style="border: 4px solid yellow;">...</span> is not clickable at point (169, 178). Other element would receive the click: <div class="sub-menu__heading f16 ht60 ph-16 flex items-center justify-between">...</div>
+  (Session info: chrome=108.0.5359.73)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2dbc185496be1fb59ceca095ff5c851b, clickElement {id=d2300785-64ac-4cab-8a91-6a830f014626}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.73, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57363}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57363/devtoo..., se:cdpVersion: 108.0.5359.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (2dbc185496be1fb59ceca095ff5c851b)] -> xpath: //span[normalize-space()='tomer Search']]
+Session ID: 2dbc185496be1fb59ceca095ff5c851b
+2022-12-07 11:44:29 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-12-07 11:44:29 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-12-07 11:44:30 INFO  CommonMethods - Data sucessfully entered on PolicyNumber_XPATH = C000000013
+2022-12-07 11:44:30 INFO  CommonMethods - Sucessfully clicked on SideClick_XPATH
+2022-12-07 11:44:30 INFO  ScreenShot - ScreenShot captured PolicyNumber || Status :Pass
+2022-12-07 11:44:33 INFO  CommonMethods - Sucessfully clicked on CustomerSearchNext_XPATH
+2022-12-07 11:44:35 INFO  CommonMethods - Sucessfully clicked on PolicyValidate_XPATH
+2022-12-07 11:44:35 INFO  CommonMethods - Data = Self Sucessfully Selected from dropdown Validatordropdown_XPATH
+2022-12-07 11:44:36 INFO  CommonMethods - Data = Letter Of Authorization Sucessfully Selected from dropdown Typeofvalidation_XPATH
+2022-12-07 11:44:37 INFO  CommonMethods - Sucessfully clicked on BranchValidateNext_XPATH
+2022-12-07 11:44:38 INFO  CommonMethods - Sucessfully clicked on PhotoUploadNext_XPATH
+2022-12-07 11:44:40 INFO  CommonMethods - Sucessfully clicked on KeyInfo_XPATH
+2022-12-07 11:44:41 INFO  CommonMethods - Sucessfully clicked on ContactInfo_XPATH
+2022-12-07 11:44:41 INFO  CommonMethods - Sucessfully clicked on Policies_XPATH
+2022-12-07 11:44:42 INFO  CommonMethods - Sucessfully clicked on SRSummary_XPATH
+2022-12-07 11:44:43 INFO  CommonMethods - Sucessfully clicked on SRAllFilter1_XPATH
+2022-12-07 11:44:45 INFO  CommonMethods - Sucessfully clicked on SRNewFilter1_XPATH
+2022-12-07 11:44:48 INFO  CommonMethods - Sucessfully clicked on SRInProgressFilter1_XPATH
+2022-12-07 11:44:50 INFO  CommonMethods - Sucessfully clicked on Offers_XPATH
+2022-12-07 11:44:53 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-12-07 11:44:53 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-12-07 11:44:53 INFO  LoginPage - Sucessfully logout..
+2022-12-07 11:44:53 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Passed
+2022-12-07 11:44:55 INFO  CommonMethods - Row num for TestScenario = customer360CardViewTest is = 8
+2022-12-07 11:44:56 INFO  ExcelOperation - Write to excel with : Row=8 | Cell =5 | Data =Pass
+2022-12-07 11:44:58 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-12-07 11:44:59 INFO  SetUp - Browser Closed..
+2022-12-07 11:45:03 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com

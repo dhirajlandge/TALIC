@@ -1,0 +1,233 @@
+2022-09-12 10:46:58 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-12 10:46:58 INFO  SetUp - Test Case_payoutTest_Successfully Started
+2022-09-12 10:47:07 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-12 10:47:07 INFO  WebDriverManager - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+2022-09-12 10:47:08 INFO  Downloader - Downloading https://chromedriver.storage.googleapis.com/105.0.5195.52/chromedriver_win32.zip
+2022-09-12 10:47:10 INFO  Downloader - Extracting driver from compressed file chromedriver_win32.zip
+2022-09-12 10:47:11 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-12 10:47:13 INFO  SetUp - Chrome Browser Launched..
+2022-09-12 10:47:15 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-12 10:47:16 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-12 10:47:16 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-12 10:47:17 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OACRO96
+2022-09-12 10:47:17 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-12 10:47:17 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-12 10:48:35 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-12 10:49:19 INFO  CommonMethods - Sucessfully clicked on Payout_XPATH
+2022-09-12 10:49:19 INFO  ScreenShot - ScreenShot captured PayoutPage || Status :
+2022-09-12 10:49:22 INFO  CommonMethods - Data = New Payouts - Customer Initiated Sucessfully Selected from dropdown Dropdown1_XPATH
+2022-09-12 10:49:29 INFO  CommonMethods - Sucessfully clicked on Import_XPATH
+2022-09-12 10:49:32 INFO  CommonMethods - Swiched to Child window name : Import || URL :https://talicaia.crmnext.biz/sn7_1/app/import/import.aspx?x=3m2mmy6ebprqu5wcha5xnnb7jt247v2a593wyh4t3n99tjm3n76f9cfjssxjyx44py8kj27z6an3gl27tks27avt7q&winpop=1
+2022-09-12 10:49:32 INFO  ScreenShot - ScreenShot captured Childwindow || Status :
+2022-09-12 10:49:45 INFO  ScreenShot - ScreenShot captured FileImport || Status :
+2022-09-12 10:49:48 INFO  CommonMethods - Sucessfully clicked on Finish_XPATH
+2022-09-12 10:49:59 INFO  CommonMethods - Sucessfully clicked on Clickhere_XPATH
+2022-09-12 10:51:03 ERROR SetUp - payoutTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a (tried for 60 second(s) with 500 milliseconds interval)
+2022-09-12 10:51:03 ERROR ScreenShot - Unbale to capture screenshot due to no such window: window was already closed
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.122.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [31ace9b6b205e082c7c25bab2d8cafdc, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63574}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63574/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 31ace9b6b205e082c7c25bab2d8cafdc
+2022-09-12 10:51:03 INFO  CommonMethods - Row num for TestScenario = payoutTest is = 1
+2022-09-12 10:51:04 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail
+2022-09-12 10:58:34 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-12 10:58:34 INFO  SetUp - Test Case_payoutTest_Successfully Started
+2022-09-12 10:58:35 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-12 10:58:35 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-12 10:58:36 INFO  SetUp - Chrome Browser Launched..
+2022-09-12 10:58:38 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-12 10:58:39 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-12 10:58:39 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-12 10:58:39 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OACRO96
+2022-09-12 10:58:39 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-12 10:58:39 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-12 10:58:46 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-12 10:58:48 INFO  CommonMethods - Sucessfully clicked on Payout_XPATH
+2022-09-12 10:58:48 INFO  ScreenShot - ScreenShot captured PayoutPage || Status :
+2022-09-12 10:58:51 INFO  CommonMethods - Data = New Payouts - Customer Initiated Sucessfully Selected from dropdown Dropdown1_XPATH
+2022-09-12 10:58:57 INFO  CommonMethods - Sucessfully clicked on Import_XPATH
+2022-09-12 10:59:00 INFO  CommonMethods - Swiched to Child window name : Import || URL :https://talicaia.crmnext.biz/sn7_1/app/import/import.aspx?x=3m2mmy6ebprqu5wcha5xnnb7jt247v2a593wyh4t3n99tjm3n76f9cfjssxjyx44py8kj27z6an3gl27tks27avt7q&winpop=1
+2022-09-12 10:59:00 INFO  ScreenShot - ScreenShot captured Childwindow || Status :
+2022-09-12 10:59:14 INFO  ScreenShot - ScreenShot captured FileImport || Status :
+2022-09-12 10:59:16 INFO  CommonMethods - Sucessfully clicked on Finish_XPATH
+2022-09-12 11:00:27 ERROR CommonMethods - Not Sucessfully clicked on Clickhere_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //a[@id="m_c_lnkDetails"] (tried for 60 second(s) with 500 milliseconds interval)
+2022-09-12 11:00:28 INFO  CommonMethods - Switched to parent window Payouts - CRMnext - Smart.Easy.Complete with ID CDwindow-417AF0CC146771F1B09F752A6A3066EA
+2022-09-12 11:01:31 ERROR SetUp - payoutTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@data-autoid="ItemName_0"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.122.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63900}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63900/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cbd2f82e2e37e47d3f89091f481adaa7
+2022-09-12 11:01:31 INFO  ScreenShot - ScreenShot captured payoutTest || Status :Fail
+2022-09-12 11:01:31 INFO  CommonMethods - Row num for TestScenario = payoutTest is = 1
+2022-09-12 11:01:32 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail
+2022-09-12 11:01:36 INFO  SetUp - Browser Closed..
+2022-09-12 11:01:52 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-12 11:01:52 INFO  SetUp - Test Case_payoutTest_Successfully Started
+2022-09-12 11:01:53 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-12 11:01:53 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-12 11:01:54 INFO  SetUp - Chrome Browser Launched..
+2022-09-12 11:01:57 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-12 11:01:57 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-12 11:01:57 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-12 11:01:57 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OACRO96
+2022-09-12 11:01:57 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-12 11:01:57 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-12 11:02:04 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-12 11:02:05 INFO  CommonMethods - Sucessfully clicked on Payout_XPATH
+2022-09-12 11:02:05 INFO  ScreenShot - ScreenShot captured PayoutPage || Status :
+2022-09-12 11:02:08 INFO  CommonMethods - Data = New Payouts - Customer Initiated Sucessfully Selected from dropdown Dropdown1_XPATH
+2022-09-12 11:02:15 INFO  CommonMethods - Sucessfully clicked on Import_XPATH
+2022-09-12 11:02:18 INFO  CommonMethods - Swiched to Child window name : Import || URL :https://talicaia.crmnext.biz/sn7_1/app/import/import.aspx?x=3m2mmy6ebprqu5wcha5xnnb7jt247v2a593wyh4t3n99tjm3n76f9cfjssxjyx44py8kj27z6an3gl27tks27avt7q&winpop=1
+2022-09-12 11:02:18 INFO  ScreenShot - ScreenShot captured Childwindow || Status :
+2022-09-12 11:02:31 INFO  ScreenShot - ScreenShot captured FileImport || Status :
+2022-09-12 11:02:33 INFO  CommonMethods - Sucessfully clicked on Finish_XPATH
+2022-09-12 11:02:45 INFO  CommonMethods - Sucessfully clicked on Clickhere_XPATH
+2022-09-12 11:02:46 INFO  CommonMethods - Switched to parent window Import Log Details with ID CDwindow-2B21E3C0FF5F77689D051A99E16391AF
+2022-09-12 11:02:49 INFO  ScreenShot - ScreenShot captured ItemID || Status :
+2022-09-12 11:02:50 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =6 | Data =7602440
+2022-09-12 11:02:50 ERROR SetUp - payoutTest Get Failed due to 
+C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\TestData\AutomationTestData.xlsx (The process cannot access the file because it is being used by another process)
+2022-09-12 11:02:50 INFO  ScreenShot - ScreenShot captured payoutTest || Status :Fail
+2022-09-12 11:02:50 INFO  CommonMethods - Row num for TestScenario = payoutTest is = 1
+2022-09-12 11:02:51 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail
+2022-09-12 11:02:52 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-12 11:02:52 INFO  SetUp - Browser Closed..
+2022-09-12 11:06:40 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-12 11:06:40 INFO  SetUp - Test Case_payoutTest_Successfully Started
+2022-09-12 11:06:41 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-12 11:06:41 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-12 11:06:42 INFO  SetUp - Chrome Browser Launched..
+2022-09-12 11:06:45 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-12 11:06:45 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-12 11:06:45 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-12 11:06:45 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OACRO96
+2022-09-12 11:06:45 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-12 11:06:45 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-12 11:06:52 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-12 11:06:54 INFO  CommonMethods - Sucessfully clicked on Payout_XPATH
+2022-09-12 11:06:54 INFO  ScreenShot - ScreenShot captured PayoutPage || Status :
+2022-09-12 11:06:57 INFO  CommonMethods - Data = New Payouts - Customer Initiated Sucessfully Selected from dropdown Dropdown1_XPATH
+2022-09-12 11:07:04 INFO  CommonMethods - Sucessfully clicked on Import_XPATH
+2022-09-12 11:07:07 INFO  CommonMethods - Swiched to Child window name : Import || URL :https://talicaia.crmnext.biz/sn7_1/app/import/import.aspx?x=3m2mmy6ebprqu5wcha5xnnb7jt247v2a593wyh4t3n99tjm3n76f9cfjssxjyx44py8kj27z6an3gl27tks27avt7q&winpop=1
+2022-09-12 11:07:07 INFO  ScreenShot - ScreenShot captured Childwindow || Status :
+2022-09-12 11:07:20 INFO  ScreenShot - ScreenShot captured FileImport || Status :
+2022-09-12 11:07:24 INFO  CommonMethods - Sucessfully clicked on Finish_XPATH
+2022-09-12 11:07:35 INFO  CommonMethods - Sucessfully clicked on Clickhere_XPATH
+2022-09-12 11:07:36 INFO  CommonMethods - Switched to parent window Import Log Details with ID CDwindow-D49BE512FAB7B0655B1BA90AC5CEC110
+2022-09-12 11:07:40 INFO  ScreenShot - ScreenShot captured ItemID || Status :
+2022-09-12 11:07:41 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =6 | Data =7602442
+2022-09-12 11:07:45 INFO  CommonMethods - Sucessfully clicked on Close_XPATH
+2022-09-12 11:07:50 INFO  CommonMethods - Sucessfully clicked on Search_XPATH
+2022-09-12 11:07:52 INFO  CommonMethods - Sucessfully clicked on PayoutNumber_XPATH
+2022-09-12 11:07:53 INFO  CommonMethods - Data sucessfully entered on PayoutNumber_XPATH = 7602442
+2022-09-12 11:07:56 INFO  ScreenShot - ScreenShot captured EnterPayout || Status :
+2022-09-12 11:07:56 INFO  CommonMethods - Sucessfully clicked on Search1_XPATH
+2022-09-12 11:08:01 INFO  ScreenShot - ScreenShot captured PayoutCreation || Status :
+2022-09-12 11:08:03 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-09-12 11:08:05 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-09-12 11:08:05 INFO  LoginPage - Sucessfully logout..
+2022-09-12 11:08:05 INFO  SetUp - Test Case_payoutTest_Successfully Passed
+2022-09-12 11:08:05 INFO  CommonMethods - Row num for TestScenario = payoutTest is = 1
+2022-09-12 11:08:06 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Pass
+2022-09-12 11:08:07 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-12 11:08:08 INFO  SetUp - Browser Closed..
+2022-09-12 13:11:46 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-12 13:11:46 INFO  SetUp - Test Case_payoutTest_Successfully Started
+2022-09-12 13:11:50 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-12 13:11:50 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-12 13:11:53 INFO  SetUp - Chrome Browser Launched..
+2022-09-12 13:12:14 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-12 13:12:15 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-12 13:12:15 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-12 13:12:15 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OACRO96
+2022-09-12 13:12:16 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-12 13:12:16 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-12 13:13:39 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-12 13:13:50 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-12 13:13:50 INFO  SetUp - Test Case_payoutTest_Successfully Started
+2022-09-12 13:13:53 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-12 13:13:53 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-12 13:13:56 INFO  SetUp - Chrome Browser Launched..
+2022-09-12 13:14:40 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-12 13:14:40 ERROR SetUp - payoutTest Get Failed due to 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.122.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7b70c69f7862f9f57c205ffcf09cd018, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49829/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7b70c69f7862f9f57c205ffcf09cd018
+2022-09-12 13:14:40 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.122.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7b70c69f7862f9f57c205ffcf09cd018, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49829}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49829/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7b70c69f7862f9f57c205ffcf09cd018
+2022-09-12 13:14:40 ERROR SetUp - payoutTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //i[@class="icon icon-obj52"] (tried for 60 second(s) with 500 milliseconds interval)
+2022-09-12 13:14:40 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.102)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.122.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [59de602c6a5a6fe22f5f28bacfa5e93a, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49678}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49678/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 59de602c6a5a6fe22f5f28bacfa5e93a
+2022-09-12 13:14:40 INFO  CommonMethods - Row num for TestScenario = payoutTest is = 1
+2022-09-12 13:14:40 INFO  CommonMethods - Row num for TestScenario = payoutTest is = 1
+2022-09-12 13:14:41 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail
+2022-09-12 13:14:42 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Fail

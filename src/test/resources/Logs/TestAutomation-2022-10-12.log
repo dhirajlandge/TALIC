@@ -1,0 +1,95 @@
+2022-10-12 09:54:19 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-10-12 09:54:28 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-12 09:54:39 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-10-12 09:54:48 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-12 09:54:48 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-12 09:54:52 INFO  SetUp - Chrome Browser Launched..
+2022-10-12 09:54:56 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-12 09:54:57 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-12 09:54:59 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-10-12 09:54:59 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-12 09:55:01 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-12 09:55:02 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-12 09:55:09 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-12 09:55:10 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-12 09:55:14 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-10-12 09:56:14 ERROR SetUp - customer360CardViewTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name="cust_238"] (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-12 09:56:14 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8b9359165076f7e2e146f0fef68561b1, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54045}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54045/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b9359165076f7e2e146f0fef68561b1
+2022-10-12 09:56:19 INFO  CommonMethods - Row num for TestScenario = customer360CardViewTest is = 8
+2022-10-12 09:56:21 INFO  ExcelOperation - Write to excel with : Row=8 | Cell =5 | Data =Fail
+2022-10-12 09:56:59 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-12 17:51:14 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-10-12 17:51:18 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-12 17:51:20 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-10-12 17:51:21 INFO  SetUp - Test Case_customer360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-10-12 17:51:23 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-10-12 17:51:23 INFO  SetUp - Test Case_policy360CardViewTest_get Skipped as its Runmode is 'NO' 
+2022-10-12 17:51:24 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-10-12 17:51:24 INFO  SetUp - Test Case_cCLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-10-12 17:51:25 INFO  SetUp - Test Case_cCLevel2ValidationTest_Successfully Started
+2022-10-12 17:51:26 INFO  SetUp - Test Case_cCLevel2ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-10-12 17:51:26 INFO  SetUp - Test Case_branchLevel1ValidationTest_Successfully Started
+2022-10-12 17:51:27 INFO  SetUp - Test Case_branchLevel1ValidationTest_get Skipped as its Runmode is 'NO' 
+2022-10-12 17:51:27 INFO  SetUp - Test Case_quickLinksTest_Successfully Started
+2022-10-12 17:51:28 INFO  SetUp - Test Case_quickLinksTest_get Skipped as its Runmode is 'NO' 
+2022-10-12 17:51:28 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Started
+2022-10-12 17:51:30 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-12 17:51:30 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-12 17:51:33 INFO  SetUp - Chrome Browser Launched..
+2022-10-12 17:51:35 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-12 17:51:35 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-12 17:51:35 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-12 17:51:36 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-12 17:51:36 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-12 17:51:36 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-12 17:51:41 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-12 17:51:44 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-12 17:51:45 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-12 17:51:45 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-12 17:51:45 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-12 17:51:46 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-12 17:51:47 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-12 17:51:50 INFO  CommonMethods - Sucessfully clicked on Yes_XPATH
+2022-10-12 17:51:57 INFO  CommonMethods - Swiched to Child window name : Call To Action || URL :https://talicaia.crmnext.biz/sn7_1/app/CRMNextObject/StartJourney?x=ypslkb5r3sxgmjugu6njswvhhg7qlgcfgtb5y2p3k56vy7845p6m62m74ngmfsjhk7ydc6uev92qawyayqgbx2dm3b6k7t5nvhsgtt5pythyfxwbqgnkefw6vtlvgsltvwrnbrfcasymmchtgs7ey9m472&winpop=1
+2022-10-12 17:51:58 INFO  ScreenShot - ScreenShot captured Childwindow || Status :Pass
+2022-10-12 17:51:58 INFO  CommonMethods - Data = Web Sucessfully Selected from dropdown Mode_XPATH
+2022-10-12 17:51:59 INFO  CommonMethods - Sucessfully clicked on SubCategory_XPATH
+2022-10-12 17:51:59 INFO  CommonMethods - Data sucessfully entered on SubCategory_XPATH = Others
+2022-10-12 17:52:01 INFO  CommonMethods - Sucessfully clicked on Others_XPATH
+2022-10-12 17:52:02 INFO  CommonMethods - Sucessfully clicked on SubSubCategory_XPATH
+2022-10-12 17:52:02 INFO  CommonMethods - Data sucessfully entered on SubSubCategory_XPATH = Request
+2022-10-12 17:52:03 INFO  CommonMethods - Sucessfully clicked on Request_XPATH
+2022-10-12 17:52:04 INFO  CommonMethods - Sucessfully clicked on Subject_XPATH
+2022-10-12 17:52:05 INFO  CommonMethods - Data sucessfully entered on Subject_XPATH = Others-Request
+2022-10-12 17:52:05 INFO  CommonMethods - Sucessfully clicked on Next111_XPATH
+2022-10-12 17:52:14 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =10 | Data =77995740
+2022-10-12 17:52:16 INFO  CommonMethods - Sucessfully clicked on Close_XPATH
+2022-10-12 17:52:16 INFO  CommonMethods - Swiched to parent window Mansi - CRMnext - Smart.Easy.Complete with ID CDwindow-C40BDB4430DE3AFC3B03A0576305156B
+2022-10-12 17:52:18 INFO  CommonMethods - Sucessfully clicked on Report_XPATH
+2022-10-12 17:52:19 INFO  CommonMethods - Sucessfully clicked on CallToAction_XPATH
+2022-10-12 17:52:19 INFO  CommonMethods - Sucessfully clicked on CallToActionResponse_XPATH
+2022-10-12 17:52:21 INFO  CommonMethods - Swiched to Child window name : Call To Action Response || URL :https://talicaia.crmnext.biz/sn7_1/app/Report/GetReportDetailControl?x=3nc2ksnk2m6gq7vf7478g2wpqc2knetj369xurxx3lcrwuqjly5q&winpop=1
+2022-10-12 17:52:26 INFO  CommonMethods - Swiched to parent window Reports - CRMnext - Smart.Easy.Complete with ID CDwindow-C40BDB4430DE3AFC3B03A0576305156B
+2022-10-12 17:52:28 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-10-12 17:52:29 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-10-12 17:52:29 INFO  LoginPage - Sucessfully logout..
+2022-10-12 17:52:29 INFO  SetUp - Test Case_cTAYesResponseTest_Successfully Passed
+2022-10-12 17:52:37 INFO  CommonMethods - Row num for TestScenario = cTAYesResponseTest is = 9
+2022-10-12 17:52:38 INFO  ExcelOperation - Write to excel with : Row=9 | Cell =5 | Data =Pass
+2022-10-12 17:52:41 INFO  SetUp - Browser Closed..
+2022-10-12 17:52:48 INFO  SetUp - Test Case_cTANoResponseTest_Successfully Started
+2022-10-12 17:52:53 INFO  SetUp - Test Case_cTANoResponseTest_get Skipped as its Runmode is 'NO' 
+2022-10-12 17:52:56 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com

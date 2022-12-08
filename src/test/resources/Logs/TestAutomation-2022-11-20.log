@@ -1,0 +1,232 @@
+2022-11-20 23:33:26 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-11-20 23:33:29 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-11-20 23:33:33 INFO  SetUp - Test Case_customer360CardViewTest_Successfully Started
+2022-11-20 23:34:00 WARN  VersionDetector - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_107 to get latest version of chromedriver (No such host is known (chromedriver.storage.googleapis.com))
+2022-11-20 23:34:11 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-20 23:34:11 INFO  WebDriverManager - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+2022-11-20 23:34:11 INFO  ResolutionCache - Clearing WebDriverManager resolution cache
+2022-11-20 23:34:11 WARN  WebDriverManager - There was an error managing chromedriver 107.0.5304.62 (java.net.UnknownHostException: No such host is known (chromedriver.storage.googleapis.com)) ... trying again avoiding reading release from repository
+2022-11-20 23:34:11 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-20 23:34:11 INFO  WebDriverManager - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+2022-11-20 23:34:11 WARN  WebDriverManager - There was an error managing chromedriver 107.0.5304.62 (java.net.UnknownHostException: chromedriver.storage.googleapis.com) ... trying again using latest driver stored in cache
+2022-11-20 23:34:11 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-20 23:34:11 INFO  WebDriverManager - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+2022-11-20 23:34:11 ERROR WebDriverManager - There was an error managing chromedriver 107.0.5304.62 (java.net.UnknownHostException: chromedriver.storage.googleapis.com)
+io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1286) ~[webdrivermanager-5.0.3.jar:?]
+	at io.github.bonigarcia.wdm.managers.ChromeDriverManager.getDriverUrls(ChromeDriverManager.java:105) ~[webdrivermanager-5.0.3.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.createUrlHandler(WebDriverManager.java:1161) ~[webdrivermanager-5.0.3.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.download(WebDriverManager.java:1009) ~[webdrivermanager-5.0.3.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:927) ~[webdrivermanager-5.0.3.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.fallback(WebDriverManager.java:1156) ~[webdrivermanager-5.0.3.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1137) ~[webdrivermanager-5.0.3.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:933) ~[webdrivermanager-5.0.3.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.handleException(WebDriverManager.java:1130) ~[webdrivermanager-5.0.3.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.manage(WebDriverManager.java:933) ~[webdrivermanager-5.0.3.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.setup(WebDriverManager.java:337) ~[webdrivermanager-5.0.3.jar:?]
+	at com.crm.base.SetUp.setUpTest1(SetUp.java:37) ~[test-classes/:?]
+	at com.crm.commonUtilities.CommonMethods.isTestRunnable(CommonMethods.java:323) ~[test-classes/:?]
+	at com.crm.testCases.Customer360CardViewTest.customer360CardViewTest(Customer360CardViewTest.java:22) ~[test-classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146) ~[testng-7.5.jar:7.5]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128) ~[testng-7.5.jar:7.5]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:808) [testng-7.5.jar:7.5]
+	at org.testng.TestRunner.run(TestRunner.java:603) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.5.jar:7.5]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.5.jar:7.5]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249) [testng-7.5.jar:7.5]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169) [testng-7.5.jar:7.5]
+	at org.testng.TestNG.runSuites(TestNG.java:1092) [testng-7.5.jar:7.5]
+	at org.testng.TestNG.run(TestNG.java:1060) [testng-7.5.jar:7.5]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77) [testng-remote.jar:?]
+Caused by: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+	at java.net.InetAddress$CachedAddresses.get(InetAddress.java:801) ~[?:?]
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1509) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1367) ~[?:?]
+	at java.net.InetAddress.getAllByName(InetAddress.java:1301) ~[?:?]
+	at org.apache.hc.client5.http.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:43) ~[httpclient5-5.0.3.jar:5.0.3]
+	at org.apache.hc.client5.http.impl.io.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:118) ~[httpclient5-5.0.3.jar:5.0.3]
+	at org.apache.hc.client5.http.impl.io.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:409) ~[httpclient5-5.0.3.jar:5.0.3]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:164) ~[httpclient5-5.0.3.jar:5.0.3]
+	at org.apache.hc.client5.http.impl.classic.InternalExecRuntime.connectEndpoint(InternalExecRuntime.java:174) ~[httpclient5-5.0.3.jar:5.0.3]
+	at org.apache.hc.client5.http.impl.classic.ConnectExec.execute(ConnectExec.java:135) ~[httpclient5-5.0.3.jar:5.0.3]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.0.3.jar:5.0.3]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.0.3.jar:5.0.3]
+	at org.apache.hc.client5.http.impl.classic.ProtocolExec.execute(ProtocolExec.java:172) ~[httpclient5-5.0.3.jar:5.0.3]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.0.3.jar:5.0.3]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.0.3.jar:5.0.3]
+	at org.apache.hc.client5.http.impl.classic.HttpRequestRetryExec.execute(HttpRequestRetryExec.java:93) ~[httpclient5-5.0.3.jar:5.0.3]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.0.3.jar:5.0.3]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.0.3.jar:5.0.3]
+	at org.apache.hc.client5.http.impl.classic.ContentCompressionExec.execute(ContentCompressionExec.java:128) ~[httpclient5-5.0.3.jar:5.0.3]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.0.3.jar:5.0.3]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement$1.proceed(ExecChainElement.java:57) ~[httpclient5-5.0.3.jar:5.0.3]
+	at org.apache.hc.client5.http.impl.classic.RedirectExec.execute(RedirectExec.java:116) ~[httpclient5-5.0.3.jar:5.0.3]
+	at org.apache.hc.client5.http.impl.classic.ExecChainElement.execute(ExecChainElement.java:51) ~[httpclient5-5.0.3.jar:5.0.3]
+	at org.apache.hc.client5.http.impl.classic.InternalHttpClient.doExecute(InternalHttpClient.java:178) ~[httpclient5-5.0.3.jar:5.0.3]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:75) ~[httpclient5-5.0.3.jar:5.0.3]
+	at org.apache.hc.client5.http.impl.classic.CloseableHttpClient.execute(CloseableHttpClient.java:89) ~[httpclient5-5.0.3.jar:5.0.3]
+	at io.github.bonigarcia.wdm.online.HttpClient.execute(HttpClient.java:158) ~[webdrivermanager-5.0.3.jar:?]
+	at io.github.bonigarcia.wdm.WebDriverManager.getDriversFromXml(WebDriverManager.java:1271) ~[webdrivermanager-5.0.3.jar:?]
+	... 41 more
+2022-11-20 23:34:11 ERROR SetUp - customer360CardViewTest Get Failed due to 
+io.github.bonigarcia.wdm.config.WebDriverManagerException: java.net.UnknownHostException: chromedriver.storage.googleapis.com
+2022-11-20 23:34:11 ERROR ScreenShot - Unbale to capture screenshot due to Cannot invoke "org.openqa.selenium.TakesScreenshot.getScreenshotAs(org.openqa.selenium.OutputType)" because "scrShot" is null
+2022-11-20 23:34:12 INFO  CommonMethods - Row num for TestScenario = customer360CardViewTest is = 8
+2022-11-20 23:34:13 INFO  ExcelOperation - Write to excel with : Row=8 | Cell =5 | Data =Fail
+2022-11-20 23:34:19 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-11-20 23:34:22 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-20 23:34:22 INFO  WebDriverManager - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+2022-11-20 23:34:22 INFO  ResolutionCache - Clearing WebDriverManager resolution cache
+2022-11-20 23:34:22 WARN  WebDriverManager - There was an error managing chromedriver 107.0.5304.62 (java.net.UnknownHostException: No such host is known (chromedriver.storage.googleapis.com)) ... trying again avoiding reading release from repository
+2022-11-20 23:35:26 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-20 23:35:26 INFO  WebDriverManager - Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver
+2022-11-20 23:35:44 INFO  Downloader - Downloading https://chromedriver.storage.googleapis.com/107.0.5304.62/chromedriver_win32.zip
+2022-11-20 23:35:45 INFO  Downloader - Extracting driver from compressed file chromedriver_win32.zip
+2022-11-20 23:35:45 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-20 23:35:49 INFO  SetUp - Chrome Browser Launched..
+2022-11-20 23:36:00 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-11-20 23:36:00 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-11-20 23:36:02 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-11-20 23:36:03 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-11-20 23:36:04 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-11-20 23:36:05 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-20 23:36:52 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-20 23:36:54 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-11-20 23:37:53 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-11-20 23:37:53 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-11-20 23:37:55 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-11-20 23:37:56 INFO  ScreenShot - ScreenShot captured PolicySearch || Status :Pass
+2022-11-20 23:37:56 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-11-20 23:37:58 INFO  ScreenShot - ScreenShot captured Action || Status :Pass
+2022-11-20 23:37:58 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-11-20 23:38:05 INFO  CommonMethods - Sucessfully clicked on BasicDetails_XPATH
+2022-11-20 23:38:06 INFO  ScreenShot - ScreenShot captured BasicDetails || Status :Pass
+2022-11-20 23:38:06 INFO  CommonMethods - Sucessfully clicked on AgentDetails_XPATH
+2022-11-20 23:38:07 INFO  ScreenShot - ScreenShot captured AgentDetails || Status :Pass
+2022-11-20 23:38:07 INFO  CommonMethods - Sucessfully clicked on MoreInfo_XPATH
+2022-11-20 23:38:07 INFO  ScreenShot - ScreenShot captured MoreInfo || Status :Pass
+2022-11-20 23:38:08 INFO  CommonMethods - Sucessfully clicked on OwnerDetails_XPATH
+2022-11-20 23:38:08 INFO  ScreenShot - ScreenShot captured OwnerDetails || Status :Pass
+2022-11-20 23:38:08 INFO  CommonMethods - Sucessfully clicked on InsuredDetails_XPATH
+2022-11-20 23:38:08 INFO  ScreenShot - ScreenShot captured InsureDetails || Status :Pass
+2022-11-20 23:38:09 INFO  ScreenShot - ScreenShot captured ActionAlert || Status :pass
+2022-11-20 23:38:09 INFO  CommonMethods - Sucessfully clicked on KeyInfo_XPATH
+2022-11-20 23:38:09 INFO  ScreenShot - ScreenShot captured KeyInfo || Status :Pass
+2022-11-20 23:38:10 INFO  CommonMethods - Sucessfully clicked on Primary_XPATH
+2022-11-20 23:38:10 INFO  ScreenShot - ScreenShot captured Primary || Status :Pass
+2022-11-20 23:38:10 INFO  CommonMethods - Sucessfully clicked on Secondary_XPATH
+2022-11-20 23:38:10 INFO  ScreenShot - ScreenShot captured Secondary || Status :Pass
+2022-11-20 23:39:11 ERROR SetUp - policy360CardViewTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@data-autoid="Card_101154"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56571}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56571/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 02e94e2533f1947cc2338c8f82e557ca
+2022-11-20 23:39:11 INFO  ScreenShot - ScreenShot captured policy360CardViewTest || Status :Fail
+2022-11-20 23:39:16 INFO  CommonMethods - Row num for TestScenario = policy360CardViewTest is = 7
+2022-11-20 23:39:18 INFO  ExcelOperation - Write to excel with : Row=7 | Cell =5 | Data =Fail
+2022-11-20 23:39:19 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-11-20 23:39:21 INFO  SetUp - Browser Closed..
+2022-11-20 23:39:23 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-11-20 23:39:25 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-20 23:39:25 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-20 23:39:27 INFO  SetUp - Chrome Browser Launched..
+2022-11-20 23:39:28 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-11-20 23:39:29 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-11-20 23:39:30 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-11-20 23:39:30 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-11-20 23:39:31 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-11-20 23:39:32 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-20 23:39:39 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-20 23:39:40 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-11-20 23:39:40 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-11-20 23:40:40 ERROR SetUp - cCLevel1ValidationTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name="cust_238"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.0.102', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56871}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56871/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4cd003a223739d76bf4811e38641bef8
+2022-11-20 23:40:40 INFO  ScreenShot - ScreenShot captured cCLevel1ValidationTest || Status :Fail
+2022-11-20 23:40:42 INFO  CommonMethods - Row num for TestScenario = cCLevel1ValidationTest is = 2
+2022-11-20 23:40:44 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =5 | Data =Fail
+2022-11-20 23:40:46 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-11-20 23:40:47 INFO  SetUp - Browser Closed..
+2022-11-20 23:40:50 INFO  SetUp - Test Case_cCLevel2ValidationTest_Successfully Started
+2022-11-20 23:40:53 INFO  WebDriverManager - Using chromedriver 107.0.5304.62 (resolved driver for Chrome 107)
+2022-11-20 23:40:53 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\107.0.5304.62\chromedriver.exe
+2022-11-20 23:40:55 INFO  SetUp - Chrome Browser Launched..
+2022-11-20 23:40:57 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-11-20 23:40:57 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-11-20 23:40:58 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-11-20 23:40:59 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-11-20 23:41:01 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-11-20 23:41:02 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-11-20 23:41:08 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-11-20 23:41:09 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-11-20 23:41:12 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-11-20 23:41:13 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-11-20 23:41:15 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-11-20 23:41:15 INFO  ScreenShot - ScreenShot captured PolicySearch || Status :Pass
+2022-11-20 23:41:16 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-11-20 23:41:16 INFO  ScreenShot - ScreenShot captured Action || Status :Pass
+2022-11-20 23:41:17 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-11-20 23:41:20 INFO  ScreenShot - ScreenShot captured ActionCentre || Status :Pass
+2022-11-20 23:41:20 INFO  CommonMethods - Sucessfully clicked on ActionCentre_XPATH
+2022-11-20 23:41:21 INFO  ScreenShot - ScreenShot captured Level2ValidationJourney || Status :Pass
+2022-11-20 23:41:23 INFO  CommonMethods - Sucessfully clicked on Level2Validation_XPATH
+2022-11-20 23:41:23 INFO  ScreenShot - ScreenShot captured Validate || Status :Pass
+2022-11-20 23:41:23 INFO  CommonMethods - Sucessfully clicked on Toggle11_XPATH
+2022-11-20 23:41:24 INFO  CommonMethods - Sucessfully clicked on Toggle12_XPATH
+2022-11-20 23:41:24 INFO  ScreenShot - ScreenShot captured PassingCriteria || Status :Pass
+2022-11-20 23:41:24 INFO  CommonMethods - Sucessfully clicked on Next3_XPATH

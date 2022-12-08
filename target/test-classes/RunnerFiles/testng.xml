@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Sanity_Suite">
+	<listeners>
+		<listener class-name="com.crm.listeners.TestListeners" />
+	</listeners>
+
+	 <test name="Customer360">
+		<classes>
+			<class name="com.crm.testCases.Customer360CardViewTest" />
+		</classes>
+	</test> 
+
+	<!-- <test name="Policy360">
+		<classes>
+			<class name="com.crm.testCases.Policy360CardViewTest" />
+		</classes>
+	</test> 
+
+	 <test name="CCLevel1Policy">
+		<classes>
+			<class name="com.crm.testCases.CCLevel1PolicyValidationTest" />
+		</classes>
+	</test> 
+
+	 <test name="CCLevel1MobileNumber">
+		<classes>
+			<class name="com.crm.testCases.CCLevel1MobileNumberValidationTest" />
+		</classes>
+	</test>
+
+
+	<test name="CCLevel1EmailID">
+		<classes>
+			<class name="com.crm.testCases.CCLevel1EmailIDValidationTest" />
+		</classes>
+	</test>
+
+	<test name="CCLevel1PANNumber">
+		<classes>
+			<class name="com.crm.testCases.CCLevel1PANNumberValidationTest" />
+		</classes>
+	</test>
+
+	<test name="CCLevel1BankAccountNumber">
+		<classes>
+			<class name="com.crm.testCases.CCLevel1BankAccountNumberValidationTest" />
+		</classes>
+	</test>
+
+
+	<test name="BranchLevel1Policy">
+		<classes>
+			<class name="com.crm.testCases.BranchLevel1PolicyValidationTest" />
+		</classes>
+	</test>
+
+	<test name="BranchLevel1MobileNumber">
+		<classes>
+			<class name="com.crm.testCases.BranchLevel1MobileNumberValidationTest" />
+		</classes>
+	</test>
+
+
+	<test name="BranchLevel1EmailID">
+		<classes>
+			<class name="com.crm.testCases.BranchLevel1EmailIDValidationTest" />
+		</classes>
+	</test>
+
+	<test name="BranchLevel1PANNumber">
+		<classes>
+			<class name="com.crm.testCases.BranchLevel1PANNumberValidationTest" />
+		</classes>
+	</test>
+
+	<test name="BranchLevel1BankAccountNumber">
+		<classes>
+			<class name="com.crm.testCases.BranchLevel1BankAccountNumberValidationTest" />
+		</classes>
+	</test>
+
+	<test name="BranchLevel1PolicySelf">
+		<classes>
+			<class name="com.crm.testCases.BranchLevel1PolicySelfValidationTest" />
+		</classes>
+	</test>
+
+	<test name="BranchLevel1MobileNumberSelf">
+		<classes>
+			<class name="com.crm.testCases.BranchLevel1MobileNumberSelfValidationTest" />
+		</classes>
+	</test>
+
+
+	<test name="BranchLevel1EmailIDSelf">
+		<classes>
+			<class name="com.crm.testCases.BranchLevel1EmailIDSelfValidationTest" />
+		</classes>
+	</test>
+
+
+	<test name="BranchLevel1PANNumberSelf">
+		<classes>
+			<class name="com.crm.testCases.BranchLevel1PANNumberSelfValidationTest" />
+		</classes>
+	</test>
+
+	<test name="BranchLevel1BankAccountNumberSelf">
+		<classes>
+			<class name="com.crm.testCases.BranchLevel1BankAccountNumberSelfValidationTest" />
+		</classes>
+	</test>
+
+
+	<test name="CCLevel2">
+		<classes>
+			<class name="com.crm.testCases.CCLevel2ValidationTest" />
+		</classes>
+	</test> 
+
+	<test name="QuickLinks">
+		<classes>
+			<class name="com.crm.testCases.QuickLinksTest" />
+		</classes>
+	</test> 
+
+
+	 <test name="CTAYes">
+		<classes>
+			<class name="com.crm.testCases.CTAYesResponseTest" />
+		</classes>
+	</test> -->
+
+
+	<!-- <test name="CTANo">
+		<classes>
+			<class name="com.crm.testCases.CTANoResponseTest" />
+		</classes>
+	</test>
+
+	  <test name="CTA">
+		<classes>
+			<class name="com.crm.testCases.CTAResponseReportTest" />
+		</classes>
+	</test> 
+
+
+	<test name="AuditLogReport">
+		<classes>
+			<class name="com.crm.testCases.AuditLogReportTest" />
+		</classes>
+	</test>-->
+
+
+</suite> <!-- Suite -->

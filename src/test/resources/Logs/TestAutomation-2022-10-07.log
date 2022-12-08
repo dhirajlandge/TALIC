@@ -1,0 +1,420 @@
+2022-10-07 12:59:51 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-10-07 12:59:58 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-07 13:00:03 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-10-07 13:00:12 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-07 13:00:12 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-07 13:00:15 INFO  SetUp - Chrome Browser Launched..
+2022-10-07 13:00:18 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-07 13:00:19 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-07 13:00:20 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-07 13:00:21 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-07 13:00:22 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-07 13:00:23 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-07 13:00:33 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-07 13:00:35 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-07 13:00:41 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-07 13:00:41 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-07 13:00:43 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-07 13:00:44 INFO  ScreenShot - ScreenShot captured PolicySearch || Status :Pass
+2022-10-07 13:00:44 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-07 13:00:44 INFO  ScreenShot - ScreenShot captured Action || Status :Pass
+2022-10-07 13:00:45 ERROR CommonMethods - Not Sucessfully clicked on Action_XPATH due to :stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.19.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b01772089484113285398dfb52f91246, clickElement {id=a66ade23-f52d-4792-bd89-5222aca7ce0e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57580}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57580/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (b01772089484113285398dfb52f91246)] -> xpath: (//span[@class="ff-bold"])[2]]
+Session ID: b01772089484113285398dfb52f91246
+2022-10-07 13:01:45 ERROR SetUp - policy360CardViewTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class="card-media__text truncate w--100"])[1] (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-07 13:01:45 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.19.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b01772089484113285398dfb52f91246, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57580}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57580/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b01772089484113285398dfb52f91246
+2022-10-07 13:01:48 INFO  CommonMethods - Row num for TestScenario = policy360CardViewTest is = 7
+2022-10-07 13:01:49 INFO  ExcelOperation - Write to excel with : Row=7 | Cell =5 | Data =Fail
+2022-10-07 13:02:15 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-07 13:02:19 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-10-07 13:02:23 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-07 13:02:23 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-07 13:02:26 INFO  SetUp - Chrome Browser Launched..
+2022-10-07 13:02:33 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-07 13:02:33 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-07 13:02:35 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-07 13:02:36 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-07 13:02:37 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-07 13:02:38 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-07 13:02:51 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-07 13:02:52 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-07 13:02:57 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-07 13:02:58 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-07 13:02:59 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-07 13:03:00 INFO  ScreenShot - ScreenShot captured PolicySearch || Status :Pass
+2022-10-07 13:03:00 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-07 13:03:01 INFO  ScreenShot - ScreenShot captured Action || Status :Pass
+2022-10-07 13:03:01 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-07 13:03:09 INFO  CommonMethods - Sucessfully clicked on BasicDetails_XPATH
+2022-10-07 13:03:09 INFO  ScreenShot - ScreenShot captured BasicDetails || Status :Pass
+2022-10-07 13:03:09 INFO  CommonMethods - Sucessfully clicked on AgentDetails_XPATH
+2022-10-07 13:03:10 INFO  ScreenShot - ScreenShot captured AgentDetails || Status :Pass
+2022-10-07 13:03:10 INFO  CommonMethods - Sucessfully clicked on MoreInfo_XPATH
+2022-10-07 13:03:10 INFO  ScreenShot - ScreenShot captured MoreInfo || Status :Pass
+2022-10-07 13:03:11 INFO  CommonMethods - Sucessfully clicked on OwnerDetails_XPATH
+2022-10-07 13:03:11 INFO  ScreenShot - ScreenShot captured OwnerDetails || Status :Pass
+2022-10-07 13:03:11 INFO  CommonMethods - Sucessfully clicked on InsuredDetails_XPATH
+2022-10-07 13:03:12 INFO  ScreenShot - ScreenShot captured InsureDetails || Status :Pass
+2022-10-07 13:03:12 INFO  ScreenShot - ScreenShot captured ActionAlert || Status :pass
+2022-10-07 13:03:12 INFO  CommonMethods - Sucessfully clicked on KeyInfo_XPATH
+2022-10-07 13:03:13 INFO  ScreenShot - ScreenShot captured KeyInfo || Status :Pass
+2022-10-07 13:03:13 INFO  CommonMethods - Sucessfully clicked on Primary_XPATH
+2022-10-07 13:03:13 INFO  ScreenShot - ScreenShot captured Primary || Status :Pass
+2022-10-07 13:03:14 INFO  CommonMethods - Sucessfully clicked on Secondary_XPATH
+2022-10-07 13:03:14 INFO  ScreenShot - ScreenShot captured Secondary || Status :Pass
+2022-10-07 13:03:15 INFO  CommonMethods - Sucessfully clicked on SRAllFilter_XPATH
+2022-10-07 13:03:15 INFO  ScreenShot - ScreenShot captured ALL SR || Status :Pass
+2022-10-07 13:03:15 INFO  CommonMethods - Sucessfully clicked on SRNewFilter_XPATH
+2022-10-07 13:03:15 INFO  ScreenShot - ScreenShot captured NewSR || Status :Pass
+2022-10-07 13:03:16 INFO  CommonMethods - Sucessfully clicked on SRInProgressFilter_XPATH
+2022-10-07 13:03:16 INFO  ScreenShot - ScreenShot captured InPrgressSR || Status :Pass
+2022-10-07 13:03:16 INFO  CommonMethods - Sucessfully clicked on PayoutDetails_XPATH
+2022-10-07 13:03:17 INFO  CommonMethods - Sucessfully clicked on PolicyHistory_XPATH
+2022-10-07 13:03:17 INFO  CommonMethods - Sucessfully clicked on Statements_XPATH
+2022-10-07 13:03:18 INFO  ScreenShot - ScreenShot captured Statements || Status :Pass
+2022-10-07 13:03:18 INFO  CommonMethods - Sucessfully clicked on PolicyDocuments_XPATH
+2022-10-07 13:03:18 INFO  ScreenShot - ScreenShot captured PoloicyDocuments || Status :Pass
+2022-10-07 13:03:21 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-10-07 13:03:24 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-10-07 13:03:24 INFO  LoginPage - Sucessfully logout..
+2022-10-07 13:03:24 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Passed
+2022-10-07 13:03:29 INFO  CommonMethods - Row num for TestScenario = policy360CardViewTest is = 7
+2022-10-07 13:03:30 INFO  ExcelOperation - Write to excel with : Row=7 | Cell =5 | Data =Pass
+2022-10-07 13:03:32 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-10-07 13:03:33 INFO  SetUp - Browser Closed..
+2022-10-07 13:04:39 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-07 13:04:43 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-10-07 13:04:46 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-07 13:04:46 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-07 13:04:49 INFO  SetUp - Chrome Browser Launched..
+2022-10-07 13:04:52 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-07 13:04:52 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-07 13:04:53 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-07 13:04:54 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-07 13:04:55 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-07 13:04:56 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-07 13:05:04 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-07 13:05:06 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-07 13:05:09 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-07 13:05:09 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-07 13:05:11 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-07 13:05:12 INFO  ScreenShot - ScreenShot captured PolicySearch || Status :Pass
+2022-10-07 13:05:12 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-07 13:05:13 INFO  ScreenShot - ScreenShot captured Action || Status :Pass
+2022-10-07 13:05:13 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-07 13:05:19 INFO  CommonMethods - Sucessfully clicked on BasicDetails_XPATH
+2022-10-07 13:05:19 INFO  ScreenShot - ScreenShot captured BasicDetails || Status :Pass
+2022-10-07 13:05:19 INFO  CommonMethods - Sucessfully clicked on AgentDetails_XPATH
+2022-10-07 13:05:20 INFO  ScreenShot - ScreenShot captured AgentDetails || Status :Pass
+2022-10-07 13:05:20 INFO  CommonMethods - Sucessfully clicked on MoreInfo_XPATH
+2022-10-07 13:05:20 INFO  ScreenShot - ScreenShot captured MoreInfo || Status :Pass
+2022-10-07 13:05:21 INFO  CommonMethods - Sucessfully clicked on OwnerDetails_XPATH
+2022-10-07 13:05:21 INFO  ScreenShot - ScreenShot captured OwnerDetails || Status :Pass
+2022-10-07 13:05:21 INFO  CommonMethods - Sucessfully clicked on InsuredDetails_XPATH
+2022-10-07 13:05:21 INFO  ScreenShot - ScreenShot captured InsureDetails || Status :Pass
+2022-10-07 13:05:22 INFO  ScreenShot - ScreenShot captured ActionAlert || Status :pass
+2022-10-07 13:05:22 INFO  CommonMethods - Sucessfully clicked on KeyInfo_XPATH
+2022-10-07 13:05:23 INFO  ScreenShot - ScreenShot captured KeyInfo || Status :Pass
+2022-10-07 13:05:23 INFO  CommonMethods - Sucessfully clicked on Primary_XPATH
+2022-10-07 13:05:23 INFO  ScreenShot - ScreenShot captured Primary || Status :Pass
+2022-10-07 13:05:24 INFO  CommonMethods - Sucessfully clicked on Secondary_XPATH
+2022-10-07 13:05:24 INFO  ScreenShot - ScreenShot captured Secondary || Status :Pass
+2022-10-07 13:05:25 INFO  CommonMethods - Sucessfully clicked on SRAllFilter_XPATH
+2022-10-07 13:05:25 INFO  ScreenShot - ScreenShot captured ALL SR || Status :Pass
+2022-10-07 13:05:25 INFO  CommonMethods - Sucessfully clicked on SRNewFilter_XPATH
+2022-10-07 13:05:26 INFO  ScreenShot - ScreenShot captured NewSR || Status :Pass
+2022-10-07 13:05:26 INFO  CommonMethods - Sucessfully clicked on SRInProgressFilter_XPATH
+2022-10-07 13:05:26 INFO  ScreenShot - ScreenShot captured InPrgressSR || Status :Pass
+2022-10-07 13:05:26 INFO  CommonMethods - Sucessfully clicked on PayoutDetails_XPATH
+2022-10-07 13:05:27 INFO  CommonMethods - Sucessfully clicked on PolicyHistory_XPATH
+2022-10-07 13:05:27 INFO  CommonMethods - Sucessfully clicked on Statements_XPATH
+2022-10-07 13:05:28 INFO  ScreenShot - ScreenShot captured Statements || Status :Pass
+2022-10-07 13:05:28 INFO  CommonMethods - Sucessfully clicked on PolicyDocuments_XPATH
+2022-10-07 13:05:29 INFO  ScreenShot - ScreenShot captured PoloicyDocuments || Status :Pass
+2022-10-07 13:05:31 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-10-07 13:05:32 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-10-07 13:05:32 INFO  LoginPage - Sucessfully logout..
+2022-10-07 13:05:32 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Passed
+2022-10-07 13:05:37 INFO  CommonMethods - Row num for TestScenario = policy360CardViewTest is = 7
+2022-10-07 13:05:38 INFO  ExcelOperation - Write to excel with : Row=7 | Cell =5 | Data =Pass
+2022-10-07 13:05:41 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-10-07 13:05:42 INFO  SetUp - Browser Closed..
+2022-10-07 13:55:57 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-07 13:56:05 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-10-07 13:56:08 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-07 13:56:08 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-07 13:56:12 INFO  SetUp - Chrome Browser Launched..
+2022-10-07 13:56:15 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-07 13:56:15 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-07 13:56:17 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-07 13:56:18 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-07 13:56:19 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-07 13:56:20 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-07 13:56:35 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-07 13:56:36 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-07 13:56:43 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-07 13:56:44 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-07 13:56:45 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-07 13:56:46 INFO  ScreenShot - ScreenShot captured PolicySearch || Status :Pass
+2022-10-07 13:56:46 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-07 13:56:47 INFO  ScreenShot - ScreenShot captured Action || Status :Pass
+2022-10-07 13:56:47 ERROR CommonMethods - Not Sucessfully clicked on Action_XPATH due to :stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.19.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87aaf7cef3bfbbbc46d386da56b65c1a, clickElement {id=f51c2928-9a05-4f59-93d3-d784838f5241}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58676}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58676/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (87aaf7cef3bfbbbc46d386da56b65c1a)] -> xpath: (//span[@class="ff-bold"])[2]]
+Session ID: 87aaf7cef3bfbbbc46d386da56b65c1a
+2022-10-07 13:57:47 ERROR SetUp - policy360CardViewTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class="card-media__text truncate w--100"])[1] (tried for 60 second(s) with 500 milliseconds interval)
+2022-10-07 13:57:47 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=106.0.5249.103)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.19.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [87aaf7cef3bfbbbc46d386da56b65c1a, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58676}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58676/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 87aaf7cef3bfbbbc46d386da56b65c1a
+2022-10-07 13:57:50 INFO  CommonMethods - Row num for TestScenario = policy360CardViewTest is = 7
+2022-10-07 13:57:52 INFO  ExcelOperation - Write to excel with : Row=7 | Cell =5 | Data =Fail
+2022-10-07 13:57:56 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-07 13:58:04 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-10-07 13:58:07 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-07 13:58:07 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-07 13:58:10 INFO  SetUp - Chrome Browser Launched..
+2022-10-07 13:58:14 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-07 13:58:14 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-07 13:58:15 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-07 13:58:16 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-07 13:58:18 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-07 13:58:19 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-07 13:58:31 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-07 13:58:32 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-07 13:58:33 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-07 13:58:38 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-07 13:58:38 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-07 13:58:40 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-07 13:58:40 INFO  ScreenShot - ScreenShot captured PolicySearch || Status :Pass
+2022-10-07 13:58:41 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-07 13:58:41 INFO  ScreenShot - ScreenShot captured Action || Status :Pass
+2022-10-07 13:58:41 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-07 13:58:50 INFO  CommonMethods - Sucessfully clicked on BasicDetails_XPATH
+2022-10-07 13:58:51 INFO  ScreenShot - ScreenShot captured BasicDetails || Status :Pass
+2022-10-07 13:58:51 INFO  CommonMethods - Sucessfully clicked on AgentDetails_XPATH
+2022-10-07 13:58:51 INFO  ScreenShot - ScreenShot captured AgentDetails || Status :Pass
+2022-10-07 13:58:52 INFO  CommonMethods - Sucessfully clicked on MoreInfo_XPATH
+2022-10-07 13:58:52 INFO  ScreenShot - ScreenShot captured MoreInfo || Status :Pass
+2022-10-07 13:58:52 INFO  CommonMethods - Sucessfully clicked on OwnerDetails_XPATH
+2022-10-07 13:58:53 INFO  ScreenShot - ScreenShot captured OwnerDetails || Status :Pass
+2022-10-07 13:58:53 INFO  CommonMethods - Sucessfully clicked on InsuredDetails_XPATH
+2022-10-07 13:58:53 INFO  ScreenShot - ScreenShot captured InsureDetails || Status :Pass
+2022-10-07 13:58:54 INFO  ScreenShot - ScreenShot captured ActionAlert || Status :pass
+2022-10-07 13:58:54 INFO  CommonMethods - Sucessfully clicked on KeyInfo_XPATH
+2022-10-07 13:58:54 INFO  ScreenShot - ScreenShot captured KeyInfo || Status :Pass
+2022-10-07 13:58:55 INFO  CommonMethods - Sucessfully clicked on Primary_XPATH
+2022-10-07 13:58:55 INFO  ScreenShot - ScreenShot captured Primary || Status :Pass
+2022-10-07 13:58:55 INFO  CommonMethods - Sucessfully clicked on Secondary_XPATH
+2022-10-07 13:58:56 INFO  ScreenShot - ScreenShot captured Secondary || Status :Pass
+2022-10-07 13:58:56 INFO  CommonMethods - Sucessfully clicked on SRAllFilter_XPATH
+2022-10-07 13:58:56 INFO  ScreenShot - ScreenShot captured ALL SR || Status :Pass
+2022-10-07 13:58:57 INFO  CommonMethods - Sucessfully clicked on SRNewFilter_XPATH
+2022-10-07 13:58:57 INFO  ScreenShot - ScreenShot captured NewSR || Status :Pass
+2022-10-07 13:58:57 INFO  CommonMethods - Sucessfully clicked on SRInProgressFilter_XPATH
+2022-10-07 13:58:57 INFO  ScreenShot - ScreenShot captured InPrgressSR || Status :Pass
+2022-10-07 13:58:58 INFO  CommonMethods - Sucessfully clicked on PayoutDetails_XPATH
+2022-10-07 13:58:58 INFO  CommonMethods - Sucessfully clicked on PolicyHistory_XPATH
+2022-10-07 13:58:58 INFO  CommonMethods - Sucessfully clicked on Statements_XPATH
+2022-10-07 13:58:59 INFO  ScreenShot - ScreenShot captured Statements || Status :Pass
+2022-10-07 13:59:00 INFO  CommonMethods - Sucessfully clicked on PolicyDocuments_XPATH
+2022-10-07 13:59:00 INFO  ScreenShot - ScreenShot captured PoloicyDocuments || Status :Pass
+2022-10-07 13:59:02 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-10-07 13:59:04 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-10-07 13:59:04 INFO  LoginPage - Sucessfully logout..
+2022-10-07 13:59:04 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Passed
+2022-10-07 13:59:09 INFO  CommonMethods - Row num for TestScenario = policy360CardViewTest is = 7
+2022-10-07 13:59:10 INFO  ExcelOperation - Write to excel with : Row=7 | Cell =5 | Data =Pass
+2022-10-07 13:59:11 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-10-07 13:59:12 INFO  SetUp - Browser Closed..
+2022-10-07 13:59:17 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com
+2022-10-07 15:22:47 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-10-07 15:22:52 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-07 15:22:59 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-10-07 15:23:03 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-07 15:23:03 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-07 15:23:06 INFO  SetUp - Chrome Browser Launched..
+2022-10-07 15:23:09 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-07 15:23:09 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-07 15:23:10 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-07 15:23:11 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-07 15:23:12 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-07 15:23:13 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-07 15:23:35 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-07 15:23:36 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-07 15:23:44 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-07 15:23:45 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-07 15:23:46 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-07 15:23:47 INFO  ScreenShot - ScreenShot captured PolicySearch || Status :Pass
+2022-10-07 15:23:47 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-07 15:23:48 INFO  ScreenShot - ScreenShot captured Action || Status :Pass
+2022-10-07 15:23:48 ERROR CommonMethods - Not Sucessfully clicked on Action_XPATH due to :stale element reference: element is not attached to the page document
+  (Session info: chrome=106.0.5249.103)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.19.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8742231f3b9ab0b9ef19015f55b1cf75, clickElement {id=b00545d4-bb59-4d51-9a84-be687d64532e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 106.0.5249.103, chrome: {chromedriverVersion: 106.0.5249.61 (511755355844..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60495}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60495/devtoo..., se:cdpVersion: 106.0.5249.103, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (8742231f3b9ab0b9ef19015f55b1cf75)] -> xpath: (//span[@class="ff-bold"])[2]]
+Session ID: 8742231f3b9ab0b9ef19015f55b1cf75
+2022-10-07 15:24:38 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-10-07 15:24:45 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Started
+2022-10-07 15:24:49 INFO  WebDriverManager - Using chromedriver 106.0.5249.61 (resolved driver for Chrome 106)
+2022-10-07 15:24:49 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\106.0.5249.61\chromedriver.exe
+2022-10-07 15:24:52 INFO  SetUp - Chrome Browser Launched..
+2022-10-07 15:24:55 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-10-07 15:24:55 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-10-07 15:24:57 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OLAAS33
+2022-10-07 15:24:57 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-10-07 15:24:59 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-10-07 15:25:00 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-10-07 15:25:16 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-10-07 15:25:18 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-10-07 15:25:28 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-10-07 15:25:28 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-10-07 15:25:30 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-10-07 15:25:31 INFO  ScreenShot - ScreenShot captured PolicySearch || Status :Pass
+2022-10-07 15:25:31 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-10-07 15:25:31 INFO  ScreenShot - ScreenShot captured Action || Status :Pass
+2022-10-07 15:25:32 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-10-07 15:25:38 INFO  CommonMethods - Sucessfully clicked on BasicDetails_XPATH
+2022-10-07 15:25:38 INFO  ScreenShot - ScreenShot captured BasicDetails || Status :Pass
+2022-10-07 15:25:38 INFO  CommonMethods - Sucessfully clicked on AgentDetails_XPATH
+2022-10-07 15:25:39 INFO  ScreenShot - ScreenShot captured AgentDetails || Status :Pass
+2022-10-07 15:25:39 INFO  CommonMethods - Sucessfully clicked on MoreInfo_XPATH
+2022-10-07 15:25:39 INFO  ScreenShot - ScreenShot captured MoreInfo || Status :Pass
+2022-10-07 15:25:40 INFO  CommonMethods - Sucessfully clicked on OwnerDetails_XPATH
+2022-10-07 15:25:40 INFO  ScreenShot - ScreenShot captured OwnerDetails || Status :Pass
+2022-10-07 15:25:40 INFO  CommonMethods - Sucessfully clicked on InsuredDetails_XPATH
+2022-10-07 15:25:40 INFO  ScreenShot - ScreenShot captured InsureDetails || Status :Pass
+2022-10-07 15:25:41 INFO  ScreenShot - ScreenShot captured ActionAlert || Status :pass
+2022-10-07 15:25:41 INFO  CommonMethods - Sucessfully clicked on KeyInfo_XPATH
+2022-10-07 15:25:41 INFO  ScreenShot - ScreenShot captured KeyInfo || Status :Pass
+2022-10-07 15:25:42 INFO  CommonMethods - Sucessfully clicked on Primary_XPATH
+2022-10-07 15:25:42 INFO  ScreenShot - ScreenShot captured Primary || Status :Pass
+2022-10-07 15:25:42 INFO  CommonMethods - Sucessfully clicked on Secondary_XPATH
+2022-10-07 15:25:43 INFO  ScreenShot - ScreenShot captured Secondary || Status :Pass
+2022-10-07 15:25:43 INFO  CommonMethods - Sucessfully clicked on SRAllFilter_XPATH
+2022-10-07 15:25:44 INFO  ScreenShot - ScreenShot captured ALL SR || Status :Pass
+2022-10-07 15:25:44 INFO  CommonMethods - Sucessfully clicked on SRNewFilter_XPATH
+2022-10-07 15:25:44 INFO  ScreenShot - ScreenShot captured NewSR || Status :Pass
+2022-10-07 15:25:44 INFO  CommonMethods - Sucessfully clicked on SRInProgressFilter_XPATH
+2022-10-07 15:25:44 INFO  ScreenShot - ScreenShot captured InPrgressSR || Status :Pass
+2022-10-07 15:25:45 INFO  CommonMethods - Sucessfully clicked on PayoutDetails_XPATH
+2022-10-07 15:25:45 INFO  CommonMethods - Sucessfully clicked on PolicyHistory_XPATH
+2022-10-07 15:25:45 INFO  CommonMethods - Sucessfully clicked on Statements_XPATH
+2022-10-07 15:25:46 INFO  ScreenShot - ScreenShot captured Statements || Status :Pass
+2022-10-07 15:25:46 INFO  CommonMethods - Sucessfully clicked on PolicyDocuments_XPATH
+2022-10-07 15:25:47 INFO  ScreenShot - ScreenShot captured PoloicyDocuments || Status :Pass
+2022-10-07 15:25:49 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-10-07 15:25:51 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-10-07 15:25:51 INFO  LoginPage - Sucessfully logout..
+2022-10-07 15:25:52 INFO  SetUp - Test Case_policy360CardViewTest_Successfully Passed
+2022-10-07 15:25:56 INFO  CommonMethods - Row num for TestScenario = policy360CardViewTest is = 7
+2022-10-07 15:25:58 INFO  ExcelOperation - Write to excel with : Row=7 | Cell =5 | Data =Pass
+2022-10-07 15:26:00 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-10-07 15:26:00 INFO  SetUp - Browser Closed..
+2022-10-07 15:26:07 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com

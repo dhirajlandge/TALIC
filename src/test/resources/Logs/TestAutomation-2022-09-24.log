@@ -1,0 +1,1253 @@
+2022-09-24 17:53:46 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 17:53:46 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 17:53:57 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 17:53:57 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 17:54:01 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 17:54:31 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-24 17:54:31 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 17:54:31 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 17:54:32 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-09-24 17:54:32 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 17:54:33 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 17:56:22 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 17:56:24 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-09-24 17:57:21 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-09-24 17:57:21 INFO  LoginPage - Sucessfully logout..
+2022-09-24 17:57:21 INFO  SetUp - Test Case_validationTest_Successfully Passed
+2022-09-24 17:57:21 INFO  CommonMethods - Row num for TestScenario = validationTest is = 2
+2022-09-24 17:57:22 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-09-24 17:57:24 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-24 17:57:25 INFO  SetUp - Browser Closed..
+2022-09-24 18:20:27 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 18:20:27 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 18:20:32 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 18:20:32 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 18:20:35 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 18:20:38 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-24 18:20:38 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 18:20:38 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 18:20:39 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-09-24 18:20:40 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 18:20:41 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 18:20:54 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 18:20:54 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-09-24 18:21:13 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-09-24 18:21:15 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-09-24 18:21:22 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-09-24 18:21:22 INFO  LoginPage - Sucessfully logout..
+2022-09-24 18:21:22 INFO  SetUp - Test Case_validationTest_Successfully Passed
+2022-09-24 18:21:23 INFO  CommonMethods - Row num for TestScenario = validationTest is = 2
+2022-09-24 18:21:24 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-09-24 18:21:26 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-24 18:21:27 INFO  SetUp - Browser Closed..
+2022-09-24 19:10:57 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 19:10:57 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 19:11:00 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 19:11:00 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 19:11:03 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 19:11:05 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-24 19:11:06 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 19:11:06 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 19:11:06 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-09-24 19:11:07 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 19:11:07 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 19:11:39 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 19:11:40 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-09-24 19:11:53 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-09-24 19:11:53 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-09-24 19:11:53 INFO  CommonMethods - Data sucessfully entered on PolicyNumber_XPATH = M337738393
+2022-09-24 19:11:54 INFO  ScreenShot - ScreenShot captured PolicyNumber || Status :Pass
+2022-09-24 19:11:54 INFO  CommonMethods - Sucessfully clicked on Next_XPATH
+2022-09-24 19:11:54 INFO  ScreenShot - ScreenShot captured Validate || Status :Pass
+2022-09-24 19:12:41 ERROR CommonMethods - Not Sucessfully clicked on ClickHere_XPATH due to :chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [82d89d950d09527ca221d9e52ddedcb6, findElement {using=xpath, value=//a[@class="f12"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53696}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53696/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 82d89d950d09527ca221d9e52ddedcb6
+2022-09-24 19:12:51 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 19:12:51 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 19:12:52 ERROR ScreenShot - Unbale to capture screenshot due to chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [82d89d950d09527ca221d9e52ddedcb6, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53696}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53696/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 82d89d950d09527ca221d9e52ddedcb6
+2022-09-24 19:12:53 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 19:12:53 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 19:12:56 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 19:12:57 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-24 19:12:58 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 19:12:58 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 19:12:58 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-09-24 19:12:59 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 19:12:59 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 19:13:02 ERROR CommonMethods - Not Sucessfully clicked on Toggle1_XPATH due to :chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [82d89d950d09527ca221d9e52ddedcb6, findElement {using=xpath, value=(//div[@class="toggle__text"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53696}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53696/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 82d89d950d09527ca221d9e52ddedcb6
+2022-09-24 19:13:09 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 19:13:09 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-09-24 19:13:12 ERROR CommonMethods - Not Sucessfully clicked on Toggle2_XPATH due to :chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [82d89d950d09527ca221d9e52ddedcb6, findElement {using=xpath, value=(//div[@class="toggle__text"])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53696}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53696/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 82d89d950d09527ca221d9e52ddedcb6
+2022-09-24 19:13:20 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-09-24 19:13:20 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-09-24 19:13:20 INFO  CommonMethods - Data sucessfully entered on PolicyNumber_XPATH = M337738393
+2022-09-24 19:13:21 INFO  ScreenShot - ScreenShot captured PolicyNumber || Status :Pass
+2022-09-24 19:13:21 INFO  CommonMethods - Sucessfully clicked on Next_XPATH
+2022-09-24 19:13:21 INFO  CommonMethods - Sucessfully clicked on Next_XPATH
+2022-09-24 19:13:21 INFO  ScreenShot - ScreenShot captured Validate || Status :Pass
+2022-09-24 19:13:23 ERROR CommonMethods - Not Sucessfully clicked on Toggle3_XPATH due to :chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [82d89d950d09527ca221d9e52ddedcb6, findElement {using=xpath, value=(//div[@class="toggle__text"])[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53696}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53696/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 82d89d950d09527ca221d9e52ddedcb6
+2022-09-24 19:13:33 ERROR ScreenShot - Unbale to capture screenshot due to chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [82d89d950d09527ca221d9e52ddedcb6, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53696}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53696/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 82d89d950d09527ca221d9e52ddedcb6
+2022-09-24 19:13:44 ERROR CommonMethods - Not Sucessfully clicked on Next1_XPATH due to :chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [82d89d950d09527ca221d9e52ddedcb6, findElement {using=xpath, value=(//span[@class="ff-regular"])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53696}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53696/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 82d89d950d09527ca221d9e52ddedcb6
+2022-09-24 19:13:54 ERROR ScreenShot - Unbale to capture screenshot due to chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [82d89d950d09527ca221d9e52ddedcb6, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53696}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53696/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 82d89d950d09527ca221d9e52ddedcb6
+2022-09-24 19:14:07 ERROR SetUp - validationTest Get Failed due to 
+chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [82d89d950d09527ca221d9e52ddedcb6, findElement {using=xpath, value=//div[@class="header__item header__profile ht-3 mid relative pointer"]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53696}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53696/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 82d89d950d09527ca221d9e52ddedcb6
+2022-09-24 19:14:17 ERROR ScreenShot - Unbale to capture screenshot due to chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [82d89d950d09527ca221d9e52ddedcb6, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53696}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53696/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 82d89d950d09527ca221d9e52ddedcb6
+2022-09-24 19:14:17 INFO  CommonMethods - Row num for TestScenario = validationTest is = 2
+2022-09-24 19:14:18 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Fail
+2022-09-24 19:14:21 ERROR CommonMethods - Not Sucessfully clicked on ClickHere_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //a[@class="f12"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53845/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ebd8f6d19e0e4d1d95cd84765b756f1
+2022-09-24 19:14:22 INFO  ScreenShot - ScreenShot captured ClickHere || Status :Pass
+2022-09-24 19:15:20 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 19:15:21 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 19:15:22 ERROR CommonMethods - Not Sucessfully clicked on Toggle1_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class="toggle__text"])[1] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53845/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ebd8f6d19e0e4d1d95cd84765b756f1
+2022-09-24 19:15:23 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 19:15:23 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 19:15:26 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 19:15:32 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-24 19:15:33 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 19:15:33 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 19:15:33 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-09-24 19:15:34 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 19:15:34 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 19:16:15 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 19:16:16 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-09-24 19:16:22 ERROR CommonMethods - Not Sucessfully clicked on Toggle2_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class="toggle__text"])[2] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53845/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ebd8f6d19e0e4d1d95cd84765b756f1
+2022-09-24 19:16:39 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-09-24 19:16:40 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-09-24 19:16:40 INFO  CommonMethods - Data sucessfully entered on PolicyNumber_XPATH = M337738393
+2022-09-24 19:16:41 INFO  ScreenShot - ScreenShot captured PolicyNumber || Status :Pass
+2022-09-24 19:16:41 INFO  CommonMethods - Sucessfully clicked on SideClick_XPATH
+2022-09-24 19:16:41 INFO  CommonMethods - Sucessfully clicked on Next_XPATH
+2022-09-24 19:16:41 INFO  ScreenShot - ScreenShot captured Validate || Status :Pass
+2022-09-24 19:17:22 ERROR CommonMethods - Not Sucessfully clicked on Toggle3_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: (//div[@class="toggle__text"])[3] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:53845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53845/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ebd8f6d19e0e4d1d95cd84765b756f1
+2022-09-24 19:17:23 INFO  ScreenShot - ScreenShot captured PassCriteria || Status :Pass
+2022-09-24 19:17:23 INFO  CommonMethods - Sucessfully clicked on Next1_XPATH
+2022-09-24 19:17:23 INFO  ScreenShot - ScreenShot captured Customer || Status :Pass
+2022-09-24 19:17:25 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-09-24 19:17:28 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-09-24 19:17:28 INFO  LoginPage - Sucessfully logout..
+2022-09-24 19:17:28 INFO  SetUp - Test Case_validationTest_Successfully Passed
+2022-09-24 19:17:28 INFO  CommonMethods - Row num for TestScenario = validationTest is = 2
+2022-09-24 19:17:29 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-09-24 19:17:30 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-24 19:17:31 INFO  SetUp - Browser Closed..
+2022-09-24 19:17:41 ERROR CommonMethods - Not Sucessfully clicked on ClickHere_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //a[@class="f12"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54062/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4bbe1beb41425a3c250e4d19b41e5359
+2022-09-24 19:17:42 INFO  ScreenShot - ScreenShot captured ClickHere || Status :Pass
+2022-09-24 19:18:11 ERROR CommonMethods - Not Sucessfully clicked on Toggle1_XPATH due to :element click intercepted: Element <div class="toggle__text">...</div> is not clickable at point (351, 592). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4bbe1beb41425a3c250e4d19b41e5359, clickElement {id=cd7004d0-16b0-46e6-8c32-95f81f5e1cbe}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54062/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (4bbe1beb41425a3c250e4d19b41e5359)] -> xpath: (//div[@class="toggle__text"])[1]]
+Session ID: 4bbe1beb41425a3c250e4d19b41e5359
+2022-09-24 19:18:12 ERROR CommonMethods - Not Sucessfully clicked on Toggle2_XPATH due to :element click intercepted: Element <div class="toggle__text">...</div> is not clickable at point (945, 592). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4bbe1beb41425a3c250e4d19b41e5359, clickElement {id=3db7ecd7-a498-4517-ba05-b34af0866c00}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54062}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54062/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (4bbe1beb41425a3c250e4d19b41e5359)] -> xpath: (//div[@class="toggle__text"])[2]]
+Session ID: 4bbe1beb41425a3c250e4d19b41e5359
+2022-09-24 19:18:12 INFO  CommonMethods - Sucessfully clicked on Toggle3_XPATH
+2022-09-24 19:18:13 INFO  ScreenShot - ScreenShot captured PassCriteria || Status :Pass
+2022-09-24 19:18:13 INFO  CommonMethods - Sucessfully clicked on Next1_XPATH
+2022-09-24 19:18:13 INFO  ScreenShot - ScreenShot captured Customer || Status :Pass
+2022-09-24 19:18:15 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-09-24 19:18:17 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-09-24 19:18:17 INFO  LoginPage - Sucessfully logout..
+2022-09-24 19:18:17 INFO  SetUp - Test Case_validationTest_Successfully Passed
+2022-09-24 19:18:17 INFO  CommonMethods - Row num for TestScenario = validationTest is = 2
+2022-09-24 19:18:18 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-09-24 19:18:19 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.WrappedByteBuf.writeBytes(WrappedByteBuf.java:821) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-24 19:18:20 INFO  SetUp - Browser Closed..
+2022-09-24 19:19:02 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 19:19:02 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 19:19:04 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 19:19:04 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 19:19:07 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 19:19:10 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-24 19:19:10 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 19:19:11 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 19:19:11 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-09-24 19:19:11 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 19:19:12 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 19:19:36 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 19:19:37 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-09-24 19:20:15 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-09-24 19:20:15 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-09-24 19:20:16 INFO  CommonMethods - Data sucessfully entered on PolicyNumber_XPATH = M337738393
+2022-09-24 19:20:16 INFO  ScreenShot - ScreenShot captured PolicyNumber || Status :Pass
+2022-09-24 19:20:16 INFO  CommonMethods - Sucessfully clicked on SideClick_XPATH
+2022-09-24 19:20:19 INFO  CommonMethods - Sucessfully clicked on Next_XPATH
+2022-09-24 19:20:19 INFO  ScreenShot - ScreenShot captured Validate || Status :Pass
+2022-09-24 19:20:20 INFO  CommonMethods - Sucessfully clicked on ClickHere_XPATH
+2022-09-24 19:20:20 INFO  ScreenShot - ScreenShot captured ClickHere || Status :Pass
+2022-09-24 19:20:21 ERROR CommonMethods - Not Sucessfully clicked on Toggle1_XPATH due to :element click intercepted: Element <div class="toggle__text">...</div> is not clickable at point (351, 592). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67f0ba9f6375410c35346866d7532c66, clickElement {id=526bf6a0-0899-49b9-bdc4-791cba0365ef}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54314/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (67f0ba9f6375410c35346866d7532c66)] -> xpath: (//div[@class="toggle__text"])[1]]
+Session ID: 67f0ba9f6375410c35346866d7532c66
+2022-09-24 19:20:22 ERROR CommonMethods - Not Sucessfully clicked on Toggle2_XPATH due to :element click intercepted: Element <div class="toggle__text">...</div> is not clickable at point (945, 592). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67f0ba9f6375410c35346866d7532c66, clickElement {id=cdfca109-cf94-4886-8a8f-bab7b240276e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54314/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (67f0ba9f6375410c35346866d7532c66)] -> xpath: (//div[@class="toggle__text"])[2]]
+Session ID: 67f0ba9f6375410c35346866d7532c66
+2022-09-24 19:20:23 ERROR CommonMethods - Not Sucessfully clicked on Toggle3_XPATH due to :element click intercepted: Element <div class="toggle__text">...</div> is not clickable at point (351, 592). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67f0ba9f6375410c35346866d7532c66, clickElement {id=8c9a74b2-14fa-499c-942a-c4599299d2e1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54314/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (67f0ba9f6375410c35346866d7532c66)] -> xpath: (//div[@class="toggle__text"])[3]]
+Session ID: 67f0ba9f6375410c35346866d7532c66
+2022-09-24 19:20:24 INFO  ScreenShot - ScreenShot captured PassCriteria || Status :Pass
+2022-09-24 19:20:24 INFO  CommonMethods - Sucessfully clicked on Next1_XPATH
+2022-09-24 19:20:24 INFO  ScreenShot - ScreenShot captured Customer || Status :Pass
+2022-09-24 19:20:27 ERROR CommonMethods - Not Sucessfully clicked on ProfileBtn_XPATH due to :element click intercepted: Element <a class="header-profile__media min-wt-2 wt-2 ht-2 overflow-hidden" data-autoid="header_userbtn" name="ProfileImage_header" style="border: 4px solid yellow;">...</a> is not clickable at point (1317, 16). Other element would receive the click: <div class="mobPopupBox db backdrop" style="z-index: 9999;">...</div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [67f0ba9f6375410c35346866d7532c66, clickElement {id=e343cec5-84e1-47fd-b05e-29244562cd52}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54314}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54314/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (67f0ba9f6375410c35346866d7532c66)] -> xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a]
+Session ID: 67f0ba9f6375410c35346866d7532c66
+2022-09-24 19:20:39 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-09-24 19:20:39 INFO  LoginPage - Sucessfully logout..
+2022-09-24 19:20:39 INFO  SetUp - Test Case_validationTest_Successfully Passed
+2022-09-24 19:20:39 INFO  CommonMethods - Row num for TestScenario = validationTest is = 2
+2022-09-24 19:20:40 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-09-24 19:20:41 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-24 19:20:42 INFO  SetUp - Browser Closed..
+2022-09-24 19:21:26 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 19:21:26 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 19:21:27 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 19:21:27 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 19:21:30 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 19:21:33 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-24 19:21:33 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 19:21:33 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 19:21:33 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-09-24 19:21:34 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 19:21:34 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 19:21:58 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 19:21:59 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-09-24 19:22:19 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-09-24 19:22:19 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-09-24 19:22:20 INFO  CommonMethods - Data sucessfully entered on PolicyNumber_XPATH = M337738393
+2022-09-24 19:22:20 INFO  ScreenShot - ScreenShot captured PolicyNumber || Status :Pass
+2022-09-24 19:22:20 INFO  CommonMethods - Sucessfully clicked on SideClick_XPATH
+2022-09-24 19:22:22 INFO  CommonMethods - Sucessfully clicked on Next_XPATH
+2022-09-24 19:22:23 INFO  ScreenShot - ScreenShot captured Validate || Status :Pass
+2022-09-24 19:22:26 ERROR CommonMethods - Not Sucessfully clicked on ClickHere_XPATH due to :element click intercepted: Element <a class="f12" id="WEBR_1004">...</a> is not clickable at point (1199, 557). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6f381a0b669001ddad4affcda8928820, clickElement {id=58b4fa5d-38a0-433e-b6e6-5a176b9bd6dc}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54369/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6f381a0b669001ddad4affcda8928820)] -> xpath: //a[@class="f12"]]
+Session ID: 6f381a0b669001ddad4affcda8928820
+2022-09-24 19:22:26 INFO  ScreenShot - ScreenShot captured ClickHere || Status :Pass
+2022-09-24 19:22:27 ERROR CommonMethods - Not Sucessfully clicked on Toggle1_XPATH due to :element click intercepted: Element <div class="toggle__text">...</div> is not clickable at point (351, 592). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6f381a0b669001ddad4affcda8928820, clickElement {id=833bfdf3-83bf-4111-af43-d6213598abde}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54369/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6f381a0b669001ddad4affcda8928820)] -> xpath: (//div[@class="toggle__text"])[1]]
+Session ID: 6f381a0b669001ddad4affcda8928820
+2022-09-24 19:22:28 ERROR CommonMethods - Not Sucessfully clicked on Toggle2_XPATH due to :element click intercepted: Element <div class="toggle__text">...</div> is not clickable at point (945, 592). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6f381a0b669001ddad4affcda8928820, clickElement {id=bb3f1c5e-405c-42e1-b187-d3a44b634112}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54369/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6f381a0b669001ddad4affcda8928820)] -> xpath: (//div[@class="toggle__text"])[2]]
+Session ID: 6f381a0b669001ddad4affcda8928820
+2022-09-24 19:22:30 ERROR CommonMethods - Not Sucessfully clicked on Toggle3_XPATH due to :element click intercepted: Element <div class="toggle__text">...</div> is not clickable at point (351, 592). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6f381a0b669001ddad4affcda8928820, clickElement {id=22a64d7b-e9cd-4161-add0-2d1a6943bfe3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54369}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54369/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6f381a0b669001ddad4affcda8928820)] -> xpath: (//div[@class="toggle__text"])[3]]
+Session ID: 6f381a0b669001ddad4affcda8928820
+2022-09-24 19:22:32 INFO  ScreenShot - ScreenShot captured PassCriteria || Status :Pass
+2022-09-24 19:22:32 INFO  CommonMethods - Sucessfully clicked on Next1_XPATH
+2022-09-24 19:22:32 INFO  ScreenShot - ScreenShot captured Customer || Status :Pass
+2022-09-24 19:22:35 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-09-24 19:22:40 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-09-24 19:22:40 INFO  LoginPage - Sucessfully logout..
+2022-09-24 19:22:40 INFO  SetUp - Test Case_validationTest_Successfully Passed
+2022-09-24 19:22:40 INFO  CommonMethods - Row num for TestScenario = validationTest is = 2
+2022-09-24 19:22:41 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-09-24 19:22:41 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-24 19:22:43 INFO  SetUp - Browser Closed..
+2022-09-24 19:24:46 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 19:24:46 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 19:24:48 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 19:24:48 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 19:24:51 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 19:24:55 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-24 19:24:55 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 19:24:55 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 19:24:56 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-09-24 19:24:56 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 19:24:56 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 19:25:12 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 19:25:13 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-09-24 19:25:30 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-09-24 19:25:30 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-09-24 19:25:31 INFO  CommonMethods - Data sucessfully entered on PolicyNumber_XPATH = M337738393
+2022-09-24 19:25:31 INFO  ScreenShot - ScreenShot captured PolicyNumber || Status :Pass
+2022-09-24 19:25:31 INFO  CommonMethods - Sucessfully clicked on SideClick_XPATH
+2022-09-24 19:25:33 INFO  CommonMethods - Sucessfully clicked on Next_XPATH
+2022-09-24 19:25:34 INFO  ScreenShot - ScreenShot captured Validate || Status :Pass
+2022-09-24 19:25:40 ERROR CommonMethods - Not Sucessfully clicked on ClickHere_XPATH due to :element click intercepted: Element <a class="f12" id="WEBR_1004">...</a> is not clickable at point (1199, 557). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6b096535031d6f76edde4c25d5214e6b, clickElement {id=f57a8969-ee45-4e42-b7ea-1e79a564a082}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54493/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6b096535031d6f76edde4c25d5214e6b)] -> xpath: //a[@class="f12"]]
+Session ID: 6b096535031d6f76edde4c25d5214e6b
+2022-09-24 19:25:40 INFO  ScreenShot - ScreenShot captured ClickHere || Status :Pass
+2022-09-24 19:25:43 ERROR CommonMethods - Not Sucessfully clicked on Toggle1_XPATH due to :element click intercepted: Element <div class="toggle__text">...</div> is not clickable at point (351, 592). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6b096535031d6f76edde4c25d5214e6b, clickElement {id=56bb31df-8b67-4e3e-b308-c0da9d28724c}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54493/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6b096535031d6f76edde4c25d5214e6b)] -> xpath: (//div[@class="toggle__text"])[1]]
+Session ID: 6b096535031d6f76edde4c25d5214e6b
+2022-09-24 19:25:46 ERROR CommonMethods - Not Sucessfully clicked on Toggle2_XPATH due to :element click intercepted: Element <div class="toggle__text">...</div> is not clickable at point (945, 592). Other element would receive the click: <div class="object-action-inner">...</div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6b096535031d6f76edde4c25d5214e6b, clickElement {id=b5dcdac0-b719-414e-8429-dcb0a8d68a48}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54493/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6b096535031d6f76edde4c25d5214e6b)] -> xpath: (//div[@class="toggle__text"])[2]]
+Session ID: 6b096535031d6f76edde4c25d5214e6b
+2022-09-24 19:25:48 INFO  CommonMethods - Sucessfully clicked on Toggle3_XPATH
+2022-09-24 19:25:51 INFO  ScreenShot - ScreenShot captured PassCriteria || Status :Pass
+2022-09-24 19:25:51 INFO  CommonMethods - Sucessfully clicked on Next1_XPATH
+2022-09-24 19:25:51 INFO  ScreenShot - ScreenShot captured Customer || Status :Pass
+2022-09-24 19:25:54 ERROR CommonMethods - Not Sucessfully clicked on ProfileBtn_XPATH due to :element click intercepted: Element <a class="header-profile__media min-wt-2 wt-2 ht-2 overflow-hidden" data-autoid="header_userbtn" name="ProfileImage_header" style="border: 4px solid yellow;">...</a> is not clickable at point (1317, 16). Other element would receive the click: <div class="mobPopupBox db backdrop" style="z-index: 9999;">...</div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6b096535031d6f76edde4c25d5214e6b, clickElement {id=370bdebc-a1c7-473b-9439-99de5b8f8693}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54493/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (6b096535031d6f76edde4c25d5214e6b)] -> xpath: //div[@class="header__item header__profile ht-3 mid relative pointer"]/a]
+Session ID: 6b096535031d6f76edde4c25d5214e6b
+2022-09-24 19:26:55 ERROR SetUp - validationTest Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //div[@data-autoid='Logout']/a (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54493/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b096535031d6f76edde4c25d5214e6b
+2022-09-24 19:26:55 INFO  ScreenShot - ScreenShot captured validationTest || Status :Fail
+2022-09-24 19:26:55 INFO  CommonMethods - Row num for TestScenario = validationTest is = 2
+2022-09-24 19:26:56 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Fail
+2022-09-24 19:26:57 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-24 19:26:58 INFO  SetUp - Browser Closed..
+2022-09-24 19:28:24 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 19:28:25 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 19:28:27 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 19:28:27 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 19:28:29 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 19:28:34 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-24 19:28:34 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 19:28:35 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 19:28:35 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-09-24 19:28:35 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 19:28:36 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 19:29:09 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 19:29:10 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-09-24 19:29:40 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-09-24 19:29:40 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-09-24 19:29:41 INFO  CommonMethods - Data sucessfully entered on PolicyNumber_XPATH = M337738393
+2022-09-24 19:29:41 INFO  ScreenShot - ScreenShot captured PolicyNumber || Status :Pass
+2022-09-24 19:29:41 INFO  CommonMethods - Sucessfully clicked on SideClick_XPATH
+2022-09-24 19:29:44 INFO  CommonMethods - Sucessfully clicked on Next_XPATH
+2022-09-24 19:29:44 INFO  ScreenShot - ScreenShot captured Validate || Status :Pass
+2022-09-24 19:29:51 INFO  CommonMethods - Sucessfully clicked on ClickHere_XPATH
+2022-09-24 19:29:51 INFO  ScreenShot - ScreenShot captured ClickHere || Status :Pass
+2022-09-24 19:29:53 INFO  CommonMethods - Sucessfully clicked on Toggle1_XPATH
+2022-09-24 19:29:56 INFO  CommonMethods - Sucessfully clicked on Toggle2_XPATH
+2022-09-24 19:29:58 INFO  CommonMethods - Sucessfully clicked on Toggle3_XPATH
+2022-09-24 19:30:02 ERROR ScreenShot - Unbale to capture screenshot due to chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [434d89686af5c496d42ddb18f1199033, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54675}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54675/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 434d89686af5c496d42ddb18f1199033
+2022-09-24 19:30:13 ERROR CommonMethods - Not Sucessfully clicked on Next1_XPATH due to :chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [434d89686af5c496d42ddb18f1199033, findElement {using=xpath, value=(//span[@class="ff-regular"])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54675}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54675/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 434d89686af5c496d42ddb18f1199033
+2022-09-24 19:30:23 ERROR ScreenShot - Unbale to capture screenshot due to chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [434d89686af5c496d42ddb18f1199033, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54675}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54675/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 434d89686af5c496d42ddb18f1199033
+2022-09-24 19:30:36 ERROR SetUp - validationTest Get Failed due to 
+chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [434d89686af5c496d42ddb18f1199033, findElement {using=xpath, value=//div[@class="header__item header__profile ht-3 mid relative pointer"]/a}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54675}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54675/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 434d89686af5c496d42ddb18f1199033
+2022-09-24 19:30:46 ERROR ScreenShot - Unbale to capture screenshot due to chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [434d89686af5c496d42ddb18f1199033, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54675}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54675/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 434d89686af5c496d42ddb18f1199033
+2022-09-24 19:30:46 INFO  CommonMethods - Row num for TestScenario = validationTest is = 2
+2022-09-24 19:30:47 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Fail
+2022-09-24 19:31:55 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 19:31:55 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 19:31:57 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 19:31:57 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 19:32:00 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 19:32:04 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-24 19:32:04 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 19:32:04 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 19:32:05 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-09-24 19:32:05 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 19:32:05 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 19:32:34 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 19:32:35 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-09-24 19:32:49 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-09-24 19:32:49 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-09-24 19:32:50 INFO  CommonMethods - Data sucessfully entered on PolicyNumber_XPATH = M337738393
+2022-09-24 19:32:50 INFO  ScreenShot - ScreenShot captured PolicyNumber || Status :Pass
+2022-09-24 19:32:50 INFO  CommonMethods - Sucessfully clicked on SideClick_XPATH
+2022-09-24 19:32:53 INFO  CommonMethods - Sucessfully clicked on Next_XPATH
+2022-09-24 19:32:53 INFO  ScreenShot - ScreenShot captured Validate || Status :Pass
+2022-09-24 19:33:00 INFO  CommonMethods - Sucessfully clicked on ClickHere_XPATH
+2022-09-24 19:33:00 INFO  ScreenShot - ScreenShot captured ClickHere || Status :Pass
+2022-09-24 19:33:03 INFO  CommonMethods - Sucessfully clicked on Toggle1_XPATH
+2022-09-24 19:33:05 INFO  CommonMethods - Sucessfully clicked on Toggle2_XPATH
+2022-09-24 19:33:07 INFO  CommonMethods - Sucessfully clicked on Toggle3_XPATH
+2022-09-24 19:33:09 INFO  ScreenShot - ScreenShot captured PassCriteria || Status :Pass
+2022-09-24 19:33:09 INFO  CommonMethods - Sucessfully clicked on Next1_XPATH
+2022-09-24 19:33:10 INFO  ScreenShot - ScreenShot captured Customer || Status :Pass
+2022-09-24 19:33:19 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-09-24 19:33:23 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-09-24 19:33:23 INFO  LoginPage - Sucessfully logout..
+2022-09-24 19:33:23 INFO  SetUp - Test Case_validationTest_Successfully Passed
+2022-09-24 19:33:23 INFO  CommonMethods - Row num for TestScenario = validationTest is = 2
+2022-09-24 19:33:24 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =3 | Data =Pass
+2022-09-24 19:33:25 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-24 19:33:26 INFO  SetUp - Browser Closed..
+2022-09-24 19:51:30 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 19:51:30 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 19:51:31 INFO  SetUp - Test Case_validationTest_get Skipped as its Runmode is 'NO' 
+2022-09-24 19:52:11 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 19:52:11 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 19:52:12 INFO  SetUp - Test Case_validationTest_get Skipped as its Runmode is 'NO' 
+2022-09-24 19:52:49 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 19:52:49 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 19:52:50 INFO  SetUp - Test Case_validationTest_get Skipped as its Runmode is 'NO' 
+2022-09-24 19:55:18 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 19:55:18 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 19:55:19 INFO  SetUp - Test Case_validationTest_get Skipped as its Runmode is 'NO' 
+2022-09-24 19:55:51 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 19:55:51 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 19:55:53 INFO  SetUp - Test Case_validationTest_get Skipped as its Runmode is 'NO' 
+2022-09-24 19:56:48 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 19:56:48 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 19:56:50 INFO  SetUp - Test Case_validationTest_get Skipped as its Runmode is 'NO' 
+2022-09-24 19:58:31 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 19:58:31 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 19:58:32 INFO  SetUp - Test Case_validationTest_get Skipped as its Runmode is 'NO' 
+2022-09-24 19:59:26 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 19:59:26 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 19:59:28 INFO  SetUp - Test Case_validationTest_get Skipped as its Runmode is 'NO' 
+2022-09-24 20:01:33 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 20:01:33 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 20:01:34 INFO  SetUp - Test Case_validationTest_get Skipped as its Runmode is 'NO' 
+2022-09-24 20:02:58 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 20:02:58 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 20:02:59 INFO  SetUp - Test Case_validationTest_get Skipped as its Runmode is 'NO' 
+2022-09-24 20:06:47 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 20:06:47 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 20:06:49 INFO  SetUp - Test Case_validationTest_get Skipped as its Runmode is 'NO' 
+2022-09-24 20:07:53 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 20:07:53 INFO  SetUp - Test Case_validationTest2_Successfully Started
+2022-09-24 20:07:54 INFO  SetUp - Test Case_validationTest2_get Skipped as its Runmode is 'NO' 
+2022-09-24 20:10:30 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 20:10:30 INFO  SetUp - Test Case_validationTest2_Successfully Started
+2022-09-24 20:10:31 INFO  SetUp - Test Case_validationTest2_get Skipped as its Runmode is 'NO' 
+2022-09-24 20:48:32 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 20:48:32 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 20:48:33 INFO  SetUp - Test Case_validationTest_get Skipped as its Runmode is 'NO' 
+2022-09-24 20:49:18 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 20:49:18 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 20:49:20 INFO  SetUp - Test Case_validationTest_get Skipped as its Runmode is 'NO' 
+2022-09-24 20:53:30 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 20:53:30 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 20:53:32 INFO  SetUp - Test Case_validationTest_get Skipped as its Runmode is 'NO' 
+2022-09-24 20:54:22 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 20:54:23 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 20:54:27 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 20:54:27 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 20:54:31 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 20:54:40 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-24 20:54:40 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 20:54:40 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 20:54:41 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-09-24 20:54:41 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 20:54:42 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 20:55:41 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 20:55:41 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-09-24 20:55:52 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-09-24 20:55:52 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-09-24 20:55:52 INFO  CommonMethods - Data sucessfully entered on PolicyNumber_XPATH = M337738393
+2022-09-24 20:55:53 INFO  ScreenShot - ScreenShot captured PolicyNumber || Status :Pass
+2022-09-24 20:55:53 INFO  CommonMethods - Sucessfully clicked on SideClick_XPATH
+2022-09-24 20:55:55 INFO  CommonMethods - Sucessfully clicked on Next_XPATH
+2022-09-24 20:55:55 INFO  ScreenShot - ScreenShot captured Validate || Status :Pass
+2022-09-24 20:56:03 INFO  CommonMethods - Sucessfully clicked on ClickHere_XPATH
+2022-09-24 20:56:03 INFO  ScreenShot - ScreenShot captured ClickHere || Status :Pass
+2022-09-24 20:56:05 INFO  CommonMethods - Sucessfully clicked on Toggle1_XPATH
+2022-09-24 20:56:07 INFO  CommonMethods - Sucessfully clicked on Toggle2_XPATH
+2022-09-24 20:56:10 INFO  CommonMethods - Sucessfully clicked on Toggle3_XPATH
+2022-09-24 20:56:12 INFO  ScreenShot - ScreenShot captured PassCriteria || Status :Pass
+2022-09-24 20:56:12 INFO  CommonMethods - Sucessfully clicked on Next1_XPATH
+2022-09-24 20:56:12 INFO  ScreenShot - ScreenShot captured Customer || Status :Pass
+2022-09-24 20:56:17 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-09-24 20:56:18 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-09-24 20:56:18 INFO  LoginPage - Sucessfully logout..
+2022-09-24 20:56:18 INFO  SetUp - Test Case_validationTest_Successfully Passed
+2022-09-24 20:56:20 INFO  ExcelOperation - Write to excel with : Row=4 | Cell =3 | Data =Pass
+2022-09-24 20:56:20 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-24 20:56:21 INFO  SetUp - Browser Closed..
+2022-09-24 20:56:36 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 20:56:36 INFO  SetUp - Test Case_validationTest_Successfully Started
+2022-09-24 20:56:38 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 20:56:38 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 20:56:41 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 20:56:44 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-24 20:56:45 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 20:56:45 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 20:56:45 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-09-24 20:56:45 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 20:56:46 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 20:58:05 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 20:58:06 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-09-24 20:58:17 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-09-24 20:58:17 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-09-24 20:58:17 INFO  CommonMethods - Data sucessfully entered on PolicyNumber_XPATH = M337738393
+2022-09-24 20:58:18 INFO  ScreenShot - ScreenShot captured PolicyNumber || Status :Pass
+2022-09-24 20:58:18 INFO  CommonMethods - Sucessfully clicked on SideClick_XPATH
+2022-09-24 20:58:20 INFO  CommonMethods - Sucessfully clicked on Next_XPATH
+2022-09-24 20:58:20 INFO  ScreenShot - ScreenShot captured Validate || Status :Pass
+2022-09-24 20:58:28 INFO  CommonMethods - Sucessfully clicked on ClickHere_XPATH
+2022-09-24 20:58:28 INFO  ScreenShot - ScreenShot captured ClickHere || Status :Pass
+2022-09-24 20:58:30 INFO  CommonMethods - Sucessfully clicked on Toggle1_XPATH
+2022-09-24 20:58:32 INFO  CommonMethods - Sucessfully clicked on Toggle2_XPATH
+2022-09-24 20:58:34 INFO  CommonMethods - Sucessfully clicked on Toggle3_XPATH
+2022-09-24 20:58:37 INFO  ScreenShot - ScreenShot captured PassCriteria || Status :Pass
+2022-09-24 20:58:37 INFO  CommonMethods - Sucessfully clicked on Next1_XPATH
+2022-09-24 20:58:37 INFO  ScreenShot - ScreenShot captured Customer || Status :Pass
+2022-09-24 20:58:45 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-09-24 20:58:52 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-09-24 20:58:52 INFO  LoginPage - Sucessfully logout..
+2022-09-24 20:58:52 INFO  SetUp - Test Case_validationTest_Successfully Passed
+2022-09-24 20:58:53 INFO  ExcelOperation - Write to excel with : Row=4 | Cell =3 | Data =Pass
+2022-09-24 20:58:54 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-24 20:58:55 INFO  SetUp - Browser Closed..
+2022-09-24 21:01:09 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 21:01:09 INFO  SetUp - Test Case_validationTest2_Successfully Started
+2022-09-24 21:01:11 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 21:01:11 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 21:01:14 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 21:01:17 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-24 21:01:17 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 21:01:17 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 21:01:18 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-09-24 21:01:18 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 21:01:18 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 21:01:40 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 21:01:40 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-09-24 21:01:59 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-09-24 21:01:59 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-09-24 21:01:59 ERROR CommonMethods - Data Not Sucessfully entered on PolicyNumber_XPATH due to :Cannot invoke "org.apache.poi.xssf.usermodel.XSSFSheet.getRow(int)" because "com.crm.commonUtilities.ExcelOperation.sheet" is null
+2022-09-24 21:01:59 INFO  ScreenShot - ScreenShot captured PolicyNumber || Status :Pass
+2022-09-24 21:02:00 INFO  CommonMethods - Sucessfully clicked on SideClick_XPATH
+2022-09-24 21:02:02 INFO  CommonMethods - Sucessfully clicked on Next_XPATH
+2022-09-24 21:02:02 INFO  ScreenShot - ScreenShot captured Validate || Status :Pass
+2022-09-24 21:52:19 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 21:52:20 INFO  SetUp - Test Case_validationTest2_Successfully Started
+2022-09-24 21:52:20 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 21:52:20 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 21:52:22 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 21:52:33 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-24 21:52:33 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 21:52:33 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 21:52:33 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-09-24 21:52:33 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 21:52:34 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 21:54:20 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 21:54:21 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-09-24 21:54:43 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-09-24 21:55:42 ERROR CommonMethods - Not Sucessfully clicked on PolicyNumber1_XPATH due to :chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a6959d1fb16a883af0f22801488606f8, findElement {using=xpath, value=//input[@name="10016335"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57686}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57686/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a6959d1fb16a883af0f22801488606f8
+2022-09-24 21:55:53 ERROR CommonMethods - Data Not Sucessfully entered on PolicyNumber1_XPATH due to :chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a6959d1fb16a883af0f22801488606f8, findElement {using=xpath, value=//input[@name="10016335"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57686}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57686/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a6959d1fb16a883af0f22801488606f8
+2022-09-24 21:56:03 ERROR SetUp - validationTest2 Get Failed due to 
+chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a6959d1fb16a883af0f22801488606f8, findElement {using=xpath, value=(//span[@class="ff-bold"])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57686}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57686/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a6959d1fb16a883af0f22801488606f8
+2022-09-24 21:56:14 ERROR ScreenShot - Unbale to capture screenshot due to chrome not reachable
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a6959d1fb16a883af0f22801488606f8, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57686}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57686/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a6959d1fb16a883af0f22801488606f8
+2022-09-24 21:56:15 INFO  ExcelOperation - Write to excel with : Row=4 | Cell =3 | Data =Fail
+2022-09-24 21:56:38 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 21:56:38 INFO  SetUp - Test Case_validationTest2_Successfully Started
+2022-09-24 21:56:39 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 21:56:39 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 21:56:41 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 21:56:46 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-24 21:56:47 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 21:56:47 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 21:56:47 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-09-24 21:56:47 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 21:56:47 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 21:57:15 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 21:57:16 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-09-24 21:57:22 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-09-24 21:58:22 ERROR CommonMethods - Not Sucessfully clicked on PolicyNumber1_XPATH due to :Expected condition failed: waiting for visibility of element located by By.xpath: //input[@name="10016335"] (tried for 60 second(s) with 500 milliseconds interval)
+2022-09-24 21:58:22 ERROR CommonMethods - Data Not Sucessfully entered on PolicyNumber1_XPATH due to :no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [24b7a9f533e61a6a3c0ae59535b3bd0c, findElement {using=xpath, value=//input[@name="10016335"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57831/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 24b7a9f533e61a6a3c0ae59535b3bd0c
+2022-09-24 21:59:21 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 21:59:21 INFO  SetUp - Test Case_validationTest2_Successfully Started
+2022-09-24 21:59:22 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 21:59:22 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 21:59:22 ERROR SetUp - validationTest2 Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: (//span[@class="ff-bold"])[1] (tried for 60 second(s) with 500 milliseconds interval)
+2022-09-24 21:59:22 ERROR ScreenShot - Unbale to capture screenshot due to no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [24b7a9f533e61a6a3c0ae59535b3bd0c, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57831/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 24b7a9f533e61a6a3c0ae59535b3bd0c
+2022-09-24 21:59:24 INFO  ExcelOperation - Write to excel with : Row=4 | Cell =3 | Data =Fail
+2022-09-24 21:59:24 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 21:59:27 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-24 21:59:27 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 21:59:27 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 21:59:27 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-09-24 21:59:27 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 21:59:28 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 21:59:59 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 21:59:59 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-09-24 22:00:04 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-09-24 22:00:04 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-09-24 22:00:04 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-09-24 22:00:04 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-09-24 22:00:05 ERROR CommonMethods - Not Sucessfully clicked on Action_XPATH due to :stale element reference: element is not attached to the page document
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [812bdb910d4783e017cd9d45f4ac90f9, clickElement {id=aa0b28bd-7043-45a1-9039-95e148210741}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57930}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57930/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (812bdb910d4783e017cd9d45f4ac90f9)] -> xpath: (//span[@class="ff-bold"])[2]]
+Session ID: 812bdb910d4783e017cd9d45f4ac90f9
+2022-09-24 22:01:05 ERROR SetUp - validationTest2 Get Failed due to 
+Expected condition failed: waiting for visibility of element located by By.xpath: //span[@class="white f12 ff-medium ph-6"] (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57930}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57930/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 812bdb910d4783e017cd9d45f4ac90f9
+2022-09-24 22:01:05 INFO  ScreenShot - ScreenShot captured validationTest2 || Status :Fail
+2022-09-24 22:01:06 INFO  ExcelOperation - Write to excel with : Row=4 | Cell =3 | Data =Fail
+2022-09-24 22:01:06 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-24 22:01:07 INFO  SetUp - Browser Closed..
+2022-09-24 22:03:03 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 22:03:03 INFO  SetUp - Test Case_validationTest2_Successfully Started
+2022-09-24 22:03:04 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 22:03:04 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 22:03:06 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 22:03:10 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-24 22:03:10 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 22:03:10 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 22:03:10 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-09-24 22:03:10 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 22:03:10 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 22:03:45 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 22:03:46 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-09-24 22:03:50 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-09-24 22:03:50 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-09-24 22:03:50 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-09-24 22:03:51 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-09-24 22:03:53 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-09-24 22:03:57 INFO  CommonMethods - Sucessfully clicked on ActionCentre_XPATH
+2022-09-24 22:04:01 INFO  CommonMethods - Sucessfully clicked on Level2Validation_XPATH
+2022-09-24 22:04:07 INFO  CommonMethods - Sucessfully clicked on Togggle11_XPATH
+2022-09-24 22:04:07 ERROR SetUp - validationTest2 Get Failed due to 
+Cannot find elements when the XPath is null.
+2022-09-24 22:04:07 INFO  ScreenShot - ScreenShot captured validationTest2 || Status :Fail
+2022-09-24 22:04:09 INFO  ExcelOperation - Write to excel with : Row=4 | Cell =3 | Data =Fail
+2022-09-24 22:04:09 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-24 22:04:09 INFO  SetUp - Browser Closed..
+2022-09-24 22:05:06 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 22:05:06 INFO  SetUp - Test Case_validationTest2_Successfully Started
+2022-09-24 22:05:07 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 22:05:07 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 22:05:09 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 22:05:12 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-24 22:05:12 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 22:05:12 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 22:05:12 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-09-24 22:05:12 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 22:05:13 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 22:05:59 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 22:06:00 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-09-24 22:06:09 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-09-24 22:06:09 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-09-24 22:06:09 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-09-24 22:06:09 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-09-24 22:06:11 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-09-24 22:06:16 INFO  CommonMethods - Sucessfully clicked on ActionCentre_XPATH
+2022-09-24 22:06:19 INFO  CommonMethods - Sucessfully clicked on Level2Validation_XPATH
+2022-09-24 22:06:25 INFO  CommonMethods - Sucessfully clicked on Togggle11_XPATH
+2022-09-24 22:06:28 ERROR SetUp - validationTest2 Get Failed due to 
+Cannot find elements when the XPath is null.
+2022-09-24 22:06:28 INFO  ScreenShot - ScreenShot captured validationTest2 || Status :Fail
+2022-09-24 22:06:30 INFO  ExcelOperation - Write to excel with : Row=4 | Cell =3 | Data =Fail
+2022-09-24 22:06:30 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-24 22:06:30 INFO  SetUp - Browser Closed..
+2022-09-24 22:09:38 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 22:09:38 INFO  SetUp - Test Case_validationTest2_Successfully Started
+2022-09-24 22:09:39 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 22:09:39 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 22:09:41 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 22:09:45 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-24 22:09:45 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 22:09:46 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 22:09:46 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-09-24 22:09:46 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 22:09:46 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 22:12:04 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 22:12:05 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-09-24 22:12:20 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-09-24 22:12:20 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-09-24 22:12:20 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-09-24 22:12:21 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-09-24 22:12:23 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-09-24 22:12:35 INFO  CommonMethods - Sucessfully clicked on ActionCentre_XPATH
+2022-09-24 22:12:46 INFO  CommonMethods - Sucessfully clicked on Level2Validation_XPATH
+2022-09-24 22:12:53 INFO  CommonMethods - Sucessfully clicked on Toggle11_XPATH
+2022-09-24 22:12:56 INFO  CommonMethods - Sucessfully clicked on Toggle12_XPATH
+2022-09-24 22:12:56 INFO  CommonMethods - Sucessfully clicked on Next3_XPATH
+2022-09-24 22:12:57 ERROR CommonMethods - Not Sucessfully clicked on Close_XPATH due to :stale element reference: element is not attached to the page document
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '192.168.121.108', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ad3aa4c9384f8d940273426b918942b4, clickElement {id=6253c708-a98d-4e16-90bc-127d1a9b47cd}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:58429}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58429/devtoo..., se:cdpVersion: 105.0.5195.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ad3aa4c9384f8d940273426b918942b4)] -> xpath: //span[@class="ff-regular"]]
+Session ID: ad3aa4c9384f8d940273426b918942b4
+2022-09-24 22:13:00 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-09-24 22:13:11 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-09-24 22:13:11 INFO  LoginPage - Sucessfully logout..
+2022-09-24 22:13:11 INFO  SetUp - Test Case_validationTest2_Successfully Passed
+2022-09-24 22:13:13 INFO  ExcelOperation - Write to excel with : Row=4 | Cell =3 | Data =Pass
+2022-09-24 22:13:13 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-24 22:13:14 INFO  SetUp - Browser Closed..
+2022-09-24 23:36:50 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-24 23:36:50 INFO  SetUp - Test Case_validationTest2_Successfully Started
+2022-09-24 23:36:57 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-24 23:36:57 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-24 23:37:00 INFO  SetUp - Chrome Browser Launched..
+2022-09-24 23:37:04 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-24 23:37:04 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-24 23:37:04 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-24 23:37:05 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-09-24 23:37:05 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-24 23:37:06 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-24 23:38:26 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-24 23:38:27 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-09-24 23:38:41 INFO  CommonMethods - Sucessfully clicked on PolicySearch_XPATH
+2022-09-24 23:38:41 INFO  CommonMethods - Sucessfully clicked on PolicyNumber1_XPATH
+2022-09-24 23:38:42 INFO  CommonMethods - Data sucessfully entered on PolicyNumber1_XPATH = M337738393
+2022-09-24 23:38:42 INFO  CommonMethods - Sucessfully clicked on Fetch_XPATH
+2022-09-24 23:38:44 INFO  CommonMethods - Sucessfully clicked on Action_XPATH
+2022-09-24 23:39:07 INFO  CommonMethods - Sucessfully clicked on ActionCentre_XPATH
+2022-09-24 23:39:19 INFO  CommonMethods - Sucessfully clicked on Level2Validation_XPATH
+2022-09-24 23:39:25 INFO  CommonMethods - Sucessfully clicked on Toggle11_XPATH
+2022-09-24 23:39:29 INFO  CommonMethods - Sucessfully clicked on Toggle12_XPATH
+2022-09-24 23:39:29 INFO  CommonMethods - Sucessfully clicked on Next3_XPATH
+2022-09-24 23:39:40 INFO  CommonMethods - Sucessfully clicked on Close_XPATH
+2022-09-24 23:39:43 INFO  CommonMethods - Sucessfully clicked on ProfileBtn_XPATH
+2022-09-24 23:39:46 INFO  CommonMethods - Sucessfully clicked on logoutBtn_XPATH
+2022-09-24 23:39:46 INFO  LoginPage - Sucessfully logout..
+2022-09-24 23:39:46 INFO  SetUp - Test Case_validationTest2_Successfully Passed
+2022-09-24 23:39:48 INFO  ExcelOperation - Write to excel with : Row=4 | Cell =3 | Data =Pass
+2022-09-24 23:39:50 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-09-24 23:39:51 INFO  SetUp - Browser Closed..

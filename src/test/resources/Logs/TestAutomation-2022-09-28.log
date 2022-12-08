@@ -1,0 +1,43 @@
+2022-09-28 10:34:37 INFO  ExtentReporterNG - Extent report Directory is created!
+2022-09-28 10:34:40 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-09-28 10:34:41 INFO  SetUp - Test Case_cCLevel1ValidationTest_Successfully Started
+2022-09-28 10:34:43 INFO  WebDriverManager - Using chromedriver 105.0.5195.52 (resolved driver for Chrome 105)
+2022-09-28 10:34:43 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\105.0.5195.52\chromedriver.exe
+2022-09-28 10:34:47 INFO  SetUp - Chrome Browser Launched..
+2022-09-28 10:34:48 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-09-28 10:34:49 INFO  CommonMethods - Sucessfully clicked on Username_XPATH
+2022-09-28 10:34:49 INFO  CommonMethods - Data sucessfully entered on Username_XPATH = OOABC97
+2022-09-28 10:34:49 INFO  CommonMethods - Sucessfully clicked on password_XPATH
+2022-09-28 10:34:50 INFO  CommonMethods - Data sucessfully entered on password_XPATH = acid_qa
+2022-09-28 10:34:50 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-09-28 10:34:53 INFO  CommonMethods - Sucessfully clicked on loginBtn_XPATH
+2022-09-28 10:34:54 INFO  ScreenShot - ScreenShot captured QuickLinks || Status :Pass
+2022-09-28 10:34:58 INFO  CommonMethods - Sucessfully clicked on CustomerSearch_XPATH
+2022-09-28 10:34:58 INFO  CommonMethods - Sucessfully clicked on PolicyNumber_XPATH
+2022-09-28 10:34:59 INFO  CommonMethods - Data sucessfully entered on PolicyNumber_XPATH = M337738393
+2022-09-28 10:34:59 INFO  CommonMethods - Sucessfully clicked on SideClick_XPATH
+2022-09-28 10:35:01 INFO  ScreenShot - ScreenShot captured PolicyNumber || Status :Pass
+2022-09-28 10:35:02 INFO  CommonMethods - Sucessfully clicked on Next_XPATH
+2022-09-28 10:35:04 INFO  ScreenShot - ScreenShot captured ValidatePage || Status :Pass
+2022-09-28 10:35:32 ERROR SetUp - cCLevel1ValidationTest Get Failed due to 
+chrome not reachable
+  (Session info: chrome=105.0.5195.128)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '10.197.154.222', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6f6eb2a3bec82b84fbb362629548222, findElement {using=xpath, value=//a[@class="f12"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.128, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52386}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52386/devtoo..., se:cdpVersion: 105.0.5195.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f6f6eb2a3bec82b84fbb362629548222
+2022-09-28 10:35:42 ERROR ScreenShot - Unbale to capture screenshot due to chrome not reachable
+  (Session info: chrome=105.0.5195.128)
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K1PV4OP', ip: '10.197.154.222', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f6f6eb2a3bec82b84fbb362629548222, screenshot {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.128, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\DHIRAJ~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:52386}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52386/devtoo..., se:cdpVersion: 105.0.5195.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f6f6eb2a3bec82b84fbb362629548222
+2022-09-28 10:35:42 INFO  CommonMethods - Row num for TestScenario = cCLevel1ValidationTest is = 2
+2022-09-28 10:35:44 INFO  ExcelOperation - Write to excel with : Row=2 | Cell =5 | Data =Fail
+2022-09-28 11:26:20 INFO  CommonMethods - Test Report Mail sent successfully to dhiraj.landge@crmnext.com

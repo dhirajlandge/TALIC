@@ -1,0 +1,38 @@
+2022-08-25 15:07:04 INFO  Utils - [TestNG] Running:
+  C:\Users\Dhiraj Landge\eclipse-workspace\Talic_Life_Insurance\src\test\resources\RunnerFiles\testng.xml
+
+2022-08-25 15:07:04 INFO  SetUp - Test Case_payoutTest_Successfully Started
+2022-08-25 15:07:09 INFO  WebDriverManager - Using chromedriver 104.0.5112.79 (resolved driver for Chrome 104)
+2022-08-25 15:07:09 INFO  WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\Dhiraj Landge\.cache\selenium\chromedriver\win32\104.0.5112.79\chromedriver.exe
+2022-08-25 15:07:12 INFO  SetUp - Chrome Browser Launched..
+2022-08-25 15:07:16 INFO  SetUp - URL : https://talicaia.crmnext.biz/sn7_1/app/login/login
+2022-08-25 15:07:16 INFO  ScreenShot - ScreenShot captured LoginPage || Status :Pass
+2022-08-25 15:07:16 INFO  SetUp - Sucessfully clicked on Username_XPATH
+2022-08-25 15:07:18 INFO  SetUp - Data sucessfully entered on Username_XPATH = OACRO96
+2022-08-25 15:07:18 INFO  SetUp - Sucessfully clicked on password_XPATH
+2022-08-25 15:07:19 INFO  SetUp - Data sucessfully entered on password_XPATH = acid_qa
+2022-08-25 15:07:28 INFO  SetUp - Sucessfully clicked on loginBtn_XPATH
+2022-08-25 15:07:31 INFO  SetUp - Sucessfully clicked on Payout_XPATH
+2022-08-25 15:07:33 INFO  SetUp - Sucessfully clicked on ProfileBtn_XPATH
+2022-08-25 15:07:36 INFO  SetUp - Sucessfully clicked on logoutBtn_XPATH
+2022-08-25 15:07:36 INFO  LoginPage - Sucessfully logout..
+2022-08-25 15:07:36 INFO  SetUp - Test Case_payoutTest_Successfully Passed
+2022-08-25 15:07:37 INFO  SetUp - Row num for TestScenario = payoutTest is = 1
+2022-08-25 15:07:38 INFO  ExcelOperation - Write to excel with : Row=1 | Cell =3 | Data =Pass
+2022-08-25 15:07:40 WARN  WebSocketHandler - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350) ~[netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:719) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493) [netty-transport-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) [netty-common-4.1.69.Final.jar:4.1.69.Final]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2022-08-25 15:07:41 INFO  SetUp - Browser Closed..
